@@ -28,52 +28,46 @@ LeaCasChunk <- function(lea_code, level){
         .ret <- ''
     }
     
-    .qry13c <- "SELECT * FROM [dbo].[assessment_sy1213_comp]
-        WHERE [fy13_entity_code] in (
-            SELECT DISTINCT [fy13_entity_code] FROM [dbo].[enrollment_sy1213] WHERE [lea_code] = '" %+% lea_code %+% "');"
+    .qry13c <- "SELECT * FROM [dbo].[assm_comp] WHERE [year] = '2013'
+        AND [district_code] = '" %+% lea_code %+% "';" ## what is this?
     .dat13_c <- sqlQuery(dbrepcard, .qry13c)
     if(nrow(.dat13_c)>=10){
         .ret <- c(.ret, WriteComp(.dat13_c, 2013, .lv))
     }
 
-    .qry12c <- "SELECT * FROM [dbo].[assessment_sy1112_comp]
-        WHERE [fy13_entity_code] in (
-            SELECT DISTINCT [fy13_entity_code] FROM [dbo].[enrollment_sy1213] WHERE [lea_code] = '" %+% lea_code %+% "');"
+    .qry12c <- "SELECT * FROM [dbo].[assm_comp] WHERE [year] = '2012'
+        AND [district_code]  = '" %+% lea_code %+% "';"
     .dat12_c <- sqlQuery(dbrepcard, .qry12c)
     if(nrow(.dat12_c)>=10){
         .ret <- c(.ret, WriteComp(.dat12_c, 2012, .lv))
     }
 
-    .qry11c <- "SELECT * FROM [dbo].[assessment_sy1011_comp]
-        WHERE [fy13_entity_code] in (
-            SELECT DISTINCT [fy13_entity_code] FROM [dbo].[enrollment_sy1213] WHERE [lea_code] = '" %+% lea_code %+% "');"
+    .qry11c <- "SELECT * FROM [dbo].[assm_comp] WHERE [year] = '2011'
+        AND [district_code] = '" %+% lea_code %+% "';"
     .dat11_c <- sqlQuery(dbrepcard, .qry11c)
     if(nrow(.dat11_c)>=10){
         .ret <- c(.ret, WriteComp(.dat11_c, 2011, .lv))
     }
 
     ## 
-    .qry13s <- "SELECT * FROM [dbo].[assessment_sy1213_science]
-        WHERE [fy13_entity_code] in (
-            SELECT DISTINCT [fy13_entity_code] FROM [dbo].[enrollment_sy1213] WHERE [lea_code] = '" %+% lea_code %+% "')
+    .qry13s <- "SELECT * FROM [dbo].[assm_science]
+        WHERE [district_code] [lea_code] = '" %+% lea_code %+% "'
             AND science_empty = 0;"
     .dat13_s <- sqlQuery(dbrepcard, .qry13s)
     if(nrow(.dat13_s)>=10){
         .ret <- c(.ret, WriteScience(.dat13_s, 2013, .lv))
     }
 
-    .qry12s <- "SELECT * FROM [dbo].[assessment_sy1112_science]
-        WHERE [fy13_entity_code] in (
-            SELECT DISTINCT [fy13_entity_code] FROM [dbo].[enrollment_sy1213] WHERE [lea_code] = '" %+% lea_code %+% "')
+    .qry12s <- "SELECT * FROM [dbo].[assm_science]
+        WHERE [district_code] = '" %+% lea_code %+% "'
             AND science_empty = 0;"
     .dat12_s <- sqlQuery(dbrepcard, .qry12s)
     if(nrow(.dat12_s)>=10){
         .ret<- c(.ret, WriteScience(.dat12_s, 2012, .lv))
     }
 
-    .qry11s <- "SELECT * FROM [dbo].[assessment_sy1011_science]
-    WHERE [fy13_entity_code] in (
-            SELECT DISTINCT [fy13_entity_code] FROM [dbo].[enrollment_sy1213] WHERE [lea_code] = '" %+% lea_code %+% "')
+    .qry11s <- "SELECT * FROM [dbo].[assm_science]
+    WHERE [district_code]  = '" %+% lea_code %+% "'
             AND science_empty = 0;"
     .dat11_s <- sqlQuery(dbrepcard, .qry11s)
     if(nrow(.dat11_s)>=10){

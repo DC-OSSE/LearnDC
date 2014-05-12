@@ -136,11 +136,12 @@ WriteCAS <- function(.casdat_mr, spaces, entity='state'){
                         .add <- indent(.lv) %+% '{\n'
                         up(.lv)
                         .add <- .add %+% indent(.lv) %+% WriteJSONChunk(c(
+                            subject= qstr(.subjects[a]),
                             grade= qstr(goutput),
                             enrollment_status=qstr(.fay[b]),
                             subgroup = qstr(soutput),
                             year = qstr(year)), 1) %+% ',\n'
-                        
+                            
                         .add <- .add %+% indent(.lv) %+% WriteJSONChunk(c(
                             n_eligible=checkna(length(.profs)),
                             n_test_takers=length(.profs[.profs %in% .plevels]),
@@ -296,7 +297,7 @@ ExAMOs <- function(org_code, level, entity="school"){
                     subgroup=sprintf('"%s"', .amo_dat$subgroup[i]),
                     year=sprintf('"%s"', .amo_dat$year[i])),1) %+% ', \n'
                 .add <- .add %+% indent(.lv) %+% WriteJSONChunk(c(
-                    basline=checkna(.amo_dat[i, j %+% '_baseline']),
+                    baseline=checkna(.amo_dat[i, j %+% '_baseline']),
                     target=checkna(.amo_dat[i, j %+% '_target'])),2) %+% '\n'
                 
                 down(.lv)

@@ -47,7 +47,7 @@ InsertPeople <- function(org_code, level){
 	.lv <- level
 	
 	## MATH/READING
-	.qry <- "SELECT * FROM [dbo].[people_sy1213]
+	.qry <- "SELECT * FROM [dbo].[people_sy1314]
 		WHERE [school_code] = '" %+% org_code %+% "';"
 	.dat_peep <- sqlQuery(dbrepcard, .qry)
 	##print(.dat_peep)

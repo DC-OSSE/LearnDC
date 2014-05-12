@@ -27,7 +27,7 @@ AppendProgramInfo <- function(org_code){
         .prog$program_string <- gsub('"', "'", .prog$program_string)
         .prog$program_string <- paste0('"',.prog$program_string,'"')
         
-        return(paste(.prog$program_string, collapse=',\n'))
+        return(paste(.prog$program_string, collapse=','))
     } else{
         return('')
     }
