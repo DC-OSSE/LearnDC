@@ -189,7 +189,8 @@ SubProcGrad <- function(.dat, lv){
 }
 
 ExTest <- function(org_code){
-    pull_tables <- c('pmf_sy1011', 'pmf_sy1112', 'pmf_sy1213')
+    pull_tables <- c('
+        _sy1011', 'pmf_sy1112', 'pmf_sy1213')
     .pmf_dat <- lapply(sprintf("SELECT * FROM [dbo].[%s]
     WHERE [school_code] = '%s'", pull_tables, as.character(org_code)), sqlQuery, channel=dbrepcard)
     .pmf_dat
@@ -219,17 +220,19 @@ ExPMF <- function(org_code, level){
         .ret <- mapply(function(x,pmf_yr){
             .ret <- c()
             for(i in 1:nrow(x)){
+                if(x$score[i] == max(x$score)){
                 .add <- indent(.lv) %+% '{\n'
                 up(.lv)
-                .add <- .add %+% indent(.lv) %+% '"key": '
-                .add <- .add %+% WriteJSONChunk(c(year= sprintf('"%s"', pmf_yr), 
-                    category=sprintf('"%s"', x$framework[i]))) %+% ', \n'
-                .add <- .add %+% indent(.lv) %+% '"val": '
-                .add <- .add %+% WriteJSONChunk(c(score=checkna(x$score[i]),
-                    target=checkna_str(x$tier[i]))) %+% '\n'                
-                down(.lv)
-                .add <- .add %+% paste(indent(.lv), '}', sep="")
-                .ret <- c(.ret, .add)
+                    .add <- .add %+% indent(.lv) %+% '"key": '
+                    .add <- .add %+% WriteJSONChunk(c(year= sprintf('"%s"', pmf_yr), 
+                        category=sprintf('"%s"', x$framework[i]))) %+% ', \n'
+                    .add <- .add %+% indent(.lv) %+% '"val": '
+                    .add <- .add %+% WriteJSONChunk(c(score=checkna(x$score[i]),
+                        target=checkna_str(x$tier[i]))) %+% '\n'                
+                    down(.lv)
+                    .add <- .add %+% paste(indent(.lv), '}', sep="")
+                    .ret <- c(.ret, .add)
+                }
             }
             return(.ret)
         }, .pmf_dat, names(.pmf_dat))
