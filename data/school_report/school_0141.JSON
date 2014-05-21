@@ -1,5 +1,5 @@
 {
-	"timestamp": "Fri May 02 16:53:20 2014",
+	"timestamp": "Tue May 13 10:09:13 2014",
 	"org_type": "school",
 	"org_name": "AppleTree Early Learning PCS – Southwest",
 	"report_card": {
@@ -325,26 +325,6 @@
 						"val": 30
 					},
 					{
-						"key": {"grade": "PK", "subgroup": "All", "year": "2013"},
-						"val": 34
-					},
-					{
-						"key": {"grade": "PK", "subgroup": "African American", "year": "2013"},
-						"val": 26
-					},
-					{
-						"key": {"grade": "PK", "subgroup": "Economically Disadvantaged", "year": "2013"},
-						"val": 34
-					},
-					{
-						"key": {"grade": "PK", "subgroup": "Male", "year": "2013"},
-						"val": 23
-					},
-					{
-						"key": {"grade": "PK", "subgroup": "Female", "year": "2013"},
-						"val": 11
-					},
-					{
 						"key": {"grade": "PS", "subgroup": "All", "year": "2013"},
 						"val": 45
 					},
@@ -363,6 +343,26 @@
 					{
 						"key": {"grade": "PS", "subgroup": "Female", "year": "2013"},
 						"val": 19
+					},
+					{
+						"key": {"grade": "PK", "subgroup": "All", "year": "2013"},
+						"val": 34
+					},
+					{
+						"key": {"grade": "PK", "subgroup": "African American", "year": "2013"},
+						"val": 26
+					},
+					{
+						"key": {"grade": "PK", "subgroup": "Economically Disadvantaged", "year": "2013"},
+						"val": 34
+					},
+					{
+						"key": {"grade": "PK", "subgroup": "Male", "year": "2013"},
+						"val": 23
+					},
+					{
+						"key": {"grade": "PK", "subgroup": "Female", "year": "2013"},
+						"val": 11
 					}
 				]
 			},

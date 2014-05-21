@@ -1,5 +1,5 @@
 {
-	"timestamp": "Mon Apr 21 18:12:24 2014",
+	"timestamp": "Wed May 21 15:25:31 2014",
 	"org_type": "school",
 	"org_name": "César Chávez PCS for Public Policy – Parkside High School",
 	"org_code": "0109",
@@ -11,7 +11,10 @@
 	"pmf": {
 		"id": "pcsb_pmf",
 		"data": [
-c("\t\t\t{\n\t\t\t\t\"key\": {\"year\": \"2011\", \"category\": \"HS\"}, \n\t\t\t\t\"val\": {\"score\": 0.497, \"target\": \"2\"}\n\t\t\t}", "\t\t\t{\n\t\t\t\t\"key\": {\"year\": \"2011\", \"category\": \"ESMS\"}, \n\t\t\t\t\"val\": {\"score\": 0.5268, \"target\": \"2\"}\n\t\t\t}"),
+			{
+				"key": {"year": "2011", "category": "ESMS"}, 
+				"val": {"score": 0.5268, "target": "2"}
+			},
 			{
 				"key": {"year": "2012", "category": "HS"}, 
 				"val": {"score": 0.566, "target": "2"}
@@ -27,7 +30,7 @@ c("\t\t\t{\n\t\t\t\t\"key\": {\"year\": \"2011\", \"category\": \"HS\"}, \n\t\t\
 "http://www.greatschools.org/washington-dc/washington/873-Cesar-Chavez-PCS-for-Public-Policy---Parkside-High-School"
 	},
 	"ward": "7",
-	"grades_serviced": ["9","10","11","12"],
+	"grades_serviced": ["09","10","11","12"],
 	"description": "The Chavez Schools mission is to prepare scholars to enter and succeed in competitive colleges and empower scholars to use public policy to create a more just, free, and equal world.",
 	 "address": {
 		"line_1": "3701 Hayes St  NE",

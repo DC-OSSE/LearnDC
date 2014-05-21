@@ -1,5 +1,5 @@
 {
-	"timestamp": "Mon Apr 21 18:12:33 2014",
+	"timestamp": "Wed May 21 15:25:39 2014",
 	"org_type": "school",
 	"org_name": "IDEA PCS",
 	"org_code": "0163",
@@ -16,20 +16,8 @@
 				"val": {"score": 0.3093, "target": "3"}
 			},
 			{
-				"key": {"year": "2011", "category": "ESMS"}, 
-				"val": {"score": 0.2929, "target": "3"}
-			},
-			{
-				"key": {"year": "2012", "category": "ESMS"}, 
-				"val": {"score": 0.143, "target": "3"}
-			},
-			{
 				"key": {"year": "2012", "category": "HS"}, 
 				"val": {"score": 0.284, "target": "3"}
-			},
-			{
-				"key": {"year": "2013", "category": "ESMS"}, 
-				"val": {"score": 0.384, "target": "2"}
 			},
 			{
 				"key": {"year": "2013", "category": "HS"}, 
@@ -42,7 +30,7 @@
 "http://www.greatschools.org/washington-dc/washington/260-IDEA---Integrated-Design-&-Electronic-Academy-PCS"
 	},
 	"ward": "7",
-	"grades_serviced": ["9","10","11","12"],
+	"grades_serviced": ["09","10","11","12"],
 	"description": "The mission of the Integrated Design.Electronics Academy (IDEA) Public.Charter School is to.develop young people with the.academic, social, leadership and.occupational skills to compete.successfully in post secondary.education/training and enter.challenging careers in the technical.fields of work.",
 	 "address": {
 		"line_1": "1027 45th St NE",

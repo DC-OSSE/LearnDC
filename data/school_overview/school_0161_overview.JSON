@@ -1,5 +1,5 @@
 {
-	"timestamp": "Mon Apr 21 18:12:32 2014",
+	"timestamp": "Wed May 21 15:25:39 2014",
 	"org_type": "school",
 	"org_name": "Perry Street Preparatory PCS",
 	"org_code": "0161",
@@ -16,24 +16,12 @@
 				"val": {"score": 0.4659, "target": "2"}
 			},
 			{
-				"key": {"year": "2011", "category": "ESMS"}, 
-				"val": {"score": 0.3565, "target": "2"}
-			},
-			{
 				"key": {"year": "2012", "category": "ESMS"}, 
 				"val": {"score": 0.434, "target": "2"}
 			},
 			{
-				"key": {"year": "2012", "category": "HS"}, 
-				"val": {"score": 0.376, "target": "2"}
-			},
-			{
 				"key": {"year": "2013", "category": "ESMS"}, 
 				"val": {"score": 0.472, "target": "2"}
-			},
-			{
-				"key": {"year": "2013", "category": "HS"}, 
-				"val": {"score": 0.317, "target": "3"}
 			}
 		]
 	},

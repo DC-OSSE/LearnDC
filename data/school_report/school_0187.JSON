@@ -1,5 +1,5 @@
 {
-	"timestamp": "Fri May 02 16:54:30 2014",
+	"timestamp": "Tue May 13 10:10:17 2014",
 	"org_type": "school",
 	"org_name": "Somerset Preparatory Academy PCS",
 	"report_card": {
@@ -112,26 +112,6 @@
 						"val": 36
 					},
 					{
-						"key": {"grade": "06", "subgroup": "All", "year": "2013"},
-						"val": 37
-					},
-					{
-						"key": {"grade": "06", "subgroup": "African American", "year": "2013"},
-						"val": 37
-					},
-					{
-						"key": {"grade": "06", "subgroup": "Economically Disadvantaged", "year": "2013"},
-						"val": 37
-					},
-					{
-						"key": {"grade": "06", "subgroup": "Male", "year": "2013"},
-						"val": 21
-					},
-					{
-						"key": {"grade": "06", "subgroup": "Female", "year": "2013"},
-						"val": 16
-					},
-					{
 						"key": {"grade": "08", "subgroup": "All", "year": "2013"},
 						"val": 50
 					},
@@ -150,6 +130,26 @@
 					{
 						"key": {"grade": "08", "subgroup": "Female", "year": "2013"},
 						"val": 28
+					},
+					{
+						"key": {"grade": "06", "subgroup": "All", "year": "2013"},
+						"val": 37
+					},
+					{
+						"key": {"grade": "06", "subgroup": "African American", "year": "2013"},
+						"val": 37
+					},
+					{
+						"key": {"grade": "06", "subgroup": "Economically Disadvantaged", "year": "2013"},
+						"val": 37
+					},
+					{
+						"key": {"grade": "06", "subgroup": "Male", "year": "2013"},
+						"val": 21
+					},
+					{
+						"key": {"grade": "06", "subgroup": "Female", "year": "2013"},
+						"val": 16
 					}
 				]
 			},

@@ -77,13 +77,14 @@ GetGrades <- function(org_code){
 	.qry <- sprintf("SELECT DISTINCT [grade] FROM [dbo].[current_roster_grades]
 		WHERE [school_code] = '%s';",org_code)
 	.sgrades <- sqlQuery(dbrepcard, .qry)
-	##print(.dat_peep)
-	##print(.sgrades)
+
+	.sgrades_df <- as.data.frame(apply(.sgrades, 1, leadgr, 2))
+	colnames(.sgrades_df) <- "grade"
 
 	.ret <- c()
-	if(nrow(.sgrades)>0){
-		for(i in 1:nrow(.sgrades)){
-			.ret <- c(.ret, '"' %+%.sgrades$grade[i] %+% '"')
+	if(nrow(.sgrades_df)>0){
+		for(i in 1:nrow(.sgrades_df)){
+			.ret <- c(.ret, '"' %+%.sgrades_df$grade[i] %+% '"')
 		}
 	}
 	return(paste(.ret, collapse=','))

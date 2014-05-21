@@ -1,5 +1,5 @@
 {
-	"timestamp": "Fri May 02 17:01:25 2014",
+	"timestamp": "Tue May 13 10:17:47 2014",
 	"org_type": "school",
 	"org_name": "AppleTree Early Learning PCS – Oklahoma Ave",
 	"report_card": {
@@ -264,26 +264,6 @@
 						"val": 88
 					},
 					{
-						"key": {"grade": "PS", "subgroup": "All", "year": "2013"},
-						"val": 84
-					},
-					{
-						"key": {"grade": "PS", "subgroup": "African American", "year": "2013"},
-						"val": 75
-					},
-					{
-						"key": {"grade": "PS", "subgroup": "Economically Disadvantaged", "year": "2013"},
-						"val": 84
-					},
-					{
-						"key": {"grade": "PS", "subgroup": "Male", "year": "2013"},
-						"val": 33
-					},
-					{
-						"key": {"grade": "PS", "subgroup": "Female", "year": "2013"},
-						"val": 51
-					},
-					{
 						"key": {"grade": "PK", "subgroup": "All", "year": "2013"},
 						"val": 88
 					},
@@ -302,6 +282,26 @@
 					{
 						"key": {"grade": "PK", "subgroup": "Female", "year": "2013"},
 						"val": 37
+					},
+					{
+						"key": {"grade": "PS", "subgroup": "All", "year": "2013"},
+						"val": 84
+					},
+					{
+						"key": {"grade": "PS", "subgroup": "African American", "year": "2013"},
+						"val": 75
+					},
+					{
+						"key": {"grade": "PS", "subgroup": "Economically Disadvantaged", "year": "2013"},
+						"val": 84
+					},
+					{
+						"key": {"grade": "PS", "subgroup": "Male", "year": "2013"},
+						"val": 33
+					},
+					{
+						"key": {"grade": "PS", "subgroup": "Female", "year": "2013"},
+						"val": 51
 					}
 				]
 			},
