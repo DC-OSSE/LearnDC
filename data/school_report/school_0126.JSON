@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue May 13 10:08:48 2014",
+	"timestamp": "Tue Jun 10 18:28:59 2014",
 	"org_type": "school",
 	"org_name": "Briya PCS",
 	"report_card": {
@@ -52,13 +52,7 @@
 
 
 				]
-			}
-		]
-	 },
-
-
-	"profile": {
-		"sections": [
+			},
 			{
 				"id": "program_info",
 				"data": ["Accredited by the Middle States Association of Colleges and Schools","Adult high school diploma program for Advanced ESL/Family Literacy students","Child Development Associate credential preparation in English and Spanish","Dynamic, student-centered classes designed for parents and children learning English","Integrated adult and early childhood education, using a family literacy model","Recipient of the Washington Area Women's Foundation Leadership Award"
@@ -793,6 +787,23 @@
 							"entry":0,
 							"withdrawal":0,
 							"net_cumulative":0
+						}
+					}
+				]
+			},
+			{
+				"id": "staff_degree",
+				"data": [
+					{
+						"key": {
+							"year": "2012"
+						},
+						"val": {
+							"None":0.1538,
+							"AA":0.0769,
+							"BA":0.4615,
+							"MA":0.3077,
+							"PhD":0
 						}
 					}
 				]

@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue May 13 10:10:04 2014",
+	"timestamp": "Tue Jun 10 18:30:10 2014",
 	"org_type": "school",
 	"org_name": "Capital City PCS – Middle School",
 	"report_card": {
@@ -804,13 +804,7 @@
 
 
 				]
-			}
-		]
-	 },
-
-
-	"profile": {
-		"sections": [
+			},
 			{
 				"id": "program_info",
 				"data": ["Integrated arts program with instruction in drama, music, and visual arts","Nationally recognized as a Mentor School for Expeditionary Learning","Project-based learning around compelling topics with fieldwork and service","Social curriculum creates strong, independent thinkers","Wide range of extracurricular activities including sports teams"
@@ -864,38 +858,6 @@
 						"val": 154
 					},
 					{
-						"key": {"grade": "05", "subgroup": "All", "year": "2012"},
-						"val": 65
-					},
-					{
-						"key": {"grade": "05", "subgroup": "African American", "year": "2012"},
-						"val": 21
-					},
-					{
-						"key": {"grade": "05", "subgroup": "Hispanic", "year": "2012"},
-						"val": 31
-					},
-					{
-						"key": {"grade": "05", "subgroup": "Special Education", "year": "2012"},
-						"val": 12
-					},
-					{
-						"key": {"grade": "05", "subgroup": "English Learner", "year": "2012"},
-						"val": 18
-					},
-					{
-						"key": {"grade": "05", "subgroup": "Economically Disadvantaged", "year": "2012"},
-						"val": 43
-					},
-					{
-						"key": {"grade": "05", "subgroup": "Male", "year": "2012"},
-						"val": 36
-					},
-					{
-						"key": {"grade": "05", "subgroup": "Female", "year": "2012"},
-						"val": 29
-					},
-					{
 						"key": {"grade": "08", "subgroup": "All", "year": "2012"},
 						"val": 77
 					},
@@ -928,36 +890,36 @@
 						"val": 48
 					},
 					{
-						"key": {"grade": "06", "subgroup": "All", "year": "2012"},
-						"val": 73
+						"key": {"grade": "05", "subgroup": "All", "year": "2012"},
+						"val": 65
 					},
 					{
-						"key": {"grade": "06", "subgroup": "African American", "year": "2012"},
-						"val": 27
+						"key": {"grade": "05", "subgroup": "African American", "year": "2012"},
+						"val": 21
 					},
 					{
-						"key": {"grade": "06", "subgroup": "Hispanic", "year": "2012"},
-						"val": 30
+						"key": {"grade": "05", "subgroup": "Hispanic", "year": "2012"},
+						"val": 31
 					},
 					{
-						"key": {"grade": "06", "subgroup": "Special Education", "year": "2012"},
-						"val": 10
+						"key": {"grade": "05", "subgroup": "Special Education", "year": "2012"},
+						"val": 12
 					},
 					{
-						"key": {"grade": "06", "subgroup": "English Learner", "year": "2012"},
+						"key": {"grade": "05", "subgroup": "English Learner", "year": "2012"},
 						"val": 18
 					},
 					{
-						"key": {"grade": "06", "subgroup": "Economically Disadvantaged", "year": "2012"},
-						"val": 53
+						"key": {"grade": "05", "subgroup": "Economically Disadvantaged", "year": "2012"},
+						"val": 43
 					},
 					{
-						"key": {"grade": "06", "subgroup": "Male", "year": "2012"},
-						"val": 33
+						"key": {"grade": "05", "subgroup": "Male", "year": "2012"},
+						"val": 36
 					},
 					{
-						"key": {"grade": "06", "subgroup": "Female", "year": "2012"},
-						"val": 40
+						"key": {"grade": "05", "subgroup": "Female", "year": "2012"},
+						"val": 29
 					},
 					{
 						"key": {"grade": "07", "subgroup": "All", "year": "2012"},
@@ -990,6 +952,38 @@
 					{
 						"key": {"grade": "07", "subgroup": "Female", "year": "2012"},
 						"val": 37
+					},
+					{
+						"key": {"grade": "06", "subgroup": "All", "year": "2012"},
+						"val": 73
+					},
+					{
+						"key": {"grade": "06", "subgroup": "African American", "year": "2012"},
+						"val": 27
+					},
+					{
+						"key": {"grade": "06", "subgroup": "Hispanic", "year": "2012"},
+						"val": 30
+					},
+					{
+						"key": {"grade": "06", "subgroup": "Special Education", "year": "2012"},
+						"val": 10
+					},
+					{
+						"key": {"grade": "06", "subgroup": "English Learner", "year": "2012"},
+						"val": 18
+					},
+					{
+						"key": {"grade": "06", "subgroup": "Economically Disadvantaged", "year": "2012"},
+						"val": 53
+					},
+					{
+						"key": {"grade": "06", "subgroup": "Male", "year": "2012"},
+						"val": 33
+					},
+					{
+						"key": {"grade": "06", "subgroup": "Female", "year": "2012"},
+						"val": 40
 					},
 					{
 						"key": {"grade": "All", "subgroup": "All", "year": "2013"},
@@ -1563,6 +1557,23 @@
 							"entry":0,
 							"withdrawal":0,
 							"net_cumulative":0
+						}
+					}
+				]
+			},
+			{
+				"id": "staff_degree",
+				"data": [
+					{
+						"key": {
+							"year": "2012"
+						},
+						"val": {
+							"None":0,
+							"AA":0,
+							"BA":0.375,
+							"MA":0.625,
+							"PhD":0
 						}
 					}
 				]

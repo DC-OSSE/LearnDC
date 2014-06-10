@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue May 13 10:11:10 2014",
+	"timestamp": "Tue Jun 10 18:31:09 2014",
 	"org_type": "school",
 	"org_name": "Brightwood Education Campus",
 	"report_card": {
@@ -786,13 +786,7 @@
 
 
 				]
-			}
-		]
-	 },
-
-
-	"profile": {
-		"sections": [
+			},
 			{
 				"id": "program_info",
 				"data": ["DC SCORES (soccer and poetry)","Dream Dance","Family Literacy","Four-Year-Old Program","Full Inclusion SPED/ESL","Health and Fitness Program","Higher Achievement","Imagine Learning","Intramural Sports Program","OST Academic Power Hour","Princeton Review","Read 180","Reading Partners","School of Ballet","Three-Year-Old Program","World Languages: FLES French Middle School","Yoga"
@@ -4001,6 +3995,23 @@
 							"entry":0.01,
 							"withdrawal":0,
 							"net_cumulative":0.01
+						}
+					}
+				]
+			},
+			{
+				"id": "staff_degree",
+				"data": [
+					{
+						"key": {
+							"year": "2012"
+						},
+						"val": {
+							"None":0,
+							"AA":0,
+							"BA":0.7317,
+							"MA":0.2439,
+							"PhD":0.0244
 						}
 					}
 				]

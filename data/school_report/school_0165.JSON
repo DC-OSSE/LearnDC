@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue May 13 10:09:39 2014",
+	"timestamp": "Tue Jun 10 18:29:46 2014",
 	"org_type": "school",
 	"org_name": "Meridian PCS",
 	"report_card": {
@@ -796,13 +796,7 @@
 
 
 				]
-			}
-		]
-	 },
-
-
-	"profile": {
-		"sections": [
+			},
 			{
 				"id": "program_info",
 				"data": ["After Care","Awarded $1 million grant from City Build to support Harrison School renovations","Awarded use of former DCPS Harrison School; completed renovations and moved in October 2012","Before Care","Meridian celebrated eleven years of service to the community"
@@ -4055,6 +4049,23 @@
 							"entry":0,
 							"withdrawal":0,
 							"net_cumulative":0
+						}
+					}
+				]
+			},
+			{
+				"id": "staff_degree",
+				"data": [
+					{
+						"key": {
+							"year": "2012"
+						},
+						"val": {
+							"None":0,
+							"AA":0,
+							"BA":1,
+							"MA":0,
+							"PhD":0
 						}
 					}
 				]

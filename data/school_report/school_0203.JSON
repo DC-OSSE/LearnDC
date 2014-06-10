@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue May 13 10:10:49 2014",
+	"timestamp": "Tue Jun 10 18:30:49 2014",
 	"org_type": "school",
 	"org_name": "Amidon-Bowen Elementary School",
 	"report_card": {
@@ -480,13 +480,7 @@
 
 
 				]
-			}
-		]
-	 },
-
-
-	"profile": {
-		"sections": [
+			},
 			{
 				"id": "program_info",
 				"data": ["Academic Power Hour","Art Club","Basketball","Baskteball","Book Club","Cheerleading","City Dance Movement","Everybody Wins! DC - Power Lunch","Everybody Wins! Power Lunch","Heads Up","National Defense Univeristy Industrial College of The Armed Forces Tutoring and Mentoring","National Defense University Industrial College of The Armed Forces Tutoring and Mentoring","Revolution Foods (fresh portable meals)","Tools of The Mind (Three- and Four-Year-Old Program)","Yoga"
@@ -2571,6 +2565,23 @@
 							"entry":0.02,
 							"withdrawal":0.02,
 							"net_cumulative":0
+						}
+					}
+				]
+			},
+			{
+				"id": "staff_degree",
+				"data": [
+					{
+						"key": {
+							"year": "2012"
+						},
+						"val": {
+							"None":0,
+							"AA":0,
+							"BA":0.7778,
+							"MA":0.2222,
+							"PhD":0
 						}
 					}
 				]

@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue May 13 10:13:59 2014",
+	"timestamp": "Tue Jun 10 18:33:42 2014",
 	"org_type": "school",
 	"org_name": "Takoma Education Campus",
 	"report_card": {
@@ -690,13 +690,7 @@
 
 
 				]
-			}
-		]
-	 },
-
-
-	"profile": {
-		"sections": [
+			},
 			{
 				"id": "program_info",
 				"data": ["Architects in Schools","Arts Integration Program","Basketball","Bridge Club","Cheerleading","City Vision at the National Building Museum","Co-ed Baseball","Girls on the Run","Phillips Collection Partnership","Read 180","Step Team","Tools of the Mind"
@@ -3557,6 +3551,23 @@
 							"entry":0.01,
 							"withdrawal":0,
 							"net_cumulative":0.01
+						}
+					}
+				]
+			},
+			{
+				"id": "staff_degree",
+				"data": [
+					{
+						"key": {
+							"year": "2012"
+						},
+						"val": {
+							"None":0,
+							"AA":0,
+							"BA":0.6429,
+							"MA":0.3571,
+							"PhD":0
 						}
 					}
 				]

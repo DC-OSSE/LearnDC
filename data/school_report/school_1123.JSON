@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue May 13 10:17:42 2014",
+	"timestamp": "Tue Jun 10 18:36:50 2014",
 	"org_type": "school",
 	"org_name": "KIPP DC – College Preparatory PCS",
 	"report_card": {
@@ -392,13 +392,7 @@
 					}
 
 				]
-			}
-		]
-	 },
-
-
-	"profile": {
-		"sections": [
+			},
 			{
 				"id": "program_info",
 				"data": ["College preparatory curriculum including AP courses","College transition course aiding with application process and test preparation","Saturday School program with a focus on service learning projects"
@@ -540,26 +534,6 @@
 						"val": 176
 					},
 					{
-						"key": {"grade": "11", "subgroup": "All", "year": "2011"},
-						"val": 87
-					},
-					{
-						"key": {"grade": "11", "subgroup": "African American", "year": "2011"},
-						"val": 87
-					},
-					{
-						"key": {"grade": "11", "subgroup": "Economically Disadvantaged", "year": "2011"},
-						"val": 74
-					},
-					{
-						"key": {"grade": "11", "subgroup": "Male", "year": "2011"},
-						"val": 37
-					},
-					{
-						"key": {"grade": "11", "subgroup": "Female", "year": "2011"},
-						"val": 50
-					},
-					{
 						"key": {"grade": "10", "subgroup": "All", "year": "2011"},
 						"val": 108
 					},
@@ -582,6 +556,26 @@
 					{
 						"key": {"grade": "10", "subgroup": "Female", "year": "2011"},
 						"val": 55
+					},
+					{
+						"key": {"grade": "11", "subgroup": "All", "year": "2011"},
+						"val": 87
+					},
+					{
+						"key": {"grade": "11", "subgroup": "African American", "year": "2011"},
+						"val": 87
+					},
+					{
+						"key": {"grade": "11", "subgroup": "Economically Disadvantaged", "year": "2011"},
+						"val": 74
+					},
+					{
+						"key": {"grade": "11", "subgroup": "Male", "year": "2011"},
+						"val": 37
+					},
+					{
+						"key": {"grade": "11", "subgroup": "Female", "year": "2011"},
+						"val": 50
 					},
 					{
 						"key": {"grade": "09", "subgroup": "All", "year": "2011"},
@@ -748,30 +742,6 @@
 						"val": 259
 					},
 					{
-						"key": {"grade": "09", "subgroup": "All", "year": "2013"},
-						"val": 153
-					},
-					{
-						"key": {"grade": "09", "subgroup": "African American", "year": "2013"},
-						"val": 150
-					},
-					{
-						"key": {"grade": "09", "subgroup": "Special Education", "year": "2013"},
-						"val": 33
-					},
-					{
-						"key": {"grade": "09", "subgroup": "Economically Disadvantaged", "year": "2013"},
-						"val": 123
-					},
-					{
-						"key": {"grade": "09", "subgroup": "Male", "year": "2013"},
-						"val": 62
-					},
-					{
-						"key": {"grade": "09", "subgroup": "Female", "year": "2013"},
-						"val": 91
-					},
-					{
 						"key": {"grade": "11", "subgroup": "All", "year": "2013"},
 						"val": 96
 					},
@@ -796,30 +766,6 @@
 						"val": 58
 					},
 					{
-						"key": {"grade": "10", "subgroup": "All", "year": "2013"},
-						"val": 114
-					},
-					{
-						"key": {"grade": "10", "subgroup": "African American", "year": "2013"},
-						"val": 114
-					},
-					{
-						"key": {"grade": "10", "subgroup": "Special Education", "year": "2013"},
-						"val": 13
-					},
-					{
-						"key": {"grade": "10", "subgroup": "Economically Disadvantaged", "year": "2013"},
-						"val": 90
-					},
-					{
-						"key": {"grade": "10", "subgroup": "Male", "year": "2013"},
-						"val": 38
-					},
-					{
-						"key": {"grade": "10", "subgroup": "Female", "year": "2013"},
-						"val": 76
-					},
-					{
 						"key": {"grade": "12", "subgroup": "All", "year": "2013"},
 						"val": 61
 					},
@@ -842,6 +788,54 @@
 					{
 						"key": {"grade": "12", "subgroup": "Female", "year": "2013"},
 						"val": 34
+					},
+					{
+						"key": {"grade": "09", "subgroup": "All", "year": "2013"},
+						"val": 153
+					},
+					{
+						"key": {"grade": "09", "subgroup": "African American", "year": "2013"},
+						"val": 150
+					},
+					{
+						"key": {"grade": "09", "subgroup": "Special Education", "year": "2013"},
+						"val": 33
+					},
+					{
+						"key": {"grade": "09", "subgroup": "Economically Disadvantaged", "year": "2013"},
+						"val": 123
+					},
+					{
+						"key": {"grade": "09", "subgroup": "Male", "year": "2013"},
+						"val": 62
+					},
+					{
+						"key": {"grade": "09", "subgroup": "Female", "year": "2013"},
+						"val": 91
+					},
+					{
+						"key": {"grade": "10", "subgroup": "All", "year": "2013"},
+						"val": 114
+					},
+					{
+						"key": {"grade": "10", "subgroup": "African American", "year": "2013"},
+						"val": 114
+					},
+					{
+						"key": {"grade": "10", "subgroup": "Special Education", "year": "2013"},
+						"val": 13
+					},
+					{
+						"key": {"grade": "10", "subgroup": "Economically Disadvantaged", "year": "2013"},
+						"val": 90
+					},
+					{
+						"key": {"grade": "10", "subgroup": "Male", "year": "2013"},
+						"val": 38
+					},
+					{
+						"key": {"grade": "10", "subgroup": "Female", "year": "2013"},
+						"val": 76
 					}
 				]
 			},
@@ -1184,6 +1178,23 @@
 							"entry":0,
 							"withdrawal":0.01,
 							"net_cumulative":-0.01
+						}
+					}
+				]
+			},
+			{
+				"id": "staff_degree",
+				"data": [
+					{
+						"key": {
+							"year": "2012"
+						},
+						"val": {
+							"None":0,
+							"AA":0,
+							"BA":1,
+							"MA":0,
+							"PhD":0
 						}
 					}
 				]

@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue May 13 10:16:21 2014",
+	"timestamp": "Tue Jun 10 18:35:36 2014",
 	"org_type": "school",
 	"org_name": "Roosevelt STAY High School @ MacFarland",
 	"report_card": {
@@ -42,13 +42,7 @@
 
 
 				]
-			}
-		]
-	 },
-
-
-	"profile": {
-		"sections": [
+			},
 			{
 				"id": "program_info",
 				"data": ["Advanced Music","Art I","Art II","Barbering","Cosmetology","Creative Arts","Creative Writing","Culinary Arts","English as a Second and Other Language","External Diploma Program (EDP)","GED Preparation","High School Diploma","Music","Music Appreciation","Spanish"
@@ -1028,6 +1022,23 @@
 							"entry":0.02,
 							"withdrawal":0.01,
 							"net_cumulative":0.01
+						}
+					}
+				]
+			},
+			{
+				"id": "staff_degree",
+				"data": [
+					{
+						"key": {
+							"year": "2012"
+						},
+						"val": {
+							"None":0,
+							"AA":0,
+							"BA":0.7333,
+							"MA":0.2667,
+							"PhD":0
 						}
 					}
 				]

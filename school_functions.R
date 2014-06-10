@@ -1041,3 +1041,52 @@ WriteEnterWithdraw <- function(org_code, level){
 	}
 	return(paste(.ret, collapse=',\n'))
 }
+
+
+WriteStaffExp <- function(org_code, level){
+    .lv <- level
+    staff_exp <- sqlQuery(dbrepcard, paste0("SELECT [local_staff_id]
+      ,[lea_code]
+      ,[school_code]
+      ,[Is_AA]
+      ,[Is_Bachelors]
+      ,[Is_Masters]
+      ,[Is_PHD]
+        FROM [dbo].[tmp_staff_degree_sy1213] 
+        WHERE [school_code] = '", as.numeric(org_code),"'"))
+
+    if(nrow(staff_exp) >= 1){
+        
+        .add <- indent(.lv) %+% '{\n'
+
+        up(.lv)
+        .add <- .add %+% paste(indent(.lv), '"key": {\n', sep="")
+        up(.lv)
+
+        .add <- .add %+% paste(indent(.lv), '"year": "2012"','\n', sep="")       
+                            
+        down(.lv)
+        .add <- .add %+% paste(indent(.lv), '},\n', sep="")
+                                
+        .add <- .add %+% paste(indent(.lv), '"val": {\n', sep="")
+        up(.lv)    
+
+        .add <- .add %+% paste(indent(.lv), '"None":', round(nrow(staff_exp[staff_exp$Is_AA == 0 & staff_exp$Is_Bachelors == 0 & staff_exp$Is_Masters == 0 & staff_exp$Is_PHD == 0,])/nrow(staff_exp),4),',\n', sep="")
+
+        .add <- .add %+% paste(indent(.lv), '"AA":',round(mean(staff_exp$Is_AA, na.rm=TRUE),4),',\n', sep="")
+        .add <- .add %+% paste(indent(.lv), '"BA":',round(mean(staff_exp$Is_Bachelors, na.rm=TRUE),4),',\n', sep="")
+        .add <- .add %+% paste(indent(.lv), '"MA":',round(mean(staff_exp$Is_Masters, na.rm=TRUE),4),',\n', sep="")
+        .add <- .add %+% paste(indent(.lv), '"PhD":',round(mean(staff_exp$Is_PHD, na.rm=TRUE),4),'\n', sep="")
+        
+        down(.lv)
+        .add <- .add %+% paste(indent(.lv), '}\n', sep="")
+        down(.lv)
+  
+        .add <- .add %+% paste(indent(.lv), '}', sep="")
+
+        return(.add)
+    }
+}
+
+
+

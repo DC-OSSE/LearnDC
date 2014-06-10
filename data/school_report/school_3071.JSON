@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue May 13 10:18:02 2014",
+	"timestamp": "Tue Jun 10 18:37:07 2014",
 	"org_type": "school",
 	"org_name": "KIPP DC – Heights Academy PCS",
 	"report_card": {
@@ -48,13 +48,7 @@
 
 
 				]
-			}
-		]
-	 },
-
-
-	"profile": {
-		"sections": [
+			},
 			{
 				"id": "program_info",
 				"data": ["After Care","Aftercare services available","Extended day model with a rigorous curriculum","Saturday School program with enrichment opportunities and service learning"
@@ -136,26 +130,6 @@
 						"val": 109
 					},
 					{
-						"key": {"grade": "02", "subgroup": "All", "year": "2012"},
-						"val": 96
-					},
-					{
-						"key": {"grade": "02", "subgroup": "African American", "year": "2012"},
-						"val": 91
-					},
-					{
-						"key": {"grade": "02", "subgroup": "Economically Disadvantaged", "year": "2012"},
-						"val": 80
-					},
-					{
-						"key": {"grade": "02", "subgroup": "Male", "year": "2012"},
-						"val": 49
-					},
-					{
-						"key": {"grade": "02", "subgroup": "Female", "year": "2012"},
-						"val": 47
-					},
-					{
 						"key": {"grade": "01", "subgroup": "All", "year": "2012"},
 						"val": 113
 					},
@@ -178,6 +152,26 @@
 					{
 						"key": {"grade": "01", "subgroup": "Female", "year": "2012"},
 						"val": 62
+					},
+					{
+						"key": {"grade": "02", "subgroup": "All", "year": "2012"},
+						"val": 96
+					},
+					{
+						"key": {"grade": "02", "subgroup": "African American", "year": "2012"},
+						"val": 91
+					},
+					{
+						"key": {"grade": "02", "subgroup": "Economically Disadvantaged", "year": "2012"},
+						"val": 80
+					},
+					{
+						"key": {"grade": "02", "subgroup": "Male", "year": "2012"},
+						"val": 49
+					},
+					{
+						"key": {"grade": "02", "subgroup": "Female", "year": "2012"},
+						"val": 47
 					},
 					{
 						"key": {"grade": "All", "subgroup": "All", "year": "2013"},
@@ -489,6 +483,23 @@
 							"entry":0,
 							"withdrawal":0,
 							"net_cumulative":0
+						}
+					}
+				]
+			},
+			{
+				"id": "staff_degree",
+				"data": [
+					{
+						"key": {
+							"year": "2012"
+						},
+						"val": {
+							"None":0,
+							"AA":0,
+							"BA":1,
+							"MA":0,
+							"PhD":0
 						}
 					}
 				]

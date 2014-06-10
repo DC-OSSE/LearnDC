@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue May 13 10:09:52 2014",
+	"timestamp": "Tue Jun 10 18:29:58 2014",
 	"org_type": "school",
 	"org_name": "Roots PCS",
 	"report_card": {
@@ -232,13 +232,7 @@
 
 
 				]
-			}
-		]
-	 },
-
-
-	"profile": {
-		"sections": [
+			},
 			{
 				"id": "program_info",
 				"data": ["Accredited by Middle States AssociationÐCommission on Elementary Schools; Commission on International and Trans-Regional Accreditation; National Academy of Early Childhood Programs","Accredited by National Association for the Education of Young Children (NAEYC)","Afro-centric curriculum, open space facility design","Exposure lessons in Spanish, French and Kiswahili","Multi-age, family style grouping of classes (looping)"
@@ -1260,6 +1254,23 @@
 							"entry":0,
 							"withdrawal":0,
 							"net_cumulative":0
+						}
+					}
+				]
+			},
+			{
+				"id": "staff_degree",
+				"data": [
+					{
+						"key": {
+							"year": "2012"
+						},
+						"val": {
+							"None":0.2,
+							"AA":0,
+							"BA":0.4,
+							"MA":0.4,
+							"PhD":0
 						}
 					}
 				]

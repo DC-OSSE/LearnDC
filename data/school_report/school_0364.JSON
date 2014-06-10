@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue May 13 10:15:18 2014",
+	"timestamp": "Tue Jun 10 18:34:40 2014",
 	"org_type": "school",
 	"org_name": "Friendship PCS – Chamberlain Middle",
 	"report_card": {
@@ -48,13 +48,7 @@
 
 
 				]
-			}
-		]
-	 },
-
-
-	"profile": {
-		"sections": [
+			},
 			{
 				"id": "program_info",
 				"data": [
@@ -112,6 +106,23 @@
 				"id": "mid_year_entry_and_withdrawal",
 				"data": [
 
+				]
+			},
+			{
+				"id": "staff_degree",
+				"data": [
+					{
+						"key": {
+							"year": "2012"
+						},
+						"val": {
+							"None":0.0588,
+							"AA":0,
+							"BA":0.6471,
+							"MA":0.2941,
+							"PhD":0
+						}
+					}
 				]
 			}
 		]

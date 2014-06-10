@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue May 13 10:15:39 2014",
+	"timestamp": "Tue Jun 10 18:34:59 2014",
 	"org_type": "school",
 	"org_name": "School Without Walls @ Francis-Stevens",
 	"report_card": {
@@ -636,13 +636,7 @@
 
 
 				]
-			}
-		]
-	 },
-
-
-	"profile": {
-		"sections": [
+			},
 			{
 				"id": "program_info",
 				"data": ["After Care Program","Before Care Program","DC Reads","Embassy Adoption Program","Everybody Wins! Readers Are Leaders Program","Four Year Old Program","Four-Year-Old Program","Grassroot Hoyas Athletes for Social Justice","GW University Department of Exercise Science","Live It Learn It","Three Year Old Program","Three-Year-Old Program","Tools of the Mind","World Language - Latin"
@@ -3183,6 +3177,23 @@
 							"entry":0.02,
 							"withdrawal":0,
 							"net_cumulative":0.02
+						}
+					}
+				]
+			},
+			{
+				"id": "staff_degree",
+				"data": [
+					{
+						"key": {
+							"year": "2012"
+						},
+						"val": {
+							"None":0,
+							"AA":0,
+							"BA":0.6111,
+							"MA":0.3889,
+							"PhD":0
 						}
 					}
 				]

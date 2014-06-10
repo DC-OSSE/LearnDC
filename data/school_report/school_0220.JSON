@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue May 13 10:11:19 2014",
+	"timestamp": "Tue Jun 10 18:31:16 2014",
 	"org_type": "school",
 	"org_name": "Burroughs Education Campus",
 	"report_card": {
@@ -585,13 +585,7 @@
 
 
 				]
-			}
-		]
-	 },
-
-
-	"profile": {
-		"sections": [
+			},
 			{
 				"id": "program_info",
 				"data": ["Academic Power Hour","Architects In the Classroom","Art Class","Basketball","Boy Scouts","Brother to Brother","Drum Line","Four-Year-Old Program","Girl Talk","Girls Track","Hockey","Live It Learn It","Live It! Learn It!","Math Olympiad","Safety Patrol","Science Club","STEM Integration","Student Council","Technology Club","Three-Year-Old Program"
@@ -3144,6 +3138,23 @@
 							"entry":0.01,
 							"withdrawal":0.01,
 							"net_cumulative":0
+						}
+					}
+				]
+			},
+			{
+				"id": "staff_degree",
+				"data": [
+					{
+						"key": {
+							"year": "2012"
+						},
+						"val": {
+							"None":0,
+							"AA":0,
+							"BA":0.4167,
+							"MA":0.5833,
+							"PhD":0
 						}
 					}
 				]

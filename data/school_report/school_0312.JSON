@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue May 13 10:13:38 2014",
+	"timestamp": "Tue Jun 10 18:33:23 2014",
 	"org_type": "school",
 	"org_name": "Sharpe Health School",
 	"report_card": {
@@ -136,13 +136,7 @@
 
 
 				]
-			}
-		]
-	 },
-
-
-	"profile": {
-		"sections": [
+			},
 			{
 				"id": "program_info",
 				"data": ["Adaptive Physical Education","Edmark","Garden Club","Glee Club","Kennedy Center","Parkmont Poetry Festival","Special Olympics","Story Tapestries","Styer-Fitzgerald","Unique Learning","Young Ladies and Gents Club"
@@ -961,6 +955,23 @@
 							"entry":0,
 							"withdrawal":0.01,
 							"net_cumulative":-0.01
+						}
+					}
+				]
+			},
+			{
+				"id": "staff_degree",
+				"data": [
+					{
+						"key": {
+							"year": "2012"
+						},
+						"val": {
+							"None":0,
+							"AA":0,
+							"BA":0.75,
+							"MA":0.25,
+							"PhD":0
 						}
 					}
 				]

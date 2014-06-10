@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue May 13 10:16:52 2014",
+	"timestamp": "Tue Jun 10 18:36:03 2014",
 	"org_type": "school",
 	"org_name": "Maya Angelou Academy at New Beginnings (formerly Oak Hill)",
 	"report_card": {
@@ -48,13 +48,7 @@
 
 
 				]
-			}
-		]
-	 },
-
-
-	"profile": {
-		"sections": [
+			},
 			{
 				"id": "program_info",
 				"data": [
@@ -112,6 +106,23 @@
 				"id": "mid_year_entry_and_withdrawal",
 				"data": [
 
+				]
+			},
+			{
+				"id": "staff_degree",
+				"data": [
+					{
+						"key": {
+							"year": "2012"
+						},
+						"val": {
+							"None":0,
+							"AA":0,
+							"BA":0.3333,
+							"MA":0.6667,
+							"PhD":0
+						}
+					}
 				]
 			}
 		]

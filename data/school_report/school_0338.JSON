@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue May 13 10:14:55 2014",
+	"timestamp": "Tue Jun 10 18:34:18 2014",
 	"org_type": "school",
 	"org_name": "Whittier Education Campus",
 	"report_card": {
@@ -713,13 +713,7 @@
 
 
 				]
-			}
-		]
-	 },
-
-
-	"profile": {
-		"sections": [
+			},
 			{
 				"id": "program_info",
 				"data": ["Academic Power Hour","Advanced Reading Modules","Art","Art Club","Art for Every Student","Baseball","Boys Elementary School Basketball","Boys Middle School Basketball","Boys Track and Field grades 5-8","Cheerleading","Choir","Cross Country","Dance","Debate Club","Digital Imaging Club","Drama","Football","Four-Year-Old Program","Girls and Boys Basketball","Girls Elementary School Basketball","Homework Club","Instrumental Music","Junior Great Books","Read 180","Response to Intervention Model","STEM Catalyst School","Stock Market Club","Swimming","Tennis","Three-Year-Old Program","Track and Field","Track Team","World Languages: FLES (Spanish)"
@@ -3360,6 +3354,23 @@
 							"entry":0.01,
 							"withdrawal":0.01,
 							"net_cumulative":-0.01
+						}
+					}
+				]
+			},
+			{
+				"id": "staff_degree",
+				"data": [
+					{
+						"key": {
+							"year": "2012"
+						},
+						"val": {
+							"None":0,
+							"AA":0,
+							"BA":0.7917,
+							"MA":0.2083,
+							"PhD":0
 						}
 					}
 				]

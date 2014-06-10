@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue May 13 10:18:03 2014",
+	"timestamp": "Tue Jun 10 18:37:08 2014",
 	"org_type": "school",
 	"org_name": "AppleTree Early Learning PCS – Southeast",
 	"report_card": {
@@ -57,13 +57,7 @@
 
 
 				]
-			}
-		]
-	 },
-
-
-	"profile": {
-		"sections": [
+			},
 			{
 				"id": "program_info",
 				"data": ["Before care and extended day aligned with the classroom curriculum; vouchers accepted","Exclusive focus on research-based early childhood education","Implementation of a data-driven Response to Intervention (RTI) instructional model","Recipient of an Investing in Innovation (i3) award from the U.S. Department of Education"
@@ -93,26 +87,6 @@
 						"val": 40
 					},
 					{
-						"key": {"grade": "PK", "subgroup": "All", "year": "2011"},
-						"val": 27
-					},
-					{
-						"key": {"grade": "PK", "subgroup": "African American", "year": "2011"},
-						"val": 27
-					},
-					{
-						"key": {"grade": "PK", "subgroup": "Economically Disadvantaged", "year": "2011"},
-						"val": 26
-					},
-					{
-						"key": {"grade": "PK", "subgroup": "Male", "year": "2011"},
-						"val": 17
-					},
-					{
-						"key": {"grade": "PK", "subgroup": "Female", "year": "2011"},
-						"val": 10
-					},
-					{
 						"key": {"grade": "PS", "subgroup": "All", "year": "2011"},
 						"val": 53
 					},
@@ -131,6 +105,26 @@
 					{
 						"key": {"grade": "PS", "subgroup": "Female", "year": "2011"},
 						"val": 30
+					},
+					{
+						"key": {"grade": "PK", "subgroup": "All", "year": "2011"},
+						"val": 27
+					},
+					{
+						"key": {"grade": "PK", "subgroup": "African American", "year": "2011"},
+						"val": 27
+					},
+					{
+						"key": {"grade": "PK", "subgroup": "Economically Disadvantaged", "year": "2011"},
+						"val": 26
+					},
+					{
+						"key": {"grade": "PK", "subgroup": "Male", "year": "2011"},
+						"val": 17
+					},
+					{
+						"key": {"grade": "PK", "subgroup": "Female", "year": "2011"},
+						"val": 10
 					},
 					{
 						"key": {"grade": "All", "subgroup": "All", "year": "2012"},
@@ -213,26 +207,6 @@
 						"val": 89
 					},
 					{
-						"key": {"grade": "PK", "subgroup": "All", "year": "2013"},
-						"val": 91
-					},
-					{
-						"key": {"grade": "PK", "subgroup": "African American", "year": "2013"},
-						"val": 87
-					},
-					{
-						"key": {"grade": "PK", "subgroup": "Economically Disadvantaged", "year": "2013"},
-						"val": 91
-					},
-					{
-						"key": {"grade": "PK", "subgroup": "Male", "year": "2013"},
-						"val": 47
-					},
-					{
-						"key": {"grade": "PK", "subgroup": "Female", "year": "2013"},
-						"val": 44
-					},
-					{
 						"key": {"grade": "PS", "subgroup": "All", "year": "2013"},
 						"val": 81
 					},
@@ -251,6 +225,26 @@
 					{
 						"key": {"grade": "PS", "subgroup": "Female", "year": "2013"},
 						"val": 45
+					},
+					{
+						"key": {"grade": "PK", "subgroup": "All", "year": "2013"},
+						"val": 91
+					},
+					{
+						"key": {"grade": "PK", "subgroup": "African American", "year": "2013"},
+						"val": 87
+					},
+					{
+						"key": {"grade": "PK", "subgroup": "Economically Disadvantaged", "year": "2013"},
+						"val": 91
+					},
+					{
+						"key": {"grade": "PK", "subgroup": "Male", "year": "2013"},
+						"val": 47
+					},
+					{
+						"key": {"grade": "PK", "subgroup": "Female", "year": "2013"},
+						"val": 44
 					}
 				]
 			},
@@ -300,6 +294,23 @@
 				"id": "mid_year_entry_and_withdrawal",
 				"data": [
 
+				]
+			},
+			{
+				"id": "staff_degree",
+				"data": [
+					{
+						"key": {
+							"year": "2012"
+						},
+						"val": {
+							"None":1,
+							"AA":0,
+							"BA":0,
+							"MA":0,
+							"PhD":0
+						}
+					}
 				]
 			}
 		]

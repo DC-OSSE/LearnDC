@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue May 13 10:09:05 2014",
+	"timestamp": "Tue Jun 10 18:29:15 2014",
 	"org_type": "school",
 	"org_name": "Mary McLeod Bethune Day Academy PCS",
 	"report_card": {
@@ -574,13 +574,7 @@
 
 
 				]
-			}
-		]
-	 },
-
-
-	"profile": {
-		"sections": [
+			},
 			{
 				"id": "program_info",
 				"data": ["After Care","Before Care","Extracurricular activities including sports, drama, tutoring and clubs","Focuses on positive character development and community service","Free transportation for students; bus stops located in all quadrants of the city","Half-day Spanish language immersion program for students in grades PK to 2; all classrooms have a 10:1 student-to-teacher ratio","Special education inclusion program","Year-long instruction in art, music, foreign languages (Spanish and Latin), health and physical education"
@@ -2685,6 +2679,23 @@
 							"entry":0,
 							"withdrawal":0,
 							"net_cumulative":0
+						}
+					}
+				]
+			},
+			{
+				"id": "staff_degree",
+				"data": [
+					{
+						"key": {
+							"year": "2012"
+						},
+						"val": {
+							"None":0.0263,
+							"AA":0,
+							"BA":0.5789,
+							"MA":0.3684,
+							"PhD":0.0263
 						}
 					}
 				]

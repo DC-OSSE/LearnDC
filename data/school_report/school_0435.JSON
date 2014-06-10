@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue May 13 10:16:03 2014",
+	"timestamp": "Tue Jun 10 18:35:21 2014",
 	"org_type": "school",
 	"org_name": "McKinley Middle School",
 	"report_card": {
@@ -42,13 +42,7 @@
 
 
 				]
-			}
-		]
-	 },
-
-
-	"profile": {
-		"sections": [
+			},
 			{
 				"id": "program_info",
 				"data": ["Brainology","First in Math","Girls & Boys Basketball","Girls Volleyball","Read 180","Robotics","School Yearbook","Think Through Math"
@@ -80,30 +74,6 @@
 					{
 						"key": {"grade": "All", "subgroup": "Female", "year": "2013"},
 						"val": 105
-					},
-					{
-						"key": {"grade": "06", "subgroup": "All", "year": "2013"},
-						"val": 67
-					},
-					{
-						"key": {"grade": "06", "subgroup": "African American", "year": "2013"},
-						"val": 65
-					},
-					{
-						"key": {"grade": "06", "subgroup": "Special Education", "year": "2013"},
-						"val": 21
-					},
-					{
-						"key": {"grade": "06", "subgroup": "Economically Disadvantaged", "year": "2013"},
-						"val": 53
-					},
-					{
-						"key": {"grade": "06", "subgroup": "Male", "year": "2013"},
-						"val": 27
-					},
-					{
-						"key": {"grade": "06", "subgroup": "Female", "year": "2013"},
-						"val": 40
 					},
 					{
 						"key": {"grade": "07", "subgroup": "All", "year": "2013"},
@@ -152,6 +122,30 @@
 					{
 						"key": {"grade": "08", "subgroup": "Female", "year": "2013"},
 						"val": 42
+					},
+					{
+						"key": {"grade": "06", "subgroup": "All", "year": "2013"},
+						"val": 67
+					},
+					{
+						"key": {"grade": "06", "subgroup": "African American", "year": "2013"},
+						"val": 65
+					},
+					{
+						"key": {"grade": "06", "subgroup": "Special Education", "year": "2013"},
+						"val": 21
+					},
+					{
+						"key": {"grade": "06", "subgroup": "Economically Disadvantaged", "year": "2013"},
+						"val": 53
+					},
+					{
+						"key": {"grade": "06", "subgroup": "Male", "year": "2013"},
+						"val": 27
+					},
+					{
+						"key": {"grade": "06", "subgroup": "Female", "year": "2013"},
+						"val": 40
 					}
 				]
 			},
@@ -199,6 +193,12 @@
 			},
 			{
 				"id": "mid_year_entry_and_withdrawal",
+				"data": [
+
+				]
+			},
+			{
+				"id": "staff_degree",
 				"data": [
 
 				]

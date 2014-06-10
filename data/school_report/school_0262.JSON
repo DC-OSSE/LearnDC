@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue May 13 10:12:13 2014",
+	"timestamp": "Tue Jun 10 18:32:07 2014",
 	"org_type": "school",
 	"org_name": "Langdon Education Campus",
 	"report_card": {
@@ -646,13 +646,7 @@
 
 
 				]
-			}
-		]
-	 },
-
-
-	"profile": {
-		"sections": [
+			},
 			{
 				"id": "program_info",
 				"data": ["'The Langdon Way' Daily Values Character Building","5th Grade Earth and Space Science Camp","Accelerated Readers & Enrichment Programs","Adult Boot Camp, Yoga and Zumba Fitness Classes","Art for Every Student","Before and Aftercare","Chess Challenge","Classroom Arts Immersion For All","Continentals Society, Inc. Dental Van","Cooking Matters Family Program for Mothers & Children","Cooking Matters Family Program for Parents and Children","Cub & Girl Scouts","Embassy Adoption Program","Engineering in Elementary and USA Science & Engineering","ExploraVision/Geoplunge","Field Studies","Grandparent's Day","Healthy School Initiative (Bronze Healthy US School)","Homeless Walk/Buddy Run","Junior Coach Mentoring Program","Junior GREAT Books","Kids Rock Guitar Club","May Day Family/Community Health Challenge","Montessori Recognized","Octoberfest","OST Academic Power Hour","President's Physical Fitness Program","Presidents Physical Fitness Program","School-wide/Citywide Essay Poster Contest","SeaPerch Robotics Club","Sign Language Club","STEM Catalyst School","STEM Night/Kite Day/EIE/Caterpillar STEM Event","Stormwater Outdoor Gardening Project","Student Government Association","Three-Year-Old Program/Four-Year Old PK Program","USA Science and Engineering Festival","Water Wednesdays","Wii-Fitness Program"
@@ -3229,6 +3223,23 @@
 							"entry":0,
 							"withdrawal":0.01,
 							"net_cumulative":-0.01
+						}
+					}
+				]
+			},
+			{
+				"id": "staff_degree",
+				"data": [
+					{
+						"key": {
+							"year": "2012"
+						},
+						"val": {
+							"None":0,
+							"AA":0,
+							"BA":0.8462,
+							"MA":0.1538,
+							"PhD":0
 						}
 					}
 				]

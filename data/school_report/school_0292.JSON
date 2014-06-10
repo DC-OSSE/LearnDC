@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue May 13 10:13:01 2014",
+	"timestamp": "Tue Jun 10 18:32:49 2014",
 	"org_type": "school",
 	"org_name": "Oyster-Adams Bilingual School",
 	"report_card": {
@@ -872,13 +872,7 @@
 
 
 				]
-			}
-		]
-	 },
-
-
-	"profile": {
-		"sections": [
+			},
 			{
 				"id": "program_info",
 				"data": ["After-school Tutoring","Chess","Chinese","City Dance","Concurso de Poesia","DC SCORES (Soccer)","DC-SCORES (Soccer)","DCPS Sports (grades 4-8): Basketball, Volleyball, Cross Country, Track","Ford's Theater – Speak Like the Presidents (Oratory)","Ford's Theater-Speak like the Presidents (Oratory)","Karate","Math Counts","Musical Theater","Science Fair","Spanish Club","Spanish Drama","Spanish Summer Camp","Spelling Bee","STEM Projects","Swimming","Yoga"
@@ -4167,6 +4161,23 @@
 							"entry":0,
 							"withdrawal":0,
 							"net_cumulative":0
+						}
+					}
+				]
+			},
+			{
+				"id": "staff_degree",
+				"data": [
+					{
+						"key": {
+							"year": "2012"
+						},
+						"val": {
+							"None":0,
+							"AA":0,
+							"BA":0.3864,
+							"MA":0.5909,
+							"PhD":0.0227
 						}
 					}
 				]

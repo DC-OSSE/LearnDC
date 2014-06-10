@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue May 13 10:17:55 2014",
+	"timestamp": "Tue Jun 10 18:37:01 2014",
 	"org_type": "school",
 	"org_name": "Shining Stars Montessori Academy PCS",
 	"report_card": {
@@ -48,13 +48,7 @@
 
 
 				]
-			}
-		]
-	 },
-
-
-	"profile": {
-		"sections": [
+			},
 			{
 				"id": "program_info",
 				"data": ["Committed to providing a quality Montessori experience for inner city children","Montessori curriculum enhanced with culturally inclusive principles to meet the developmental needs of students","Provide the means whereby students can begin to develop to their fullest potential"
@@ -421,6 +415,23 @@
 							"entry":0,
 							"withdrawal":0.02,
 							"net_cumulative":-0.02
+						}
+					}
+				]
+			},
+			{
+				"id": "staff_degree",
+				"data": [
+					{
+						"key": {
+							"year": "2012"
+						},
+						"val": {
+							"None":0,
+							"AA":0,
+							"BA":0.5,
+							"MA":0.5,
+							"PhD":0
 						}
 					}
 				]

@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue May 13 10:10:45 2014",
+	"timestamp": "Tue Jun 10 18:30:45 2014",
 	"org_type": "school",
 	"org_name": "Ingenuity Prep PCS",
 	"report_card": {
@@ -48,13 +48,7 @@
 
 
 				]
-			}
-		]
-	 },
-
-
-	"profile": {
-		"sections": [
+			},
 			{
 				"id": "program_info",
 				"data": [
@@ -84,26 +78,6 @@
 						"val": 53
 					},
 					{
-						"key": {"grade": "PK", "subgroup": "All", "year": "2013"},
-						"val": 25
-					},
-					{
-						"key": {"grade": "PK", "subgroup": "African American", "year": "2013"},
-						"val": 23
-					},
-					{
-						"key": {"grade": "PK", "subgroup": "Economically Disadvantaged", "year": "2013"},
-						"val": 25
-					},
-					{
-						"key": {"grade": "PK", "subgroup": "Male", "year": "2013"},
-						"val": 11
-					},
-					{
-						"key": {"grade": "PK", "subgroup": "Female", "year": "2013"},
-						"val": 14
-					},
-					{
 						"key": {"grade": "KG", "subgroup": "All", "year": "2013"},
 						"val": 59
 					},
@@ -122,6 +96,26 @@
 					{
 						"key": {"grade": "KG", "subgroup": "Female", "year": "2013"},
 						"val": 31
+					},
+					{
+						"key": {"grade": "PK", "subgroup": "All", "year": "2013"},
+						"val": 25
+					},
+					{
+						"key": {"grade": "PK", "subgroup": "African American", "year": "2013"},
+						"val": 23
+					},
+					{
+						"key": {"grade": "PK", "subgroup": "Economically Disadvantaged", "year": "2013"},
+						"val": 25
+					},
+					{
+						"key": {"grade": "PK", "subgroup": "Male", "year": "2013"},
+						"val": 11
+					},
+					{
+						"key": {"grade": "PK", "subgroup": "Female", "year": "2013"},
+						"val": 14
 					},
 					{
 						"key": {"grade": "PS", "subgroup": "All", "year": "2013"},
@@ -185,6 +179,12 @@
 			},
 			{
 				"id": "mid_year_entry_and_withdrawal",
+				"data": [
+
+				]
+			},
+			{
+				"id": "staff_degree",
 				"data": [
 
 				]

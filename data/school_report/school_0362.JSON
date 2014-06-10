@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue May 13 10:15:14 2014",
+	"timestamp": "Tue Jun 10 18:34:36 2014",
 	"org_type": "school",
 	"org_name": "Friendship PCS – Blow-Pierce Middle",
 	"report_card": {
@@ -48,13 +48,7 @@
 
 
 				]
-			}
-		]
-	 },
-
-
-	"profile": {
-		"sections": [
+			},
 			{
 				"id": "program_info",
 				"data": [
@@ -112,6 +106,23 @@
 				"id": "mid_year_entry_and_withdrawal",
 				"data": [
 
+				]
+			},
+			{
+				"id": "staff_degree",
+				"data": [
+					{
+						"key": {
+							"year": "2012"
+						},
+						"val": {
+							"None":0.1333,
+							"AA":0,
+							"BA":0.4667,
+							"MA":0.4,
+							"PhD":0
+						}
+					}
 				]
 			}
 		]

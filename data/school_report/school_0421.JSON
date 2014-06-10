@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue May 13 10:15:51 2014",
+	"timestamp": "Tue Jun 10 18:35:10 2014",
 	"org_type": "school",
 	"org_name": "Kelly Miller Middle School",
 	"report_card": {
@@ -541,13 +541,7 @@
 
 
 				]
-			}
-		]
-	 },
-
-
-	"profile": {
-		"sections": [
+			},
 			{
 				"id": "program_info",
 				"data": ["Accelerated Studies Program","Basketball","DC Central Kitchen","DC Scores","Digital Art","Extended Day Enrichment Clusters","Football","Gifted & Talented Program","Instrumental Music","Saturday Academy","Spanish","Summer Bridge","Targeted Intervention Blocks","Track & Field","Visual Art","Volleyball"
@@ -589,20 +583,12 @@
 						"val": 112
 					},
 					{
-						"key": {"grade": "08", "subgroup": "All", "year": "2004"},
-						"val": 143
+						"key": {"grade": "UN", "subgroup": "All", "year": "2004"},
+						"val": 12
 					},
 					{
-						"key": {"grade": "08", "subgroup": "African American", "year": "2004"},
-						"val": 143
-					},
-					{
-						"key": {"grade": "08", "subgroup": "Male", "year": "2004"},
-						"val": 59
-					},
-					{
-						"key": {"grade": "08", "subgroup": "Female", "year": "2004"},
-						"val": 84
+						"key": {"grade": "UN", "subgroup": "African American", "year": "2004"},
+						"val": 12
 					},
 					{
 						"key": {"grade": "06", "subgroup": "All", "year": "2004"},
@@ -621,12 +607,20 @@
 						"val": 43
 					},
 					{
-						"key": {"grade": "UN", "subgroup": "All", "year": "2004"},
-						"val": 12
+						"key": {"grade": "08", "subgroup": "All", "year": "2004"},
+						"val": 143
 					},
 					{
-						"key": {"grade": "UN", "subgroup": "African American", "year": "2004"},
-						"val": 12
+						"key": {"grade": "08", "subgroup": "African American", "year": "2004"},
+						"val": 143
+					},
+					{
+						"key": {"grade": "08", "subgroup": "Male", "year": "2004"},
+						"val": 59
+					},
+					{
+						"key": {"grade": "08", "subgroup": "Female", "year": "2004"},
+						"val": 84
 					},
 					{
 						"key": {"grade": "All", "subgroup": "All", "year": "2005"},
@@ -651,26 +645,6 @@
 					{
 						"key": {"grade": "All", "subgroup": "Female", "year": "2005"},
 						"val": 248
-					},
-					{
-						"key": {"grade": "UN", "subgroup": "All", "year": "2005"},
-						"val": 14
-					},
-					{
-						"key": {"grade": "UN", "subgroup": "African American", "year": "2005"},
-						"val": 14
-					},
-					{
-						"key": {"grade": "UN", "subgroup": "Special Education", "year": "2005"},
-						"val": 13
-					},
-					{
-						"key": {"grade": "UN", "subgroup": "Economically Disadvantaged", "year": "2005"},
-						"val": 13
-					},
-					{
-						"key": {"grade": "UN", "subgroup": "Male", "year": "2005"},
-						"val": 10
 					},
 					{
 						"key": {"grade": "08", "subgroup": "All", "year": "2005"},
@@ -745,6 +719,26 @@
 						"val": 24
 					},
 					{
+						"key": {"grade": "UN", "subgroup": "All", "year": "2005"},
+						"val": 14
+					},
+					{
+						"key": {"grade": "UN", "subgroup": "African American", "year": "2005"},
+						"val": 14
+					},
+					{
+						"key": {"grade": "UN", "subgroup": "Special Education", "year": "2005"},
+						"val": 13
+					},
+					{
+						"key": {"grade": "UN", "subgroup": "Economically Disadvantaged", "year": "2005"},
+						"val": 13
+					},
+					{
+						"key": {"grade": "UN", "subgroup": "Male", "year": "2005"},
+						"val": 10
+					},
+					{
 						"key": {"grade": "All", "subgroup": "All", "year": "2006"},
 						"val": 401
 					},
@@ -763,26 +757,6 @@
 					{
 						"key": {"grade": "All", "subgroup": "Female", "year": "2006"},
 						"val": 200
-					},
-					{
-						"key": {"grade": "07", "subgroup": "All", "year": "2006"},
-						"val": 157
-					},
-					{
-						"key": {"grade": "07", "subgroup": "African American", "year": "2006"},
-						"val": 157
-					},
-					{
-						"key": {"grade": "07", "subgroup": "Special Education", "year": "2006"},
-						"val": 25
-					},
-					{
-						"key": {"grade": "07", "subgroup": "Male", "year": "2006"},
-						"val": 86
-					},
-					{
-						"key": {"grade": "07", "subgroup": "Female", "year": "2006"},
-						"val": 71
 					},
 					{
 						"key": {"grade": "08", "subgroup": "All", "year": "2006"},
@@ -805,6 +779,34 @@
 						"val": 107
 					},
 					{
+						"key": {"grade": "07", "subgroup": "All", "year": "2006"},
+						"val": 157
+					},
+					{
+						"key": {"grade": "07", "subgroup": "African American", "year": "2006"},
+						"val": 157
+					},
+					{
+						"key": {"grade": "07", "subgroup": "Special Education", "year": "2006"},
+						"val": 25
+					},
+					{
+						"key": {"grade": "07", "subgroup": "Male", "year": "2006"},
+						"val": 86
+					},
+					{
+						"key": {"grade": "07", "subgroup": "Female", "year": "2006"},
+						"val": 71
+					},
+					{
+						"key": {"grade": "UN", "subgroup": "All", "year": "2006"},
+						"val": 12
+					},
+					{
+						"key": {"grade": "UN", "subgroup": "African American", "year": "2006"},
+						"val": 12
+					},
+					{
 						"key": {"grade": "06", "subgroup": "All", "year": "2006"},
 						"val": 37
 					},
@@ -819,14 +821,6 @@
 					{
 						"key": {"grade": "06", "subgroup": "Female", "year": "2006"},
 						"val": 18
-					},
-					{
-						"key": {"grade": "UN", "subgroup": "All", "year": "2006"},
-						"val": 12
-					},
-					{
-						"key": {"grade": "UN", "subgroup": "African American", "year": "2006"},
-						"val": 12
 					},
 					{
 						"key": {"grade": "All", "subgroup": "All", "year": "2007"},
@@ -925,28 +919,28 @@
 						"val": 199
 					},
 					{
-						"key": {"grade": "08", "subgroup": "All", "year": "2008"},
-						"val": 139
+						"key": {"grade": "06", "subgroup": "All", "year": "2008"},
+						"val": 110
 					},
 					{
-						"key": {"grade": "08", "subgroup": "African American", "year": "2008"},
-						"val": 137
+						"key": {"grade": "06", "subgroup": "African American", "year": "2008"},
+						"val": 110
 					},
 					{
-						"key": {"grade": "08", "subgroup": "Special Education", "year": "2008"},
-						"val": 35
+						"key": {"grade": "06", "subgroup": "Special Education", "year": "2008"},
+						"val": 28
 					},
 					{
-						"key": {"grade": "08", "subgroup": "Economically Disadvantaged", "year": "2008"},
-						"val": 78
+						"key": {"grade": "06", "subgroup": "Economically Disadvantaged", "year": "2008"},
+						"val": 81
 					},
 					{
-						"key": {"grade": "08", "subgroup": "Male", "year": "2008"},
-						"val": 61
+						"key": {"grade": "06", "subgroup": "Male", "year": "2008"},
+						"val": 45
 					},
 					{
-						"key": {"grade": "08", "subgroup": "Female", "year": "2008"},
-						"val": 74
+						"key": {"grade": "06", "subgroup": "Female", "year": "2008"},
+						"val": 60
 					},
 					{
 						"key": {"grade": "07", "subgroup": "All", "year": "2008"},
@@ -973,28 +967,28 @@
 						"val": 65
 					},
 					{
-						"key": {"grade": "06", "subgroup": "All", "year": "2008"},
-						"val": 110
+						"key": {"grade": "08", "subgroup": "All", "year": "2008"},
+						"val": 139
 					},
 					{
-						"key": {"grade": "06", "subgroup": "African American", "year": "2008"},
-						"val": 110
+						"key": {"grade": "08", "subgroup": "African American", "year": "2008"},
+						"val": 137
 					},
 					{
-						"key": {"grade": "06", "subgroup": "Special Education", "year": "2008"},
-						"val": 28
+						"key": {"grade": "08", "subgroup": "Special Education", "year": "2008"},
+						"val": 35
 					},
 					{
-						"key": {"grade": "06", "subgroup": "Economically Disadvantaged", "year": "2008"},
-						"val": 81
+						"key": {"grade": "08", "subgroup": "Economically Disadvantaged", "year": "2008"},
+						"val": 78
 					},
 					{
-						"key": {"grade": "06", "subgroup": "Male", "year": "2008"},
-						"val": 45
+						"key": {"grade": "08", "subgroup": "Male", "year": "2008"},
+						"val": 61
 					},
 					{
-						"key": {"grade": "06", "subgroup": "Female", "year": "2008"},
-						"val": 60
+						"key": {"grade": "08", "subgroup": "Female", "year": "2008"},
+						"val": 74
 					},
 					{
 						"key": {"grade": "All", "subgroup": "All", "year": "2009"},
@@ -1021,28 +1015,28 @@
 						"val": 198
 					},
 					{
-						"key": {"grade": "08", "subgroup": "All", "year": "2009"},
-						"val": 136
+						"key": {"grade": "07", "subgroup": "All", "year": "2009"},
+						"val": 134
 					},
 					{
-						"key": {"grade": "08", "subgroup": "African American", "year": "2009"},
-						"val": 135
+						"key": {"grade": "07", "subgroup": "African American", "year": "2009"},
+						"val": 134
 					},
 					{
-						"key": {"grade": "08", "subgroup": "Special Education", "year": "2009"},
-						"val": 47
+						"key": {"grade": "07", "subgroup": "Special Education", "year": "2009"},
+						"val": 25
 					},
 					{
-						"key": {"grade": "08", "subgroup": "Economically Disadvantaged", "year": "2009"},
-						"val": 116
+						"key": {"grade": "07", "subgroup": "Economically Disadvantaged", "year": "2009"},
+						"val": 121
 					},
 					{
-						"key": {"grade": "08", "subgroup": "Male", "year": "2009"},
+						"key": {"grade": "07", "subgroup": "Male", "year": "2009"},
+						"val": 62
+					},
+					{
+						"key": {"grade": "07", "subgroup": "Female", "year": "2009"},
 						"val": 72
-					},
-					{
-						"key": {"grade": "08", "subgroup": "Female", "year": "2009"},
-						"val": 64
 					},
 					{
 						"key": {"grade": "06", "subgroup": "All", "year": "2009"},
@@ -1069,28 +1063,28 @@
 						"val": 62
 					},
 					{
-						"key": {"grade": "07", "subgroup": "All", "year": "2009"},
-						"val": 134
+						"key": {"grade": "08", "subgroup": "All", "year": "2009"},
+						"val": 136
 					},
 					{
-						"key": {"grade": "07", "subgroup": "African American", "year": "2009"},
-						"val": 134
+						"key": {"grade": "08", "subgroup": "African American", "year": "2009"},
+						"val": 135
 					},
 					{
-						"key": {"grade": "07", "subgroup": "Special Education", "year": "2009"},
-						"val": 25
+						"key": {"grade": "08", "subgroup": "Special Education", "year": "2009"},
+						"val": 47
 					},
 					{
-						"key": {"grade": "07", "subgroup": "Economically Disadvantaged", "year": "2009"},
-						"val": 121
+						"key": {"grade": "08", "subgroup": "Economically Disadvantaged", "year": "2009"},
+						"val": 116
 					},
 					{
-						"key": {"grade": "07", "subgroup": "Male", "year": "2009"},
-						"val": 62
-					},
-					{
-						"key": {"grade": "07", "subgroup": "Female", "year": "2009"},
+						"key": {"grade": "08", "subgroup": "Male", "year": "2009"},
 						"val": 72
+					},
+					{
+						"key": {"grade": "08", "subgroup": "Female", "year": "2009"},
+						"val": 64
 					},
 					{
 						"key": {"grade": "All", "subgroup": "All", "year": "2010"},
@@ -1117,28 +1111,28 @@
 						"val": 176
 					},
 					{
-						"key": {"grade": "08", "subgroup": "All", "year": "2010"},
+						"key": {"grade": "07", "subgroup": "All", "year": "2010"},
 						"val": 127
 					},
 					{
-						"key": {"grade": "08", "subgroup": "African American", "year": "2010"},
-						"val": 127
+						"key": {"grade": "07", "subgroup": "African American", "year": "2010"},
+						"val": 124
 					},
 					{
-						"key": {"grade": "08", "subgroup": "Special Education", "year": "2010"},
-						"val": 25
+						"key": {"grade": "07", "subgroup": "Special Education", "year": "2010"},
+						"val": 27
 					},
 					{
-						"key": {"grade": "08", "subgroup": "Economically Disadvantaged", "year": "2010"},
-						"val": 113
+						"key": {"grade": "07", "subgroup": "Economically Disadvantaged", "year": "2010"},
+						"val": 112
 					},
 					{
-						"key": {"grade": "08", "subgroup": "Male", "year": "2010"},
-						"val": 66
+						"key": {"grade": "07", "subgroup": "Male", "year": "2010"},
+						"val": 71
 					},
 					{
-						"key": {"grade": "08", "subgroup": "Female", "year": "2010"},
-						"val": 61
+						"key": {"grade": "07", "subgroup": "Female", "year": "2010"},
+						"val": 56
 					},
 					{
 						"key": {"grade": "06", "subgroup": "All", "year": "2010"},
@@ -1165,28 +1159,28 @@
 						"val": 59
 					},
 					{
-						"key": {"grade": "07", "subgroup": "All", "year": "2010"},
+						"key": {"grade": "08", "subgroup": "All", "year": "2010"},
 						"val": 127
 					},
 					{
-						"key": {"grade": "07", "subgroup": "African American", "year": "2010"},
-						"val": 124
+						"key": {"grade": "08", "subgroup": "African American", "year": "2010"},
+						"val": 127
 					},
 					{
-						"key": {"grade": "07", "subgroup": "Special Education", "year": "2010"},
-						"val": 27
+						"key": {"grade": "08", "subgroup": "Special Education", "year": "2010"},
+						"val": 25
 					},
 					{
-						"key": {"grade": "07", "subgroup": "Economically Disadvantaged", "year": "2010"},
-						"val": 112
+						"key": {"grade": "08", "subgroup": "Economically Disadvantaged", "year": "2010"},
+						"val": 113
 					},
 					{
-						"key": {"grade": "07", "subgroup": "Male", "year": "2010"},
-						"val": 71
+						"key": {"grade": "08", "subgroup": "Male", "year": "2010"},
+						"val": 66
 					},
 					{
-						"key": {"grade": "07", "subgroup": "Female", "year": "2010"},
-						"val": 56
+						"key": {"grade": "08", "subgroup": "Female", "year": "2010"},
+						"val": 61
 					},
 					{
 						"key": {"grade": "All", "subgroup": "All", "year": "2011"},
@@ -1409,30 +1403,6 @@
 						"val": 243
 					},
 					{
-						"key": {"grade": "06", "subgroup": "All", "year": "2013"},
-						"val": 190
-					},
-					{
-						"key": {"grade": "06", "subgroup": "African American", "year": "2013"},
-						"val": 185
-					},
-					{
-						"key": {"grade": "06", "subgroup": "Special Education", "year": "2013"},
-						"val": 36
-					},
-					{
-						"key": {"grade": "06", "subgroup": "Economically Disadvantaged", "year": "2013"},
-						"val": 190
-					},
-					{
-						"key": {"grade": "06", "subgroup": "Male", "year": "2013"},
-						"val": 104
-					},
-					{
-						"key": {"grade": "06", "subgroup": "Female", "year": "2013"},
-						"val": 86
-					},
-					{
 						"key": {"grade": "07", "subgroup": "All", "year": "2013"},
 						"val": 168
 					},
@@ -1455,6 +1425,30 @@
 					{
 						"key": {"grade": "07", "subgroup": "Female", "year": "2013"},
 						"val": 89
+					},
+					{
+						"key": {"grade": "06", "subgroup": "All", "year": "2013"},
+						"val": 190
+					},
+					{
+						"key": {"grade": "06", "subgroup": "African American", "year": "2013"},
+						"val": 185
+					},
+					{
+						"key": {"grade": "06", "subgroup": "Special Education", "year": "2013"},
+						"val": 36
+					},
+					{
+						"key": {"grade": "06", "subgroup": "Economically Disadvantaged", "year": "2013"},
+						"val": 190
+					},
+					{
+						"key": {"grade": "06", "subgroup": "Male", "year": "2013"},
+						"val": 104
+					},
+					{
+						"key": {"grade": "06", "subgroup": "Female", "year": "2013"},
+						"val": 86
 					},
 					{
 						"key": {"grade": "08", "subgroup": "All", "year": "2013"},
@@ -1860,6 +1854,23 @@
 							"entry":0,
 							"withdrawal":0.01,
 							"net_cumulative":-0.01
+						}
+					}
+				]
+			},
+			{
+				"id": "staff_degree",
+				"data": [
+					{
+						"key": {
+							"year": "2012"
+						},
+						"val": {
+							"None":0,
+							"AA":0,
+							"BA":0.6429,
+							"MA":0.3571,
+							"PhD":0
 						}
 					}
 				]

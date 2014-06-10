@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue May 13 10:16:57 2014",
+	"timestamp": "Tue Jun 10 18:36:07 2014",
 	"org_type": "school",
 	"org_name": "C.H.O.I.C.E. Academy @ Emery",
 	"report_card": {
@@ -373,13 +373,7 @@
 
 
 				]
-			}
-		]
-	 },
-
-
-	"profile": {
-		"sections": [
+			},
 			{
 				"id": "program_info",
 				"data": ["For a listing of C.H.O.I.C.E Academy's arts and cultural programs, please contact the school principal.","For a listing of C.H.O.I.C.E. Academy's academic programs, please contact the school principal.","For a listing of C.H.O.I.C.E. Academy's wellness and fitness programs, please contact the school principal.","For a listing of CHOICE Academy's academic programs, please contact the school principal","For a listing of CHOICE Academy's wellness, please contact the school principal."
@@ -405,16 +399,16 @@
 						"val": 24
 					},
 					{
-						"key": {"grade": "08", "subgroup": "All", "year": "2004"},
-						"val": 23
+						"key": {"grade": "09", "subgroup": "All", "year": "2004"},
+						"val": 16
 					},
 					{
-						"key": {"grade": "08", "subgroup": "African American", "year": "2004"},
-						"val": 21
+						"key": {"grade": "09", "subgroup": "African American", "year": "2004"},
+						"val": 16
 					},
 					{
-						"key": {"grade": "08", "subgroup": "Male", "year": "2004"},
-						"val": 17
+						"key": {"grade": "09", "subgroup": "Male", "year": "2004"},
+						"val": 11
 					},
 					{
 						"key": {"grade": "10", "subgroup": "All", "year": "2004"},
@@ -429,28 +423,28 @@
 						"val": 10
 					},
 					{
-						"key": {"grade": "11", "subgroup": "All", "year": "2004"},
-						"val": 10
+						"key": {"grade": "08", "subgroup": "All", "year": "2004"},
+						"val": 23
 					},
 					{
-						"key": {"grade": "11", "subgroup": "African American", "year": "2004"},
-						"val": 10
+						"key": {"grade": "08", "subgroup": "African American", "year": "2004"},
+						"val": 21
+					},
+					{
+						"key": {"grade": "08", "subgroup": "Male", "year": "2004"},
+						"val": 17
 					},
 					{
 						"key": {"grade": "07", "subgroup": "All", "year": "2004"},
 						"val": 10
 					},
 					{
-						"key": {"grade": "09", "subgroup": "All", "year": "2004"},
-						"val": 16
+						"key": {"grade": "11", "subgroup": "All", "year": "2004"},
+						"val": 10
 					},
 					{
-						"key": {"grade": "09", "subgroup": "African American", "year": "2004"},
-						"val": 16
-					},
-					{
-						"key": {"grade": "09", "subgroup": "Male", "year": "2004"},
-						"val": 11
+						"key": {"grade": "11", "subgroup": "African American", "year": "2004"},
+						"val": 10
 					},
 					{
 						"key": {"grade": "All", "subgroup": "All", "year": "2005"},
@@ -473,14 +467,6 @@
 						"val": 20
 					},
 					{
-						"key": {"grade": "09", "subgroup": "All", "year": "2005"},
-						"val": 13
-					},
-					{
-						"key": {"grade": "09", "subgroup": "African American", "year": "2005"},
-						"val": 13
-					},
-					{
 						"key": {"grade": "10", "subgroup": "All", "year": "2005"},
 						"val": 14
 					},
@@ -491,6 +477,14 @@
 					{
 						"key": {"grade": "10", "subgroup": "Economically Disadvantaged", "year": "2005"},
 						"val": 10
+					},
+					{
+						"key": {"grade": "09", "subgroup": "All", "year": "2005"},
+						"val": 13
+					},
+					{
+						"key": {"grade": "09", "subgroup": "African American", "year": "2005"},
+						"val": 13
 					},
 					{
 						"key": {"grade": "All", "subgroup": "All", "year": "2006"},
@@ -549,6 +543,14 @@
 						"val": 34
 					},
 					{
+						"key": {"grade": "11", "subgroup": "All", "year": "2008"},
+						"val": 11
+					},
+					{
+						"key": {"grade": "11", "subgroup": "African American", "year": "2008"},
+						"val": 10
+					},
+					{
 						"key": {"grade": "09", "subgroup": "All", "year": "2008"},
 						"val": 16
 					},
@@ -559,14 +561,6 @@
 					{
 						"key": {"grade": "09", "subgroup": "Male", "year": "2008"},
 						"val": 14
-					},
-					{
-						"key": {"grade": "11", "subgroup": "All", "year": "2008"},
-						"val": 11
-					},
-					{
-						"key": {"grade": "11", "subgroup": "African American", "year": "2008"},
-						"val": 10
 					},
 					{
 						"key": {"grade": "All", "subgroup": "All", "year": "2009"},
@@ -842,6 +836,23 @@
 							"entry":1,
 							"withdrawal":0,
 							"net_cumulative":1
+						}
+					}
+				]
+			},
+			{
+				"id": "staff_degree",
+				"data": [
+					{
+						"key": {
+							"year": "2012"
+						},
+						"val": {
+							"None":0,
+							"AA":0,
+							"BA":0.8333,
+							"MA":0.1667,
+							"PhD":0
 						}
 					}
 				]

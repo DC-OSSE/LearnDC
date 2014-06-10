@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue May 13 10:12:21 2014",
+	"timestamp": "Tue Jun 10 18:32:15 2014",
 	"org_type": "school",
 	"org_name": "Mamie D. Lee School",
 	"report_card": {
@@ -144,13 +144,7 @@
 
 
 				]
-			}
-		]
-	 },
-
-
-	"profile": {
-		"sections": [
+			},
 			{
 				"id": "program_info",
 				"data": ["Adaptive Physical Education","Aquatics","Black History Month Club","Cooking Club","Dance Club","Intermediate Program(7th – 10th grade)","Intermediate Program(7th–10th grade)","Jewelry Club","Jewerly Club","Job Training Program (11th grade – Age 21)","Job Training Program (11th grade–age 21)","Photography Club","Primary Learning Center (1st – 6th grade)","Primary Learning Center (1st–6th grade)","Special Olympics","Therapeutic Art and Music","Therapeutic Recreation and Enrichment"
@@ -829,6 +823,23 @@
 							"entry":0.01,
 							"withdrawal":0.03,
 							"net_cumulative":-0.02
+						}
+					}
+				]
+			},
+			{
+				"id": "staff_degree",
+				"data": [
+					{
+						"key": {
+							"year": "2012"
+						},
+						"val": {
+							"None":0,
+							"AA":0,
+							"BA":1,
+							"MA":0,
+							"PhD":0
 						}
 					}
 				]

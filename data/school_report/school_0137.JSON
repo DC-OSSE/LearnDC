@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue May 13 10:09:10 2014",
+	"timestamp": "Tue Jun 10 18:29:19 2014",
 	"org_type": "school",
 	"org_name": "Maya Angelou PCS – Young Adult Learning Center",
 	"report_card": {
@@ -48,13 +48,7 @@
 
 
 				]
-			}
-		]
-	 },
-
-
-	"profile": {
-		"sections": [
+			},
 			{
 				"id": "program_info",
 				"data": [
@@ -321,6 +315,12 @@
 							"net_cumulative":0
 						}
 					}
+				]
+			},
+			{
+				"id": "staff_degree",
+				"data": [
+
 				]
 			}
 		]

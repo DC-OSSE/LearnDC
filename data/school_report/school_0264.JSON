@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue May 13 10:12:17 2014",
+	"timestamp": "Tue Jun 10 18:32:11 2014",
 	"org_type": "school",
 	"org_name": "LaSalle-Backus Education Campus",
 	"report_card": {
@@ -758,13 +758,7 @@
 
 
 				]
-			}
-		]
-	 },
-
-
-	"profile": {
-		"sections": [
+			},
 			{
 				"id": "program_info",
 				"data": ["Art Club","Chess Club","Debate Team","Georgia Avenue Family Support Collaborative","Music Club","Reading Intervention","Spanish Club","Step Team","Student Government","Theatre","Tools of the Mind","Washington DC Christian Reformed Church","Zumba"
@@ -3613,6 +3607,23 @@
 							"entry":0.03,
 							"withdrawal":0.01,
 							"net_cumulative":0.03
+						}
+					}
+				]
+			},
+			{
+				"id": "staff_degree",
+				"data": [
+					{
+						"key": {
+							"year": "2012"
+						},
+						"val": {
+							"None":0,
+							"AA":0,
+							"BA":0.6087,
+							"MA":0.3913,
+							"PhD":0
 						}
 					}
 				]

@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue May 13 10:14:28 2014",
+	"timestamp": "Tue Jun 10 18:34:04 2014",
 	"org_type": "school",
 	"org_name": "Walker-Jones Education Campus",
 	"report_card": {
@@ -609,13 +609,7 @@
 
 
 				]
-			}
-		]
-	 },
-
-
-	"profile": {
-		"sections": [
+			},
 			{
 				"id": "program_info",
 				"data": ["Achievement Networks","Baseball","Basketball","City Dance Company","Cub Scouts","DIEBELS","First In Math","Fresh Start Catering (DC Central Kitchen)","Fundations","Girls on the Run DC","Go Math","LEGO Robotics","Reggio-Emilia Inspired Program","Shakespeare Theatre Company","The Alliance For a Healthier Generation","The Farm at Walker-Jones","The Walker-Jones Food Lab","Track & Field","Walker-Jones Junior Bee-Keepers","Whole Foods"
@@ -3148,6 +3142,23 @@
 							"entry":0.01,
 							"withdrawal":0.01,
 							"net_cumulative":0
+						}
+					}
+				]
+			},
+			{
+				"id": "staff_degree",
+				"data": [
+					{
+						"key": {
+							"year": "2012"
+						},
+						"val": {
+							"None":0,
+							"AA":0,
+							"BA":0.5294,
+							"MA":0.4706,
+							"PhD":0
 						}
 					}
 				]

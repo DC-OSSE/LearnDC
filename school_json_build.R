@@ -149,19 +149,8 @@ for(i in 1:nrow(school_dir)){
         cat(ExGraduation(org_code, level+1, "school"), fill=TRUE)
         cat('\n',indent(level), ']', sep="", fill=TRUE)
         down(level)
-        cat(indent(level),'}', sep="", fill=TRUE)
+        cat(indent(level),'},', sep="", fill=TRUE)
     }
-
-    down(level)
-    cat(indent(level),']', sep="", fill=TRUE)
-    down(level)
-
-    cat(indent(level), '},', fill=TRUE)
-    cat('\n', fill=TRUE)
-    cat(indent(level),'"profile": {', sep="", fill=TRUE)
-    up(level)
-    cat(indent(level), '"sections": [', sep="", fill=TRUE)
-    up(level)
     {
         ## Program Info
         cat(indent(level),'{', sep="", fill=TRUE)
@@ -274,6 +263,17 @@ for(i in 1:nrow(school_dir)){
         cat(indent(level), '"id": "mid_year_entry_and_withdrawal",', sep="", fill=TRUE)
         cat(indent(level), '"data": [', sep="", fill=TRUE)
         cat(WriteEnterWithdraw(org_code, level+1), fill=TRUE)
+        cat(indent(level), ']', sep="", fill=TRUE)
+        down(level)
+        cat(indent(level),'},', sep="", fill=TRUE)
+    }
+    {
+        #### Staff Degree Data
+        cat(indent(level),'{', sep="", fill=TRUE)
+        up(level)
+        cat(indent(level), '"id": "staff_degree",', sep="", fill=TRUE)
+        cat(indent(level), '"data": [', sep="", fill=TRUE)
+        cat(WriteStaffExp(org_code, level+1), fill=TRUE)
         cat(indent(level), ']', sep="", fill=TRUE)
         down(level)
         cat(indent(level),'}', sep="", fill=TRUE)

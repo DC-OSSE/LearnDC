@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue May 13 10:14:46 2014",
+	"timestamp": "Tue Jun 10 18:34:10 2014",
 	"org_type": "school",
 	"org_name": "Wheatley Education Campus",
 	"report_card": {
@@ -657,13 +657,7 @@
 
 
 				]
-			}
-		]
-	 },
-
-
-	"profile": {
-		"sections": [
+			},
 			{
 				"id": "program_info",
 				"data": ["Art Around the Corner","Boys and Girls Basketball","Cross Country","DC Scores","Football","Fundations","Girls on the Run","Joy of Motion","Just Words","Kickball","Live It Learn It","Read 180","Reading Partners","Track"
@@ -3256,6 +3250,23 @@
 							"entry":0.02,
 							"withdrawal":0.01,
 							"net_cumulative":0.01
+						}
+					}
+				]
+			},
+			{
+				"id": "staff_degree",
+				"data": [
+					{
+						"key": {
+							"year": "2012"
+						},
+						"val": {
+							"None":0,
+							"AA":0,
+							"BA":0.5312,
+							"MA":0.4688,
+							"PhD":0
 						}
 					}
 				]

@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue May 13 10:16:52 2014",
+	"timestamp": "Tue Jun 10 18:36:03 2014",
 	"org_type": "school",
 	"org_name": "Youth Services Center",
 	"report_card": {
@@ -152,13 +152,7 @@
 
 
 				]
-			}
-		]
-	 },
-
-
-	"profile": {
-		"sections": [
+			},
 			{
 				"id": "program_info",
 				"data": ["After School Tutorial","Book Club","Evening Credit Recovery","Physical Education and Health","Poetry Out Loud","PSAT","Read 180","READISTEP","SAT","World Languages: Spanish"
@@ -220,6 +214,14 @@
 						"val": 17
 					},
 					{
+						"key": {"grade": "08", "subgroup": "All", "year": "2006"},
+						"val": 11
+					},
+					{
+						"key": {"grade": "08", "subgroup": "African American", "year": "2006"},
+						"val": 11
+					},
+					{
 						"key": {"grade": "09", "subgroup": "All", "year": "2006"},
 						"val": 25
 					},
@@ -230,14 +232,6 @@
 					{
 						"key": {"grade": "09", "subgroup": "Male", "year": "2006"},
 						"val": 18
-					},
-					{
-						"key": {"grade": "08", "subgroup": "All", "year": "2006"},
-						"val": 11
-					},
-					{
-						"key": {"grade": "08", "subgroup": "African American", "year": "2006"},
-						"val": 11
 					},
 					{
 						"key": {"grade": "All", "subgroup": "All", "year": "2007"},
@@ -344,18 +338,6 @@
 						"val": 11
 					},
 					{
-						"key": {"grade": "08", "subgroup": "All", "year": "2009"},
-						"val": 11
-					},
-					{
-						"key": {"grade": "08", "subgroup": "African American", "year": "2009"},
-						"val": 10
-					},
-					{
-						"key": {"grade": "08", "subgroup": "Male", "year": "2009"},
-						"val": 10
-					},
-					{
 						"key": {"grade": "09", "subgroup": "All", "year": "2009"},
 						"val": 31
 					},
@@ -384,6 +366,18 @@
 						"val": 23
 					},
 					{
+						"key": {"grade": "08", "subgroup": "All", "year": "2009"},
+						"val": 11
+					},
+					{
+						"key": {"grade": "08", "subgroup": "African American", "year": "2009"},
+						"val": 10
+					},
+					{
+						"key": {"grade": "08", "subgroup": "Male", "year": "2009"},
+						"val": 10
+					},
+					{
 						"key": {"grade": "All", "subgroup": "All", "year": "2010"},
 						"val": 77
 					},
@@ -404,10 +398,6 @@
 						"val": 68
 					},
 					{
-						"key": {"grade": "10", "subgroup": "All", "year": "2010"},
-						"val": 10
-					},
-					{
 						"key": {"grade": "09", "subgroup": "All", "year": "2010"},
 						"val": 61
 					},
@@ -426,6 +416,10 @@
 					{
 						"key": {"grade": "09", "subgroup": "Male", "year": "2010"},
 						"val": 54
+					},
+					{
+						"key": {"grade": "10", "subgroup": "All", "year": "2010"},
+						"val": 10
 					},
 					{
 						"key": {"grade": "All", "subgroup": "All", "year": "2011"},
@@ -500,22 +494,6 @@
 						"val": 16
 					},
 					{
-						"key": {"grade": "10", "subgroup": "All", "year": "2012"},
-						"val": 21
-					},
-					{
-						"key": {"grade": "10", "subgroup": "African American", "year": "2012"},
-						"val": 20
-					},
-					{
-						"key": {"grade": "10", "subgroup": "Economically Disadvantaged", "year": "2012"},
-						"val": 10
-					},
-					{
-						"key": {"grade": "10", "subgroup": "Male", "year": "2012"},
-						"val": 18
-					},
-					{
 						"key": {"grade": "09", "subgroup": "All", "year": "2012"},
 						"val": 47
 					},
@@ -534,6 +512,22 @@
 					{
 						"key": {"grade": "09", "subgroup": "Male", "year": "2012"},
 						"val": 40
+					},
+					{
+						"key": {"grade": "10", "subgroup": "All", "year": "2012"},
+						"val": 21
+					},
+					{
+						"key": {"grade": "10", "subgroup": "African American", "year": "2012"},
+						"val": 20
+					},
+					{
+						"key": {"grade": "10", "subgroup": "Economically Disadvantaged", "year": "2012"},
+						"val": 10
+					},
+					{
+						"key": {"grade": "10", "subgroup": "Male", "year": "2012"},
+						"val": 18
 					},
 					{
 						"key": {"grade": "All", "subgroup": "All", "year": "2013"},
@@ -781,6 +775,23 @@
 							"entry":0.26,
 							"withdrawal":0.6,
 							"net_cumulative":-0.33
+						}
+					}
+				]
+			},
+			{
+				"id": "staff_degree",
+				"data": [
+					{
+						"key": {
+							"year": "2012"
+						},
+						"val": {
+							"None":0,
+							"AA":0,
+							"BA":0.6154,
+							"MA":0.3846,
+							"PhD":0
 						}
 					}
 				]

@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue May 13 10:12:54 2014",
+	"timestamp": "Tue Jun 10 18:32:43 2014",
 	"org_type": "school",
 	"org_name": "Noyes Education Campus",
 	"report_card": {
@@ -624,13 +624,7 @@
 
 
 				]
-			}
-		]
-	 },
-
-
-	"profile": {
-		"sections": [
+			},
 			{
 				"id": "program_info",
 				"data": ["African Heritage","Basketball","Chorus","Dance","Drama Guild","Football","Four-Year-Old Program","Fundations","Martial Arts-Capoeira Angola","Noyes/University Instructors After School Academy","Oratorical Club","Peer Mediation","READ 180","Schoolwide Application Model (SAM)","Ski Club","Step Team","Three-Year-Old Program","Young Mens Group-Alpha Phi Alpha","Young Womens Group-Alpha Kappa Alpha","Youth Leadership"
@@ -3171,6 +3165,23 @@
 							"entry":0.01,
 							"withdrawal":0.01,
 							"net_cumulative":0.01
+						}
+					}
+				]
+			},
+			{
+				"id": "staff_degree",
+				"data": [
+					{
+						"key": {
+							"year": "2012"
+						},
+						"val": {
+							"None":0,
+							"AA":0,
+							"BA":0.6957,
+							"MA":0.3043,
+							"PhD":0
 						}
 					}
 				]
