@@ -40,7 +40,7 @@ WriteGraduation <- function(gdata, level){
     .lv <- level
     .ret <- c()
     year <- gdata$cohort_year[1] +4
-    .subgroups <- c("African American","White","Hispanic","Asian","American Indian", "Pacific Islander", "Multi Racial","Special Education","English Learner","Economically Disadvantaged","Male", "Female")
+    .subgroups <- c("African American","White","Hispanic","Asian","American Indian or Alaskan Native", "Pacific Islander", "Multiracial","Special Education","English Learner","Economically Disadvantaged","Male", "Female")
 
     for(s in 0:length(.subgroups)){
         soutput <- "All"
@@ -238,7 +238,7 @@ WriteEnroll <- function(.edat, level){
 
     .glist <- unique(.edat$grade)
 
-    .subgroups <- c("African American","White","Hispanic","Asian","American Indian", "Pacific Islander", "Multi Racial","Special Education","English Learner","Economically Disadvantaged","Male", "Female")
+    .subgroups <- c("African American","White","Hispanic","Asian","American Indian", "Pacific Islander", "Multiracial","Special Education","English Learner","Economically Disadvantaged","Male", "Female")
 
     for(g in 0:length(.glist)){
         .tmp <- .edat

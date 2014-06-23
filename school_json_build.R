@@ -96,16 +96,6 @@ for(i in 1:nrow(school_dir)){
         cat(indent(level),'},', sep="", fill=TRUE)
     }
     {
-        ## Highly Qualified Teacher Status
-        cat(indent(level),'{', sep="", fill=TRUE)
-        up(level)
-        cat(indent(level), '"id": "hqt_status",', sep="", fill=TRUE)
-        
-        cat(indent(level), '"data":', ExHQTStatus(org_code), sep="", fill=TRUE)	
-        down(level)
-        cat(indent(level),'},', sep="", fill=TRUE)
-    }
-    {
         ## Early Childhood
         cat(indent(level),'{', sep="", fill=TRUE)
         up(level)

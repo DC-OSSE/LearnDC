@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue Jun 10 18:30:49 2014",
+	"timestamp": "Tue Jun 17 18:27:06 2014",
 	"org_type": "school",
 	"org_name": "Amidon-Bowen Elementary School",
 	"report_card": {
@@ -454,10 +454,6 @@
 						"val": {"baseline": 0.176, "target": 0.313333}
 					}
 				]
-			},
-			{
-				"id": "hqt_status",
-				"data":0.786
 			},
 			{
 				"id": "early_childhood",
@@ -2573,16 +2569,8 @@
 				"id": "staff_degree",
 				"data": [
 					{
-						"key": {
-							"year": "2012"
-						},
-						"val": {
-							"None":0,
-							"AA":0,
-							"BA":0.7778,
-							"MA":0.2222,
-							"PhD":0
-						}
+						"key": {"year": "2012"},
+						"val": {"None":0, "AA":0, "BA":0.7778, "MA":0.2222, "PhD":0, "HQT":0.786}
 					}
 				]
 			}

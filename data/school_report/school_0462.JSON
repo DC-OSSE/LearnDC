@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue Jun 10 18:35:44 2014",
+	"timestamp": "Tue Jun 17 18:32:04 2014",
 	"org_type": "school",
 	"org_name": "Ballou STAY High School",
 	"report_card": {
@@ -123,10 +123,6 @@
 				"data": [
 
 				]
-			},
-			{
-				"id": "hqt_status",
-				"data":0.77
 			},
 			{
 				"id": "early_childhood",
@@ -382,18 +378,6 @@
 						"val": 233
 					},
 					{
-						"key": {"grade": "10", "subgroup": "All", "year": "2008"},
-						"val": 19
-					},
-					{
-						"key": {"grade": "10", "subgroup": "African American", "year": "2008"},
-						"val": 19
-					},
-					{
-						"key": {"grade": "10", "subgroup": "Female", "year": "2008"},
-						"val": 15
-					},
-					{
 						"key": {"grade": "AO", "subgroup": "All", "year": "2008"},
 						"val": 579
 					},
@@ -428,6 +412,18 @@
 					{
 						"key": {"grade": "09", "subgroup": "Female", "year": "2008"},
 						"val": 40
+					},
+					{
+						"key": {"grade": "10", "subgroup": "All", "year": "2008"},
+						"val": 19
+					},
+					{
+						"key": {"grade": "10", "subgroup": "African American", "year": "2008"},
+						"val": 19
+					},
+					{
+						"key": {"grade": "10", "subgroup": "Female", "year": "2008"},
+						"val": 15
 					},
 					{
 						"key": {"grade": "12", "subgroup": "All", "year": "2008"},
@@ -542,22 +538,6 @@
 						"val": 472
 					},
 					{
-						"key": {"grade": "10", "subgroup": "All", "year": "2010"},
-						"val": 17
-					},
-					{
-						"key": {"grade": "10", "subgroup": "African American", "year": "2010"},
-						"val": 17
-					},
-					{
-						"key": {"grade": "10", "subgroup": "Economically Disadvantaged", "year": "2010"},
-						"val": 10
-					},
-					{
-						"key": {"grade": "10", "subgroup": "Female", "year": "2010"},
-						"val": 10
-					},
-					{
 						"key": {"grade": "09", "subgroup": "All", "year": "2010"},
 						"val": 54
 					},
@@ -576,6 +556,22 @@
 					{
 						"key": {"grade": "09", "subgroup": "Female", "year": "2010"},
 						"val": 31
+					},
+					{
+						"key": {"grade": "10", "subgroup": "All", "year": "2010"},
+						"val": 17
+					},
+					{
+						"key": {"grade": "10", "subgroup": "African American", "year": "2010"},
+						"val": 17
+					},
+					{
+						"key": {"grade": "10", "subgroup": "Economically Disadvantaged", "year": "2010"},
+						"val": 10
+					},
+					{
+						"key": {"grade": "10", "subgroup": "Female", "year": "2010"},
+						"val": 10
 					},
 					{
 						"key": {"grade": "All", "subgroup": "All", "year": "2011"},
@@ -1180,16 +1176,8 @@
 				"id": "staff_degree",
 				"data": [
 					{
-						"key": {
-							"year": "2012"
-						},
-						"val": {
-							"None":0,
-							"AA":0,
-							"BA":0.9231,
-							"MA":0.0769,
-							"PhD":0
-						}
+						"key": {"year": "2012"},
+						"val": {"None":0, "AA":0, "BA":0.9231, "MA":0.0769, "PhD":0, "HQT":0.77}
 					}
 				]
 			}

@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue Jun 10 18:29:15 2014",
+	"timestamp": "Tue Jun 17 18:25:32 2014",
 	"org_type": "school",
 	"org_name": "Mary McLeod Bethune Day Academy PCS",
 	"report_card": {
@@ -535,10 +535,6 @@
 						"val": {"baseline": 0.081505, "target": 0.234587}
 					}
 				]
-			},
-			{
-				"id": "hqt_status",
-				"data":0.886
 			},
 			{
 				"id": "early_childhood",
@@ -2687,16 +2683,8 @@
 				"id": "staff_degree",
 				"data": [
 					{
-						"key": {
-							"year": "2012"
-						},
-						"val": {
-							"None":0.0263,
-							"AA":0,
-							"BA":0.5789,
-							"MA":0.3684,
-							"PhD":0.0263
-						}
+						"key": {"year": "2012"},
+						"val": {"None":0.0263, "AA":0, "BA":0.5789, "MA":0.3684, "PhD":0.0263, "HQT":0.886}
 					}
 				]
 			}

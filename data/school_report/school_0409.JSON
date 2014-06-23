@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue Jun 10 18:34:59 2014",
+	"timestamp": "Tue Jun 17 18:31:15 2014",
 	"org_type": "school",
 	"org_name": "School Without Walls @ Francis-Stevens",
 	"report_card": {
@@ -614,10 +614,6 @@
 						"val": {"baseline": 0.5, "target": 0.583333}
 					}
 				]
-			},
-			{
-				"id": "hqt_status",
-				"data":0.909
 			},
 			{
 				"id": "early_childhood",
@@ -1930,7 +1926,7 @@
 						"val": 14
 					},
 					{
-						"key": {"grade": "All", "subgroup": "Multi Racial", "year": "2010"},
+						"key": {"grade": "All", "subgroup": "Multiracial", "year": "2010"},
 						"val": 10
 					},
 					{
@@ -2498,7 +2494,7 @@
 						"val": 18
 					},
 					{
-						"key": {"grade": "All", "subgroup": "Multi Racial", "year": "2013"},
+						"key": {"grade": "All", "subgroup": "Multiracial", "year": "2013"},
 						"val": 11
 					},
 					{
@@ -3185,16 +3181,8 @@
 				"id": "staff_degree",
 				"data": [
 					{
-						"key": {
-							"year": "2012"
-						},
-						"val": {
-							"None":0,
-							"AA":0,
-							"BA":0.6111,
-							"MA":0.3889,
-							"PhD":0
-						}
+						"key": {"year": "2012"},
+						"val": {"None":0, "AA":0, "BA":0.6111, "MA":0.3889, "PhD":0, "HQT":0.909}
 					}
 				]
 			}

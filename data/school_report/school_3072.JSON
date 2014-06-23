@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue Jun 10 18:37:08 2014",
+	"timestamp": "Tue Jun 17 18:33:33 2014",
 	"org_type": "school",
 	"org_name": "AppleTree Early Learning PCS – Southeast",
 	"report_card": {
@@ -20,10 +20,6 @@
 				"data": [
 
 				]
-			},
-			{
-				"id": "hqt_status",
-				"data":null
 			},
 			{
 				"id": "early_childhood",
@@ -87,26 +83,6 @@
 						"val": 40
 					},
 					{
-						"key": {"grade": "PS", "subgroup": "All", "year": "2011"},
-						"val": 53
-					},
-					{
-						"key": {"grade": "PS", "subgroup": "African American", "year": "2011"},
-						"val": 52
-					},
-					{
-						"key": {"grade": "PS", "subgroup": "Economically Disadvantaged", "year": "2011"},
-						"val": 52
-					},
-					{
-						"key": {"grade": "PS", "subgroup": "Male", "year": "2011"},
-						"val": 23
-					},
-					{
-						"key": {"grade": "PS", "subgroup": "Female", "year": "2011"},
-						"val": 30
-					},
-					{
 						"key": {"grade": "PK", "subgroup": "All", "year": "2011"},
 						"val": 27
 					},
@@ -125,6 +101,26 @@
 					{
 						"key": {"grade": "PK", "subgroup": "Female", "year": "2011"},
 						"val": 10
+					},
+					{
+						"key": {"grade": "PS", "subgroup": "All", "year": "2011"},
+						"val": 53
+					},
+					{
+						"key": {"grade": "PS", "subgroup": "African American", "year": "2011"},
+						"val": 52
+					},
+					{
+						"key": {"grade": "PS", "subgroup": "Economically Disadvantaged", "year": "2011"},
+						"val": 52
+					},
+					{
+						"key": {"grade": "PS", "subgroup": "Male", "year": "2011"},
+						"val": 23
+					},
+					{
+						"key": {"grade": "PS", "subgroup": "Female", "year": "2011"},
+						"val": 30
 					},
 					{
 						"key": {"grade": "All", "subgroup": "All", "year": "2012"},
@@ -207,26 +203,6 @@
 						"val": 89
 					},
 					{
-						"key": {"grade": "PS", "subgroup": "All", "year": "2013"},
-						"val": 81
-					},
-					{
-						"key": {"grade": "PS", "subgroup": "African American", "year": "2013"},
-						"val": 76
-					},
-					{
-						"key": {"grade": "PS", "subgroup": "Economically Disadvantaged", "year": "2013"},
-						"val": 81
-					},
-					{
-						"key": {"grade": "PS", "subgroup": "Male", "year": "2013"},
-						"val": 36
-					},
-					{
-						"key": {"grade": "PS", "subgroup": "Female", "year": "2013"},
-						"val": 45
-					},
-					{
 						"key": {"grade": "PK", "subgroup": "All", "year": "2013"},
 						"val": 91
 					},
@@ -245,6 +221,26 @@
 					{
 						"key": {"grade": "PK", "subgroup": "Female", "year": "2013"},
 						"val": 44
+					},
+					{
+						"key": {"grade": "PS", "subgroup": "All", "year": "2013"},
+						"val": 81
+					},
+					{
+						"key": {"grade": "PS", "subgroup": "African American", "year": "2013"},
+						"val": 76
+					},
+					{
+						"key": {"grade": "PS", "subgroup": "Economically Disadvantaged", "year": "2013"},
+						"val": 81
+					},
+					{
+						"key": {"grade": "PS", "subgroup": "Male", "year": "2013"},
+						"val": 36
+					},
+					{
+						"key": {"grade": "PS", "subgroup": "Female", "year": "2013"},
+						"val": 45
 					}
 				]
 			},
@@ -299,18 +295,7 @@
 			{
 				"id": "staff_degree",
 				"data": [
-					{
-						"key": {
-							"year": "2012"
-						},
-						"val": {
-							"None":1,
-							"AA":0,
-							"BA":0,
-							"MA":0,
-							"PhD":0
-						}
-					}
+
 				]
 			}
 		]

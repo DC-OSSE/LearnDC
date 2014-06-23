@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue Jun 10 18:36:07 2014",
+	"timestamp": "Tue Jun 17 18:32:29 2014",
 	"org_type": "school",
 	"org_name": "C.H.O.I.C.E. Academy @ Emery",
 	"report_card": {
@@ -353,10 +353,6 @@
 				]
 			},
 			{
-				"id": "hqt_status",
-				"data":0.65
-			},
-			{
 				"id": "early_childhood",
 				"data": [
 
@@ -399,16 +395,24 @@
 						"val": 24
 					},
 					{
-						"key": {"grade": "09", "subgroup": "All", "year": "2004"},
-						"val": 16
+						"key": {"grade": "08", "subgroup": "All", "year": "2004"},
+						"val": 23
 					},
 					{
-						"key": {"grade": "09", "subgroup": "African American", "year": "2004"},
-						"val": 16
+						"key": {"grade": "08", "subgroup": "African American", "year": "2004"},
+						"val": 21
 					},
 					{
-						"key": {"grade": "09", "subgroup": "Male", "year": "2004"},
-						"val": 11
+						"key": {"grade": "08", "subgroup": "Male", "year": "2004"},
+						"val": 17
+					},
+					{
+						"key": {"grade": "11", "subgroup": "All", "year": "2004"},
+						"val": 10
+					},
+					{
+						"key": {"grade": "11", "subgroup": "African American", "year": "2004"},
+						"val": 10
 					},
 					{
 						"key": {"grade": "10", "subgroup": "All", "year": "2004"},
@@ -423,27 +427,19 @@
 						"val": 10
 					},
 					{
-						"key": {"grade": "08", "subgroup": "All", "year": "2004"},
-						"val": 23
+						"key": {"grade": "09", "subgroup": "All", "year": "2004"},
+						"val": 16
 					},
 					{
-						"key": {"grade": "08", "subgroup": "African American", "year": "2004"},
-						"val": 21
+						"key": {"grade": "09", "subgroup": "African American", "year": "2004"},
+						"val": 16
 					},
 					{
-						"key": {"grade": "08", "subgroup": "Male", "year": "2004"},
-						"val": 17
+						"key": {"grade": "09", "subgroup": "Male", "year": "2004"},
+						"val": 11
 					},
 					{
 						"key": {"grade": "07", "subgroup": "All", "year": "2004"},
-						"val": 10
-					},
-					{
-						"key": {"grade": "11", "subgroup": "All", "year": "2004"},
-						"val": 10
-					},
-					{
-						"key": {"grade": "11", "subgroup": "African American", "year": "2004"},
 						"val": 10
 					},
 					{
@@ -843,18 +839,7 @@
 			{
 				"id": "staff_degree",
 				"data": [
-					{
-						"key": {
-							"year": "2012"
-						},
-						"val": {
-							"None":0,
-							"AA":0,
-							"BA":0.8333,
-							"MA":0.1667,
-							"PhD":0
-						}
-					}
+
 				]
 			}
 		]

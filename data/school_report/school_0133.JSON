@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue Jun 10 18:29:09 2014",
+	"timestamp": "Tue Jun 17 18:25:26 2014",
 	"org_type": "school",
 	"org_name": "Maya Angelou PCS – Evans Middle School",
 	"report_card": {
@@ -489,10 +489,6 @@
 				]
 			},
 			{
-				"id": "hqt_status",
-				"data":0.919
-			},
-			{
 				"id": "early_childhood",
 				"data": [
 
@@ -680,6 +676,26 @@
 						"val": 105
 					},
 					{
+						"key": {"grade": "06", "subgroup": "All", "year": "2009"},
+						"val": 63
+					},
+					{
+						"key": {"grade": "06", "subgroup": "African American", "year": "2009"},
+						"val": 62
+					},
+					{
+						"key": {"grade": "06", "subgroup": "Economically Disadvantaged", "year": "2009"},
+						"val": 54
+					},
+					{
+						"key": {"grade": "06", "subgroup": "Male", "year": "2009"},
+						"val": 38
+					},
+					{
+						"key": {"grade": "06", "subgroup": "Female", "year": "2009"},
+						"val": 25
+					},
+					{
 						"key": {"grade": "07", "subgroup": "All", "year": "2009"},
 						"val": 67
 					},
@@ -702,26 +718,6 @@
 					{
 						"key": {"grade": "07", "subgroup": "Female", "year": "2009"},
 						"val": 41
-					},
-					{
-						"key": {"grade": "06", "subgroup": "All", "year": "2009"},
-						"val": 63
-					},
-					{
-						"key": {"grade": "06", "subgroup": "African American", "year": "2009"},
-						"val": 62
-					},
-					{
-						"key": {"grade": "06", "subgroup": "Economically Disadvantaged", "year": "2009"},
-						"val": 54
-					},
-					{
-						"key": {"grade": "06", "subgroup": "Male", "year": "2009"},
-						"val": 38
-					},
-					{
-						"key": {"grade": "06", "subgroup": "Female", "year": "2009"},
-						"val": 25
 					},
 					{
 						"key": {"grade": "08", "subgroup": "All", "year": "2009"},
@@ -1495,16 +1491,8 @@
 				"id": "staff_degree",
 				"data": [
 					{
-						"key": {
-							"year": "2012"
-						},
-						"val": {
-							"None":0,
-							"AA":0,
-							"BA":0.8125,
-							"MA":0.1875,
-							"PhD":0
-						}
+						"key": {"year": "2012"},
+						"val": {"None":0, "AA":0, "BA":0.8125, "MA":0.1875, "PhD":0, "HQT":0.919}
 					}
 				]
 			}

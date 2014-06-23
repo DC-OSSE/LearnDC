@@ -1,5 +1,5 @@
 {
-	"timestamp": "Fri Apr 18 10:43:13 2014",
+	"timestamp": "Tue Jun 17 14:59:25 2014",
 	"org_type": "lea",
 	"org_name": "Shining Stars Montessori PCS",
 	"report_card": {
@@ -28,18 +28,6 @@
 				]
 			},
 			{
-				"id": "college_enroll",
-				"data": [
-
-				]
-			}
-		]
-	 },
-
-
-	"profile": {
-		"sections": [
-			{
 				"id": "enrollment",
 				"data": [
 					{
@@ -67,6 +55,10 @@
 						"val": 26
 					},
 					{
+						"key": {"grade": "All", "subgroup": "TANF or SNAP Eligible", "year": "2011"},
+						"val": 18
+					},
+					{
 						"key": {"grade": "PS", "subgroup": "All", "year": "2011"},
 						"val": 33
 					},
@@ -91,68 +83,12 @@
 						"val": 17
 					},
 					{
+						"key": {"grade": "PS", "subgroup": "TANF or SNAP Eligible", "year": "2011"},
+						"val": 10
+					},
+					{
 						"key": {"grade": "PK", "subgroup": "All", "year": "2011"},
 						"val": 11
-					},
-					{
-						"key": {"grade": "All", "subgroup": "All", "year": "2013"},
-						"val": 87
-					},
-					{
-						"key": {"grade": "All", "subgroup": "African American", "year": "2013"},
-						"val": 32
-					},
-					{
-						"key": {"grade": "All", "subgroup": "White", "year": "2013"},
-						"val": 28
-					},
-					{
-						"key": {"grade": "All", "subgroup": "Multi Racial", "year": "2013"},
-						"val": 10
-					},
-					{
-						"key": {"grade": "All", "subgroup": "Economically Disadvantaged", "year": "2013"},
-						"val": 14
-					},
-					{
-						"key": {"grade": "All", "subgroup": "Male", "year": "2013"},
-						"val": 43
-					},
-					{
-						"key": {"grade": "All", "subgroup": "Female", "year": "2013"},
-						"val": 41
-					},
-					{
-						"key": {"grade": "PS", "subgroup": "All", "year": "2013"},
-						"val": 57
-					},
-					{
-						"key": {"grade": "PS", "subgroup": "African American", "year": "2013"},
-						"val": 12
-					},
-					{
-						"key": {"grade": "PS", "subgroup": "White", "year": "2013"},
-						"val": 22
-					},
-					{
-						"key": {"grade": "PS", "subgroup": "Multi Racial", "year": "2013"},
-						"val": 10
-					},
-					{
-						"key": {"grade": "PS", "subgroup": "Male", "year": "2013"},
-						"val": 27
-					},
-					{
-						"key": {"grade": "PS", "subgroup": "Female", "year": "2013"},
-						"val": 27
-					},
-					{
-						"key": {"grade": "PK", "subgroup": "All", "year": "2013"},
-						"val": 16
-					},
-					{
-						"key": {"grade": "PK", "subgroup": "African American", "year": "2013"},
-						"val": 10
 					},
 					{
 						"key": {"grade": "All", "subgroup": "All", "year": "2012"},
@@ -175,6 +111,14 @@
 						"val": 29
 					},
 					{
+						"key": {"grade": "All", "subgroup": "TANF or SNAP Eligible", "year": "2012"},
+						"val": 21
+					},
+					{
+						"key": {"grade": "PK", "subgroup": "All", "year": "2012"},
+						"val": 15
+					},
+					{
 						"key": {"grade": "PS", "subgroup": "All", "year": "2012"},
 						"val": 25
 					},
@@ -195,8 +139,68 @@
 						"val": 14
 					},
 					{
-						"key": {"grade": "PK", "subgroup": "All", "year": "2012"},
-						"val": 15
+						"key": {"grade": "All", "subgroup": "All", "year": "2013"},
+						"val": 87
+					},
+					{
+						"key": {"grade": "All", "subgroup": "African American", "year": "2013"},
+						"val": 32
+					},
+					{
+						"key": {"grade": "All", "subgroup": "White", "year": "2013"},
+						"val": 28
+					},
+					{
+						"key": {"grade": "All", "subgroup": "Multiracial", "year": "2013"},
+						"val": 10
+					},
+					{
+						"key": {"grade": "All", "subgroup": "Economically Disadvantaged", "year": "2013"},
+						"val": 14
+					},
+					{
+						"key": {"grade": "All", "subgroup": "Male", "year": "2013"},
+						"val": 43
+					},
+					{
+						"key": {"grade": "All", "subgroup": "Female", "year": "2013"},
+						"val": 41
+					},
+					{
+						"key": {"grade": "All", "subgroup": "TANF or SNAP Eligible", "year": "2013"},
+						"val": 13
+					},
+					{
+						"key": {"grade": "PS", "subgroup": "All", "year": "2013"},
+						"val": 57
+					},
+					{
+						"key": {"grade": "PS", "subgroup": "African American", "year": "2013"},
+						"val": 12
+					},
+					{
+						"key": {"grade": "PS", "subgroup": "White", "year": "2013"},
+						"val": 22
+					},
+					{
+						"key": {"grade": "PS", "subgroup": "Multiracial", "year": "2013"},
+						"val": 10
+					},
+					{
+						"key": {"grade": "PS", "subgroup": "Male", "year": "2013"},
+						"val": 27
+					},
+					{
+						"key": {"grade": "PS", "subgroup": "Female", "year": "2013"},
+						"val": 27
+					},
+					{
+						"key": {"grade": "PK", "subgroup": "All", "year": "2013"},
+						"val": 16
+					},
+					{
+						"key": {"grade": "PK", "subgroup": "African American", "year": "2013"},
+						"val": 10
 					}
 				]
 			},
@@ -216,6 +220,15 @@
 				"id": "special_ed",
 				"data": [
 
+				]
+			},
+			{
+				"id": "special_ed_apr_url",
+				"data": [
+					{
+						"key": {"year": "2011"},
+						"val": {"sped_apr_url": "http://osse.dc.gov/publication/ffy-2011-shining-stars-montessori-pcs-idea-part-b-determinations"}
+					}
 				]
 			}
 		]

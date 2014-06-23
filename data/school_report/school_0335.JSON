@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue Jun 10 18:34:10 2014",
+	"timestamp": "Tue Jun 17 18:30:26 2014",
 	"org_type": "school",
 	"org_name": "Wheatley Education Campus",
 	"report_card": {
@@ -631,10 +631,6 @@
 						"val": {"baseline": 0.018181, "target": 0.181817}
 					}
 				]
-			},
-			{
-				"id": "hqt_status",
-				"data":0.667
 			},
 			{
 				"id": "early_childhood",
@@ -2571,7 +2567,7 @@
 						"val": 12
 					},
 					{
-						"key": {"grade": "All", "subgroup": "Multi Racial", "year": "2013"},
+						"key": {"grade": "All", "subgroup": "Multiracial", "year": "2013"},
 						"val": 10
 					},
 					{
@@ -3258,16 +3254,8 @@
 				"id": "staff_degree",
 				"data": [
 					{
-						"key": {
-							"year": "2012"
-						},
-						"val": {
-							"None":0,
-							"AA":0,
-							"BA":0.5312,
-							"MA":0.4688,
-							"PhD":0
-						}
+						"key": {"year": "2012"},
+						"val": {"None":0, "AA":0, "BA":0.5312, "MA":0.4688, "PhD":0, "HQT":0.667}
 					}
 				]
 			}

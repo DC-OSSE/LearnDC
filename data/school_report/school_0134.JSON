@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue Jun 10 18:29:12 2014",
+	"timestamp": "Tue Jun 17 18:25:28 2014",
 	"org_type": "school",
 	"org_name": "Ideal Academy PCS",
 	"report_card": {
@@ -574,10 +574,6 @@
 						"val": {"baseline": 0.364406, "target": 0.470338}
 					}
 				]
-			},
-			{
-				"id": "hqt_status",
-				"data":1
 			},
 			{
 				"id": "early_childhood",
@@ -3063,16 +3059,8 @@
 				"id": "staff_degree",
 				"data": [
 					{
-						"key": {
-							"year": "2012"
-						},
-						"val": {
-							"None":0,
-							"AA":0,
-							"BA":0.5862,
-							"MA":0.4138,
-							"PhD":0
-						}
+						"key": {"year": "2012"},
+						"val": {"None":0, "AA":0, "BA":0.5862, "MA":0.4138, "PhD":0, "HQT":1}
 					}
 				]
 			}

@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue Jun 10 18:34:18 2014",
+	"timestamp": "Tue Jun 17 18:30:33 2014",
 	"org_type": "school",
 	"org_name": "Whittier Education Campus",
 	"report_card": {
@@ -687,10 +687,6 @@
 						"val": {"baseline": 0.027027, "target": 0.189189}
 					}
 				]
-			},
-			{
-				"id": "hqt_status",
-				"data":0.795
 			},
 			{
 				"id": "early_childhood",
@@ -3362,16 +3358,8 @@
 				"id": "staff_degree",
 				"data": [
 					{
-						"key": {
-							"year": "2012"
-						},
-						"val": {
-							"None":0,
-							"AA":0,
-							"BA":0.7917,
-							"MA":0.2083,
-							"PhD":0
-						}
+						"key": {"year": "2012"},
+						"val": {"None":0, "AA":0, "BA":0.7917, "MA":0.2083, "PhD":0, "HQT":0.795}
 					}
 				]
 			}

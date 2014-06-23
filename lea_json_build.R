@@ -9,7 +9,7 @@ source("./lea_functions.R")
 
 library(dplyr)
 
-school_dir <- sqlFetch(dbrepcard, 'schooldir_sy1213')
+school_dir <- sqlFetch(dbrepcard, 'schooldir_sy1314')
 
 lea_dir <- unique(school_dir[c("lea_code","lea_name")])
 
@@ -40,7 +40,6 @@ for(i in 1:nrow(lea_dir)){
     up(level)
     cat(indent(level),'"sections": [', sep="", fill=TRUE)
     up(level)
-
     {
         ## Assessment
         cat(indent(level),'{', sep="", fill=TRUE)
@@ -84,30 +83,17 @@ for(i in 1:nrow(lea_dir)){
         down(level)
         cat(indent(level),'},', sep="", fill=TRUE)
     }
-    {
-        #College Enrollment
-        cat(indent(level),'{', sep="", fill=TRUE)
-        up(level)
-        cat(indent(level), '"id": "college_enroll",', sep="", fill=TRUE)
-        cat(indent(level), '"data": [', sep="", fill=TRUE)
-        cat(LeaCollegeEnroll(lea_code, level+1), fill=TRUE)
-        cat(indent(level), ']', sep="", fill=TRUE)
-        down(level)
-        cat(indent(level),'}', sep="", fill=TRUE)
-    }
-    down(level)
-    cat(indent(level),']', sep="", fill=TRUE)
-    down(level)
-
-    cat(indent(level), '},', fill=TRUE)
-    cat('\n', fill=TRUE)
-
-    ## END OF REPORT CARD PAGE
-
-    cat(indent(level),'"profile": {', sep="", fill=TRUE)
-    up(level)
-    cat(indent(level), '"sections": [', sep="", fill=TRUE)
-    up(level)
+    # {
+    #     #College Enrollment
+    #     cat(indent(level),'{', sep="", fill=TRUE)
+    #     up(level)
+    #     cat(indent(level), '"id": "college_enroll",', sep="", fill=TRUE)
+    #     cat(indent(level), '"data": [', sep="", fill=TRUE)
+    #     cat(LeaCollegeEnroll(lea_code, level+1), fill=TRUE)
+    #     cat(indent(level), ']', sep="", fill=TRUE)
+    #     down(level)
+    #     cat(indent(level),'},', sep="", fill=TRUE)
+    # }
     {
         #Enrollment
         cat(indent(level),'{', sep="", fill=TRUE)
@@ -148,6 +134,17 @@ for(i in 1:nrow(lea_dir)){
         cat(indent(level), '"id": "special_ed",', sep="", fill=TRUE)
         cat(indent(level), '"data": [', sep="", fill=TRUE)
         cat(LeaSPEDChunk(lea_code, level+1), fill=TRUE)
+        cat(indent(level), ']', sep="", fill=TRUE)
+        down(level)
+        cat(indent(level),'},', sep="", fill=TRUE)
+    }
+    {
+        ## SPED APR URL
+        cat(indent(level),'{', sep="", fill=TRUE)
+        up(level)
+        cat(indent(level), '"id": "special_ed_apr_url",', sep="", fill=TRUE)
+        cat(indent(level), '"data": [', sep="", fill=TRUE)
+        cat(LeaSpedAprUrl(lea_code, level+1), fill=TRUE)
         cat(indent(level), ']', sep="", fill=TRUE)
         down(level)
         cat(indent(level),'}', sep="", fill=TRUE)

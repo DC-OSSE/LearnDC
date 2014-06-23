@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue Jun 10 18:34:36 2014",
+	"timestamp": "Tue Jun 17 18:30:51 2014",
 	"org_type": "school",
 	"org_name": "Friendship PCS – Blow-Pierce Middle",
 	"report_card": {
@@ -20,10 +20,6 @@
 				"data": [
 
 				]
-			},
-			{
-				"id": "hqt_status",
-				"data":null
 			},
 			{
 				"id": "early_childhood",
@@ -112,16 +108,8 @@
 				"id": "staff_degree",
 				"data": [
 					{
-						"key": {
-							"year": "2012"
-						},
-						"val": {
-							"None":0.1333,
-							"AA":0,
-							"BA":0.4667,
-							"MA":0.4,
-							"PhD":0
-						}
+						"key": {"year": "2012"},
+						"val": {"None":0.1333, "AA":0, "BA":0.4667, "MA":0.4, "PhD":0, "HQT":null}
 					}
 				]
 			}

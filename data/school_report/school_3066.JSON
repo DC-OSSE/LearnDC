@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue Jun 10 18:37:01 2014",
+	"timestamp": "Tue Jun 17 18:33:26 2014",
 	"org_type": "school",
 	"org_name": "Shining Stars Montessori Academy PCS",
 	"report_card": {
@@ -20,10 +20,6 @@
 				"data": [
 
 				]
-			},
-			{
-				"id": "hqt_status",
-				"data":1
 			},
 			{
 				"id": "early_childhood",
@@ -82,6 +78,10 @@
 						"val": 26
 					},
 					{
+						"key": {"grade": "PK", "subgroup": "All", "year": "2011"},
+						"val": 11
+					},
+					{
 						"key": {"grade": "PS", "subgroup": "All", "year": "2011"},
 						"val": 33
 					},
@@ -104,10 +104,6 @@
 					{
 						"key": {"grade": "PS", "subgroup": "Female", "year": "2011"},
 						"val": 17
-					},
-					{
-						"key": {"grade": "PK", "subgroup": "All", "year": "2011"},
-						"val": 11
 					},
 					{
 						"key": {"grade": "All", "subgroup": "All", "year": "2012"},
@@ -166,7 +162,7 @@
 						"val": 28
 					},
 					{
-						"key": {"grade": "All", "subgroup": "Multi Racial", "year": "2013"},
+						"key": {"grade": "All", "subgroup": "Multiracial", "year": "2013"},
 						"val": 10
 					},
 					{
@@ -194,7 +190,7 @@
 						"val": 22
 					},
 					{
-						"key": {"grade": "PS", "subgroup": "Multi Racial", "year": "2013"},
+						"key": {"grade": "PS", "subgroup": "Multiracial", "year": "2013"},
 						"val": 10
 					},
 					{
@@ -422,18 +418,7 @@
 			{
 				"id": "staff_degree",
 				"data": [
-					{
-						"key": {
-							"year": "2012"
-						},
-						"val": {
-							"None":0,
-							"AA":0,
-							"BA":0.5,
-							"MA":0.5,
-							"PhD":0
-						}
-					}
+
 				]
 			}
 		]

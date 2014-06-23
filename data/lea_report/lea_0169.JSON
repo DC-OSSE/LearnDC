@@ -1,14 +1,85 @@
 {
-	"timestamp": "Fri Apr 18 10:43:17 2014",
+	"timestamp": "Tue Jun 17 14:59:29 2014",
 	"org_type": "lea",
-	"org_name": "Creative Minds International PCS
-",
+	"org_name": "Creative Minds International PCS",
 	"report_card": {
 		"sections": [
 			{
 				"id": "dccas",
 				"data": [
-
+,
+					{
+						"key": {"subject": "Composition","grade": "all", "enrollment_status": "all", "subgroup": "All", "year": "2013" },
+						"val": {"n_eligible":94, "n_test_takers":87, "advanced_or_proficient":9, "advanced":2, "proficient":7, "basic":32, "below_basic":46}
+					},
+					{
+						"key": {"subject": "Composition","grade": "grade 7", "enrollment_status": "all", "subgroup": "All", "year": "2013" },
+						"val": {"n_eligible":29, "n_test_takers":28, "advanced_or_proficient":2, "advanced":1, "proficient":1, "basic":13, "below_basic":13}
+					},
+					{
+						"key": {"subject": "Composition","grade": "grade 10", "enrollment_status": "all", "subgroup": "All", "year": "2013" },
+						"val": {"n_eligible":65, "n_test_takers":59, "advanced_or_proficient":7, "advanced":1, "proficient":6, "basic":19, "below_basic":33}
+					},
+					{
+						"key": {"subject": "Composition","grade": "all", "enrollment_status": "all", "subgroup": "All", "year": "2012" },
+						"val": {"n_eligible":83, "n_test_takers":79, "advanced_or_proficient":12, "advanced":0, "proficient":12, "basic":22, "below_basic":45}
+					},
+					{
+						"key": {"subject": "Composition","grade": "grade 7", "enrollment_status": "all", "subgroup": "All", "year": "2012" },
+						"val": {"n_eligible":20, "n_test_takers":19, "advanced_or_proficient":3, "advanced":0, "proficient":3, "basic":5, "below_basic":11}
+					},
+					{
+						"key": {"subject": "Composition","grade": "grade 10", "enrollment_status": "all", "subgroup": "All", "year": "2012" },
+						"val": {"n_eligible":63, "n_test_takers":60, "advanced_or_proficient":9, "advanced":0, "proficient":9, "basic":17, "below_basic":34}
+					},
+					{
+						"key": {"subject": "Composition","grade": "all", "enrollment_status": "all", "subgroup": "All", "year": "2011" },
+						"val": {"n_eligible":87, "n_test_takers":80, "advanced_or_proficient":3, "advanced":0, "proficient":3, "basic":57, "below_basic":20}
+					},
+					{
+						"key": {"subject": "Composition","grade": "grade 7", "enrollment_status": "all", "subgroup": "All", "year": "2011" },
+						"val": {"n_eligible":31, "n_test_takers":29, "advanced_or_proficient":1, "advanced":0, "proficient":1, "basic":26, "below_basic":2}
+					},
+					{
+						"key": {"subject": "Composition","grade": "grade 10", "enrollment_status": "all", "subgroup": "All", "year": "2011" },
+						"val": {"n_eligible":56, "n_test_takers":51, "advanced_or_proficient":2, "advanced":0, "proficient":2, "basic":31, "below_basic":18}
+					},
+					{
+						"key": {"subject": "Science","grade": "all", "enrollment_status": "all", "subgroup": "All", "year": "2013" },
+						"val": {"n_eligible":82,"n_test_takers":82,"advanced_or_proficient":5,"advanced":0,"proficient":5,"basic":20,"below_basic":57}
+					},
+					{
+						"key": {"subject": "Science","grade": "grade 8", "enrollment_status": "all", "subgroup": "All", "year": "2013" },
+						"val": {"n_eligible":28,"n_test_takers":28,"advanced_or_proficient":3,"advanced":0,"proficient":3,"basic":8,"below_basic":17}
+					},
+					{
+						"key": {"subject": "Science","grade": "grade 10", "enrollment_status": "all", "subgroup": "All", "year": "2013" },
+						"val": {"n_eligible":54,"n_test_takers":54,"advanced_or_proficient":2,"advanced":0,"proficient":2,"basic":12,"below_basic":40}
+					},
+					{
+						"key": {"subject": "Science","grade": "all", "enrollment_status": "all", "subgroup": "All", "year": "2012" },
+						"val": {"n_eligible":102,"n_test_takers":102,"advanced_or_proficient":12,"advanced":0,"proficient":12,"basic":29,"below_basic":61}
+					},
+					{
+						"key": {"subject": "Science","grade": "grade 8", "enrollment_status": "all", "subgroup": "All", "year": "2012" },
+						"val": {"n_eligible":44,"n_test_takers":44,"advanced_or_proficient":4,"advanced":0,"proficient":4,"basic":15,"below_basic":25}
+					},
+					{
+						"key": {"subject": "Science","grade": "grade 10", "enrollment_status": "all", "subgroup": "All", "year": "2012" },
+						"val": {"n_eligible":58,"n_test_takers":58,"advanced_or_proficient":8,"advanced":0,"proficient":8,"basic":14,"below_basic":36}
+					},
+					{
+						"key": {"subject": "Science","grade": "all", "enrollment_status": "all", "subgroup": "All", "year": "2011" },
+						"val": {"n_eligible":97,"n_test_takers":97,"advanced_or_proficient":5,"advanced":0,"proficient":5,"basic":20,"below_basic":72}
+					},
+					{
+						"key": {"subject": "Science","grade": "grade 8", "enrollment_status": "all", "subgroup": "All", "year": "2011" },
+						"val": {"n_eligible":40,"n_test_takers":40,"advanced_or_proficient":1,"advanced":0,"proficient":1,"basic":5,"below_basic":34}
+					},
+					{
+						"key": {"subject": "Science","grade": "grade 10", "enrollment_status": "all", "subgroup": "All", "year": "2011" },
+						"val": {"n_eligible":57,"n_test_takers":57,"advanced_or_proficient":4,"advanced":0,"proficient":4,"basic":15,"below_basic":38}
+					}
 				]
 			},
 			{
@@ -29,124 +100,8 @@
 				]
 			},
 			{
-				"id": "college_enroll",
-				"data": [
-
-				]
-			}
-		]
-	 },
-
-
-	"profile": {
-		"sections": [
-			{
 				"id": "enrollment",
 				"data": [
-					{
-						"key": {"grade": "All", "subgroup": "All", "year": "2013"},
-						"val": 137
-					},
-					{
-						"key": {"grade": "All", "subgroup": "African American", "year": "2013"},
-						"val": 46
-					},
-					{
-						"key": {"grade": "All", "subgroup": "White", "year": "2013"},
-						"val": 59
-					},
-					{
-						"key": {"grade": "All", "subgroup": "Hispanic", "year": "2013"},
-						"val": 21
-					},
-					{
-						"key": {"grade": "All", "subgroup": "Special Education", "year": "2013"},
-						"val": 32
-					},
-					{
-						"key": {"grade": "All", "subgroup": "Economically Disadvantaged", "year": "2013"},
-						"val": 40
-					},
-					{
-						"key": {"grade": "All", "subgroup": "Male", "year": "2013"},
-						"val": 66
-					},
-					{
-						"key": {"grade": "All", "subgroup": "Female", "year": "2013"},
-						"val": 71
-					},
-					{
-						"key": {"grade": "KG", "subgroup": "All", "year": "2013"},
-						"val": 32
-					},
-					{
-						"key": {"grade": "KG", "subgroup": "White", "year": "2013"},
-						"val": 19
-					},
-					{
-						"key": {"grade": "KG", "subgroup": "Male", "year": "2013"},
-						"val": 17
-					},
-					{
-						"key": {"grade": "KG", "subgroup": "Female", "year": "2013"},
-						"val": 15
-					},
-					{
-						"key": {"grade": "01", "subgroup": "All", "year": "2013"},
-						"val": 16
-					},
-					{
-						"key": {"grade": "01", "subgroup": "Economically Disadvantaged", "year": "2013"},
-						"val": 10
-					},
-					{
-						"key": {"grade": "PS", "subgroup": "All", "year": "2013"},
-						"val": 32
-					},
-					{
-						"key": {"grade": "PS", "subgroup": "African American", "year": "2013"},
-						"val": 11
-					},
-					{
-						"key": {"grade": "PS", "subgroup": "White", "year": "2013"},
-						"val": 15
-					},
-					{
-						"key": {"grade": "PS", "subgroup": "Male", "year": "2013"},
-						"val": 13
-					},
-					{
-						"key": {"grade": "PS", "subgroup": "Female", "year": "2013"},
-						"val": 19
-					},
-					{
-						"key": {"grade": "02", "subgroup": "All", "year": "2013"},
-						"val": 11
-					},
-					{
-						"key": {"grade": "03", "subgroup": "All", "year": "2013"},
-						"val": 12
-					},
-					{
-						"key": {"grade": "PK", "subgroup": "All", "year": "2013"},
-						"val": 34
-					},
-					{
-						"key": {"grade": "PK", "subgroup": "African American", "year": "2013"},
-						"val": 11
-					},
-					{
-						"key": {"grade": "PK", "subgroup": "White", "year": "2013"},
-						"val": 16
-					},
-					{
-						"key": {"grade": "PK", "subgroup": "Male", "year": "2013"},
-						"val": 16
-					},
-					{
-						"key": {"grade": "PK", "subgroup": "Female", "year": "2013"},
-						"val": 18
-					},
 					{
 						"key": {"grade": "All", "subgroup": "All", "year": "2012"},
 						"val": 105
@@ -180,32 +135,8 @@
 						"val": 52
 					},
 					{
-						"key": {"grade": "01", "subgroup": "All", "year": "2012"},
-						"val": 12
-					},
-					{
-						"key": {"grade": "02", "subgroup": "All", "year": "2012"},
-						"val": 12
-					},
-					{
-						"key": {"grade": "PS", "subgroup": "All", "year": "2012"},
-						"val": 33
-					},
-					{
-						"key": {"grade": "PS", "subgroup": "African American", "year": "2012"},
-						"val": 10
-					},
-					{
-						"key": {"grade": "PS", "subgroup": "White", "year": "2012"},
-						"val": 17
-					},
-					{
-						"key": {"grade": "PS", "subgroup": "Male", "year": "2012"},
-						"val": 16
-					},
-					{
-						"key": {"grade": "PS", "subgroup": "Female", "year": "2012"},
-						"val": 17
+						"key": {"grade": "All", "subgroup": "TANF or SNAP Eligible", "year": "2012"},
+						"val": 19
 					},
 					{
 						"key": {"grade": "KG", "subgroup": "All", "year": "2012"},
@@ -234,6 +165,142 @@
 					{
 						"key": {"grade": "PK", "subgroup": "Female", "year": "2012"},
 						"val": 16
+					},
+					{
+						"key": {"grade": "02", "subgroup": "All", "year": "2012"},
+						"val": 12
+					},
+					{
+						"key": {"grade": "PS", "subgroup": "All", "year": "2012"},
+						"val": 33
+					},
+					{
+						"key": {"grade": "PS", "subgroup": "African American", "year": "2012"},
+						"val": 10
+					},
+					{
+						"key": {"grade": "PS", "subgroup": "White", "year": "2012"},
+						"val": 17
+					},
+					{
+						"key": {"grade": "PS", "subgroup": "Male", "year": "2012"},
+						"val": 16
+					},
+					{
+						"key": {"grade": "PS", "subgroup": "Female", "year": "2012"},
+						"val": 17
+					},
+					{
+						"key": {"grade": "01", "subgroup": "All", "year": "2012"},
+						"val": 12
+					},
+					{
+						"key": {"grade": "All", "subgroup": "All", "year": "2013"},
+						"val": 137
+					},
+					{
+						"key": {"grade": "All", "subgroup": "African American", "year": "2013"},
+						"val": 46
+					},
+					{
+						"key": {"grade": "All", "subgroup": "White", "year": "2013"},
+						"val": 59
+					},
+					{
+						"key": {"grade": "All", "subgroup": "Hispanic", "year": "2013"},
+						"val": 21
+					},
+					{
+						"key": {"grade": "All", "subgroup": "Special Education", "year": "2013"},
+						"val": 32
+					},
+					{
+						"key": {"grade": "All", "subgroup": "Economically Disadvantaged", "year": "2013"},
+						"val": 40
+					},
+					{
+						"key": {"grade": "All", "subgroup": "Male", "year": "2013"},
+						"val": 66
+					},
+					{
+						"key": {"grade": "All", "subgroup": "Female", "year": "2013"},
+						"val": 71
+					},
+					{
+						"key": {"grade": "All", "subgroup": "TANF or SNAP Eligible", "year": "2013"},
+						"val": 17
+					},
+					{
+						"key": {"grade": "03", "subgroup": "All", "year": "2013"},
+						"val": 12
+					},
+					{
+						"key": {"grade": "KG", "subgroup": "All", "year": "2013"},
+						"val": 32
+					},
+					{
+						"key": {"grade": "KG", "subgroup": "White", "year": "2013"},
+						"val": 19
+					},
+					{
+						"key": {"grade": "KG", "subgroup": "Male", "year": "2013"},
+						"val": 17
+					},
+					{
+						"key": {"grade": "KG", "subgroup": "Female", "year": "2013"},
+						"val": 15
+					},
+					{
+						"key": {"grade": "PS", "subgroup": "All", "year": "2013"},
+						"val": 32
+					},
+					{
+						"key": {"grade": "PS", "subgroup": "African American", "year": "2013"},
+						"val": 11
+					},
+					{
+						"key": {"grade": "PS", "subgroup": "White", "year": "2013"},
+						"val": 15
+					},
+					{
+						"key": {"grade": "PS", "subgroup": "Male", "year": "2013"},
+						"val": 13
+					},
+					{
+						"key": {"grade": "PS", "subgroup": "Female", "year": "2013"},
+						"val": 19
+					},
+					{
+						"key": {"grade": "PK", "subgroup": "All", "year": "2013"},
+						"val": 34
+					},
+					{
+						"key": {"grade": "PK", "subgroup": "African American", "year": "2013"},
+						"val": 11
+					},
+					{
+						"key": {"grade": "PK", "subgroup": "White", "year": "2013"},
+						"val": 16
+					},
+					{
+						"key": {"grade": "PK", "subgroup": "Male", "year": "2013"},
+						"val": 16
+					},
+					{
+						"key": {"grade": "PK", "subgroup": "Female", "year": "2013"},
+						"val": 18
+					},
+					{
+						"key": {"grade": "02", "subgroup": "All", "year": "2013"},
+						"val": 11
+					},
+					{
+						"key": {"grade": "01", "subgroup": "All", "year": "2013"},
+						"val": 16
+					},
+					{
+						"key": {"grade": "01", "subgroup": "Economically Disadvantaged", "year": "2013"},
+						"val": 10
 					}
 				]
 			},
@@ -251,6 +318,12 @@
 			},
 			{
 				"id": "special_ed",
+				"data": [
+
+				]
+			},
+			{
+				"id": "special_ed_apr_url",
 				"data": [
 
 				]

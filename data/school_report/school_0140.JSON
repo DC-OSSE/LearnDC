@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue Jun 10 18:29:21 2014",
+	"timestamp": "Tue Jun 17 18:25:38 2014",
 	"org_type": "school",
 	"org_name": "AppleTree Early Learning PCS – Columbia Heights",
 	"report_card": {
@@ -20,10 +20,6 @@
 				"data": [
 
 				]
-			},
-			{
-				"id": "hqt_status",
-				"data":null
 			},
 			{
 				"id": "early_childhood",
@@ -230,30 +226,6 @@
 						"val": 51
 					},
 					{
-						"key": {"grade": "PK", "subgroup": "All", "year": "2009"},
-						"val": 43
-					},
-					{
-						"key": {"grade": "PK", "subgroup": "African American", "year": "2009"},
-						"val": 20
-					},
-					{
-						"key": {"grade": "PK", "subgroup": "Hispanic", "year": "2009"},
-						"val": 12
-					},
-					{
-						"key": {"grade": "PK", "subgroup": "English Learner", "year": "2009"},
-						"val": 11
-					},
-					{
-						"key": {"grade": "PK", "subgroup": "Male", "year": "2009"},
-						"val": 25
-					},
-					{
-						"key": {"grade": "PK", "subgroup": "Female", "year": "2009"},
-						"val": 18
-					},
-					{
 						"key": {"grade": "PS", "subgroup": "All", "year": "2009"},
 						"val": 65
 					},
@@ -280,6 +252,30 @@
 					{
 						"key": {"grade": "PS", "subgroup": "Female", "year": "2009"},
 						"val": 33
+					},
+					{
+						"key": {"grade": "PK", "subgroup": "All", "year": "2009"},
+						"val": 43
+					},
+					{
+						"key": {"grade": "PK", "subgroup": "African American", "year": "2009"},
+						"val": 20
+					},
+					{
+						"key": {"grade": "PK", "subgroup": "Hispanic", "year": "2009"},
+						"val": 12
+					},
+					{
+						"key": {"grade": "PK", "subgroup": "English Learner", "year": "2009"},
+						"val": 11
+					},
+					{
+						"key": {"grade": "PK", "subgroup": "Male", "year": "2009"},
+						"val": 25
+					},
+					{
+						"key": {"grade": "PK", "subgroup": "Female", "year": "2009"},
+						"val": 18
 					},
 					{
 						"key": {"grade": "All", "subgroup": "All", "year": "2010"},
@@ -390,7 +386,7 @@
 						"val": 30
 					},
 					{
-						"key": {"grade": "All", "subgroup": "Multi Racial", "year": "2011"},
+						"key": {"grade": "All", "subgroup": "Multiracial", "year": "2011"},
 						"val": 12
 					},
 					{
@@ -506,34 +502,6 @@
 						"val": 91
 					},
 					{
-						"key": {"grade": "PS", "subgroup": "All", "year": "2012"},
-						"val": 100
-					},
-					{
-						"key": {"grade": "PS", "subgroup": "African American", "year": "2012"},
-						"val": 61
-					},
-					{
-						"key": {"grade": "PS", "subgroup": "White", "year": "2012"},
-						"val": 32
-					},
-					{
-						"key": {"grade": "PS", "subgroup": "English Learner", "year": "2012"},
-						"val": 33
-					},
-					{
-						"key": {"grade": "PS", "subgroup": "Economically Disadvantaged", "year": "2012"},
-						"val": 30
-					},
-					{
-						"key": {"grade": "PS", "subgroup": "Male", "year": "2012"},
-						"val": 48
-					},
-					{
-						"key": {"grade": "PS", "subgroup": "Female", "year": "2012"},
-						"val": 52
-					},
-					{
 						"key": {"grade": "PK", "subgroup": "All", "year": "2012"},
 						"val": 61
 					},
@@ -560,6 +528,34 @@
 					{
 						"key": {"grade": "PK", "subgroup": "Female", "year": "2012"},
 						"val": 39
+					},
+					{
+						"key": {"grade": "PS", "subgroup": "All", "year": "2012"},
+						"val": 100
+					},
+					{
+						"key": {"grade": "PS", "subgroup": "African American", "year": "2012"},
+						"val": 61
+					},
+					{
+						"key": {"grade": "PS", "subgroup": "White", "year": "2012"},
+						"val": 32
+					},
+					{
+						"key": {"grade": "PS", "subgroup": "English Learner", "year": "2012"},
+						"val": 33
+					},
+					{
+						"key": {"grade": "PS", "subgroup": "Economically Disadvantaged", "year": "2012"},
+						"val": 30
+					},
+					{
+						"key": {"grade": "PS", "subgroup": "Male", "year": "2012"},
+						"val": 48
+					},
+					{
+						"key": {"grade": "PS", "subgroup": "Female", "year": "2012"},
+						"val": 52
 					},
 					{
 						"key": {"grade": "All", "subgroup": "All", "year": "2013"},
@@ -915,16 +911,8 @@
 				"id": "staff_degree",
 				"data": [
 					{
-						"key": {
-							"year": "2012"
-						},
-						"val": {
-							"None":1,
-							"AA":0,
-							"BA":0,
-							"MA":0,
-							"PhD":0
-						}
+						"key": {"year": "2012"},
+						"val": {"None":1, "AA":0, "BA":0, "MA":0, "PhD":0, "HQT":null}
 					}
 				]
 			}

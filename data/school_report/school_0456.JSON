@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue Jun 10 18:35:36 2014",
+	"timestamp": "Tue Jun 17 18:31:54 2014",
 	"org_type": "school",
 	"org_name": "Roosevelt STAY High School @ MacFarland",
 	"report_card": {
@@ -20,10 +20,6 @@
 				"data": [
 
 				]
-			},
-			{
-				"id": "hqt_status",
-				"data":0.333
 			},
 			{
 				"id": "early_childhood",
@@ -1030,16 +1026,8 @@
 				"id": "staff_degree",
 				"data": [
 					{
-						"key": {
-							"year": "2012"
-						},
-						"val": {
-							"None":0,
-							"AA":0,
-							"BA":0.7333,
-							"MA":0.2667,
-							"PhD":0
-						}
+						"key": {"year": "2012"},
+						"val": {"None":0, "AA":0, "BA":0.7333, "MA":0.2667, "PhD":0, "HQT":0.333}
 					}
 				]
 			}

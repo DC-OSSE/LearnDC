@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue Jun 10 18:31:09 2014",
+	"timestamp": "Tue Jun 17 18:27:25 2014",
 	"org_type": "school",
 	"org_name": "Brightwood Education Campus",
 	"report_card": {
@@ -760,10 +760,6 @@
 						"val": {"baseline": 0.390374, "target": 0.491978}
 					}
 				]
-			},
-			{
-				"id": "hqt_status",
-				"data":0.984
 			},
 			{
 				"id": "early_childhood",
@@ -2216,7 +2212,7 @@
 						"val": 371
 					},
 					{
-						"key": {"grade": "All", "subgroup": "Multi Racial", "year": "2010"},
+						"key": {"grade": "All", "subgroup": "Multiracial", "year": "2010"},
 						"val": 10
 					},
 					{
@@ -4003,16 +3999,8 @@
 				"id": "staff_degree",
 				"data": [
 					{
-						"key": {
-							"year": "2012"
-						},
-						"val": {
-							"None":0,
-							"AA":0,
-							"BA":0.7317,
-							"MA":0.2439,
-							"PhD":0.0244
-						}
+						"key": {"year": "2012"},
+						"val": {"None":0, "AA":0, "BA":0.7317, "MA":0.2439, "PhD":0.0244, "HQT":0.984}
 					}
 				]
 			}

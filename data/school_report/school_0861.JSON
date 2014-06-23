@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue Jun 10 18:36:03 2014",
+	"timestamp": "Tue Jun 17 18:32:25 2014",
 	"org_type": "school",
 	"org_name": "Youth Services Center",
 	"report_card": {
@@ -132,10 +132,6 @@
 				]
 			},
 			{
-				"id": "hqt_status",
-				"data":0.8
-			},
-			{
 				"id": "early_childhood",
 				"data": [
 
@@ -214,14 +210,6 @@
 						"val": 17
 					},
 					{
-						"key": {"grade": "08", "subgroup": "All", "year": "2006"},
-						"val": 11
-					},
-					{
-						"key": {"grade": "08", "subgroup": "African American", "year": "2006"},
-						"val": 11
-					},
-					{
 						"key": {"grade": "09", "subgroup": "All", "year": "2006"},
 						"val": 25
 					},
@@ -232,6 +220,14 @@
 					{
 						"key": {"grade": "09", "subgroup": "Male", "year": "2006"},
 						"val": 18
+					},
+					{
+						"key": {"grade": "08", "subgroup": "All", "year": "2006"},
+						"val": 11
+					},
+					{
+						"key": {"grade": "08", "subgroup": "African American", "year": "2006"},
+						"val": 11
 					},
 					{
 						"key": {"grade": "All", "subgroup": "All", "year": "2007"},
@@ -250,18 +246,6 @@
 						"val": 66
 					},
 					{
-						"key": {"grade": "10", "subgroup": "All", "year": "2007"},
-						"val": 26
-					},
-					{
-						"key": {"grade": "10", "subgroup": "African American", "year": "2007"},
-						"val": 25
-					},
-					{
-						"key": {"grade": "10", "subgroup": "Male", "year": "2007"},
-						"val": 23
-					},
-					{
 						"key": {"grade": "09", "subgroup": "All", "year": "2007"},
 						"val": 27
 					},
@@ -272,6 +256,18 @@
 					{
 						"key": {"grade": "09", "subgroup": "Male", "year": "2007"},
 						"val": 25
+					},
+					{
+						"key": {"grade": "10", "subgroup": "All", "year": "2007"},
+						"val": 26
+					},
+					{
+						"key": {"grade": "10", "subgroup": "African American", "year": "2007"},
+						"val": 25
+					},
+					{
+						"key": {"grade": "10", "subgroup": "Male", "year": "2007"},
+						"val": 23
 					},
 					{
 						"key": {"grade": "All", "subgroup": "All", "year": "2008"},
@@ -290,18 +286,6 @@
 						"val": 44
 					},
 					{
-						"key": {"grade": "09", "subgroup": "All", "year": "2008"},
-						"val": 21
-					},
-					{
-						"key": {"grade": "09", "subgroup": "African American", "year": "2008"},
-						"val": 21
-					},
-					{
-						"key": {"grade": "09", "subgroup": "Male", "year": "2008"},
-						"val": 17
-					},
-					{
 						"key": {"grade": "10", "subgroup": "All", "year": "2008"},
 						"val": 26
 					},
@@ -312,6 +296,18 @@
 					{
 						"key": {"grade": "10", "subgroup": "Male", "year": "2008"},
 						"val": 20
+					},
+					{
+						"key": {"grade": "09", "subgroup": "All", "year": "2008"},
+						"val": 21
+					},
+					{
+						"key": {"grade": "09", "subgroup": "African American", "year": "2008"},
+						"val": 21
+					},
+					{
+						"key": {"grade": "09", "subgroup": "Male", "year": "2008"},
+						"val": 17
 					},
 					{
 						"key": {"grade": "All", "subgroup": "All", "year": "2009"},
@@ -783,16 +779,8 @@
 				"id": "staff_degree",
 				"data": [
 					{
-						"key": {
-							"year": "2012"
-						},
-						"val": {
-							"None":0,
-							"AA":0,
-							"BA":0.6154,
-							"MA":0.3846,
-							"PhD":0
-						}
+						"key": {"year": "2012"},
+						"val": {"None":0, "AA":0, "BA":0.6154, "MA":0.3846, "PhD":0, "HQT":0.8}
 					}
 				]
 			}

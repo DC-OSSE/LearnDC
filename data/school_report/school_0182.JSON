@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue Jun 10 18:30:10 2014",
+	"timestamp": "Tue Jun 17 18:26:28 2014",
 	"org_type": "school",
 	"org_name": "Capital City PCS – Middle School",
 	"report_card": {
@@ -775,10 +775,6 @@
 				]
 			},
 			{
-				"id": "hqt_status",
-				"data":null
-			},
-			{
 				"id": "early_childhood",
 				"data": [
 
@@ -834,7 +830,7 @@
 						"val": 12
 					},
 					{
-						"key": {"grade": "All", "subgroup": "Multi Racial", "year": "2012"},
+						"key": {"grade": "All", "subgroup": "Multiracial", "year": "2012"},
 						"val": 10
 					},
 					{
@@ -888,38 +884,6 @@
 					{
 						"key": {"grade": "08", "subgroup": "Female", "year": "2012"},
 						"val": 48
-					},
-					{
-						"key": {"grade": "05", "subgroup": "All", "year": "2012"},
-						"val": 65
-					},
-					{
-						"key": {"grade": "05", "subgroup": "African American", "year": "2012"},
-						"val": 21
-					},
-					{
-						"key": {"grade": "05", "subgroup": "Hispanic", "year": "2012"},
-						"val": 31
-					},
-					{
-						"key": {"grade": "05", "subgroup": "Special Education", "year": "2012"},
-						"val": 12
-					},
-					{
-						"key": {"grade": "05", "subgroup": "English Learner", "year": "2012"},
-						"val": 18
-					},
-					{
-						"key": {"grade": "05", "subgroup": "Economically Disadvantaged", "year": "2012"},
-						"val": 43
-					},
-					{
-						"key": {"grade": "05", "subgroup": "Male", "year": "2012"},
-						"val": 36
-					},
-					{
-						"key": {"grade": "05", "subgroup": "Female", "year": "2012"},
-						"val": 29
 					},
 					{
 						"key": {"grade": "07", "subgroup": "All", "year": "2012"},
@@ -986,6 +950,38 @@
 						"val": 40
 					},
 					{
+						"key": {"grade": "05", "subgroup": "All", "year": "2012"},
+						"val": 65
+					},
+					{
+						"key": {"grade": "05", "subgroup": "African American", "year": "2012"},
+						"val": 21
+					},
+					{
+						"key": {"grade": "05", "subgroup": "Hispanic", "year": "2012"},
+						"val": 31
+					},
+					{
+						"key": {"grade": "05", "subgroup": "Special Education", "year": "2012"},
+						"val": 12
+					},
+					{
+						"key": {"grade": "05", "subgroup": "English Learner", "year": "2012"},
+						"val": 18
+					},
+					{
+						"key": {"grade": "05", "subgroup": "Economically Disadvantaged", "year": "2012"},
+						"val": 43
+					},
+					{
+						"key": {"grade": "05", "subgroup": "Male", "year": "2012"},
+						"val": 36
+					},
+					{
+						"key": {"grade": "05", "subgroup": "Female", "year": "2012"},
+						"val": 29
+					},
+					{
 						"key": {"grade": "All", "subgroup": "All", "year": "2013"},
 						"val": 326
 					},
@@ -1006,7 +1002,7 @@
 						"val": 12
 					},
 					{
-						"key": {"grade": "All", "subgroup": "Multi Racial", "year": "2013"},
+						"key": {"grade": "All", "subgroup": "Multiracial", "year": "2013"},
 						"val": 15
 					},
 					{
@@ -1062,6 +1058,34 @@
 						"val": 40
 					},
 					{
+						"key": {"grade": "05", "subgroup": "All", "year": "2013"},
+						"val": 81
+					},
+					{
+						"key": {"grade": "05", "subgroup": "African American", "year": "2013"},
+						"val": 38
+					},
+					{
+						"key": {"grade": "05", "subgroup": "Hispanic", "year": "2013"},
+						"val": 29
+					},
+					{
+						"key": {"grade": "05", "subgroup": "Special Education", "year": "2013"},
+						"val": 15
+					},
+					{
+						"key": {"grade": "05", "subgroup": "Economically Disadvantaged", "year": "2013"},
+						"val": 48
+					},
+					{
+						"key": {"grade": "05", "subgroup": "Male", "year": "2013"},
+						"val": 39
+					},
+					{
+						"key": {"grade": "05", "subgroup": "Female", "year": "2013"},
+						"val": 42
+					},
+					{
 						"key": {"grade": "07", "subgroup": "All", "year": "2013"},
 						"val": 79
 					},
@@ -1092,34 +1116,6 @@
 					{
 						"key": {"grade": "07", "subgroup": "Female", "year": "2013"},
 						"val": 44
-					},
-					{
-						"key": {"grade": "05", "subgroup": "All", "year": "2013"},
-						"val": 81
-					},
-					{
-						"key": {"grade": "05", "subgroup": "African American", "year": "2013"},
-						"val": 38
-					},
-					{
-						"key": {"grade": "05", "subgroup": "Hispanic", "year": "2013"},
-						"val": 29
-					},
-					{
-						"key": {"grade": "05", "subgroup": "Special Education", "year": "2013"},
-						"val": 15
-					},
-					{
-						"key": {"grade": "05", "subgroup": "Economically Disadvantaged", "year": "2013"},
-						"val": 48
-					},
-					{
-						"key": {"grade": "05", "subgroup": "Male", "year": "2013"},
-						"val": 39
-					},
-					{
-						"key": {"grade": "05", "subgroup": "Female", "year": "2013"},
-						"val": 42
 					},
 					{
 						"key": {"grade": "08", "subgroup": "All", "year": "2013"},
@@ -1565,16 +1561,8 @@
 				"id": "staff_degree",
 				"data": [
 					{
-						"key": {
-							"year": "2012"
-						},
-						"val": {
-							"None":0,
-							"AA":0,
-							"BA":0.375,
-							"MA":0.625,
-							"PhD":0
-						}
+						"key": {"year": "2012"},
+						"val": {"None":0, "AA":0, "BA":0.375, "MA":0.625, "PhD":0, "HQT":null}
 					}
 				]
 			}

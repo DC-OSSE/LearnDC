@@ -1,18 +1,4 @@
 ## cat(ExAMOs(210, 1), fill=TRUE)
-ExHQTStatus <- function(org_code){
-    .qry <- "SELECT * FROM [dbo].[hqt_status_sy1112]
-        WHERE [school_code] = '" %+% org_code %+% "'"
-    .prog <- sqlQuery(dbrepcard, .qry)
-
-    if(nrow(.prog)>0){
-        .ret <- .prog$percent_hqt_classes
-        return(.ret)
-        }
-    else{
-        return('null')
-        }
-}
-
 ##"subgroup": ("All","African American","White","Hispanic","Asian","Special Education","English Learner","Economically Disadvantaged","Homeless Students"),
 AppendProgramInfo <- function(org_code){
     .qry <- "SELECT DISTINCT * FROM [dbo].[school_programs]
@@ -33,7 +19,7 @@ AppendProgramInfo <- function(org_code){
     }
 }
 
-##"subgroup": ("All","African American","White","Hispanic","Asian","Special Education","English Learner","Economically Disadvantaged","Homeless Students"),
+##"subgroup": ("All","African American","White","Hispanic","Asian","Special Education","English Learner","Economically Disadvantaged","Homeless Students")
 RetMGPGroup <- function(.ingrp){
 	if(.ingrp == 'All Students'){
 		return('All')
@@ -119,7 +105,7 @@ ExCollegeReadiness <- function(org_code, level){
 
 EncodeCReady <- function(.dat, level){
     .lv <- level
-    .subgroups <- c("African American","White","Hispanic","Asian","American Indian", "Pacific Islander", "Multi Racial","Special Education","English Learner","Economically Disadvantaged","Male", "Female")
+    .subgroups <- c("African American","White","Hispanic","Asian","American Indian or Alaskan Native", "Pacific Islander", "Multiracial","Special Education","English Learner","Economically Disadvantaged","Male", "Female")
 
     .ret <- c()
     for(j in 0:12){
@@ -519,7 +505,9 @@ SubProcEnr <- function(.dat, lv){
 		return(subset(.dat, gender %in% c("M", "MALE")))
 	} else if(lv==12){
 		return(subset(.dat, gender %in% c("F", "FEMALE")))
-	}	
+	} else if(lv==13){
+        return(subset(.dat, tanf_snap == 'YES'))
+    }
 	return(.dat[NULL,])
 }
 
@@ -1055,36 +1043,44 @@ WriteStaffExp <- function(org_code, level){
         FROM [dbo].[tmp_staff_degree_sy1213] 
         WHERE [school_code] = '", as.numeric(org_code),"'"))
 
-    if(nrow(staff_exp) >= 1){
+    .prog <- sqlQuery(dbrepcard, "SELECT * FROM [dbo].[hqt_status_sy1112]
+        WHERE [school_code] = '" %+% org_code %+% "'")
+
+
+    if(nrow(staff_exp) >= 10){
         
         .add <- indent(.lv) %+% '{\n'
 
         up(.lv)
-        .add <- .add %+% paste(indent(.lv), '"key": {\n', sep="")
+        .add <- .add %+% paste(indent(.lv), '"key": {', sep="")
         up(.lv)
 
-        .add <- .add %+% paste(indent(.lv), '"year": "2012"','\n', sep="")       
+        .add <- .add %+% paste('"year": "2012"', sep="")       
                             
         down(.lv)
-        .add <- .add %+% paste(indent(.lv), '},\n', sep="")
+        .add <- .add %+% paste('},\n', sep="")
                                 
-        .add <- .add %+% paste(indent(.lv), '"val": {\n', sep="")
+        .add <- .add %+% paste(indent(.lv), '"val": {', sep="")
         up(.lv)    
 
-        .add <- .add %+% paste(indent(.lv), '"None":', round(nrow(staff_exp[staff_exp$Is_AA == 0 & staff_exp$Is_Bachelors == 0 & staff_exp$Is_Masters == 0 & staff_exp$Is_PHD == 0,])/nrow(staff_exp),4),',\n', sep="")
+        .add <- .add %+% paste('"None":', round(nrow(staff_exp[staff_exp$Is_AA == 0 & staff_exp$Is_Bachelors == 0 & staff_exp$Is_Masters == 0 & staff_exp$Is_PHD == 0,])/nrow(staff_exp),4),', ', sep="")
 
-        .add <- .add %+% paste(indent(.lv), '"AA":',round(mean(staff_exp$Is_AA, na.rm=TRUE),4),',\n', sep="")
-        .add <- .add %+% paste(indent(.lv), '"BA":',round(mean(staff_exp$Is_Bachelors, na.rm=TRUE),4),',\n', sep="")
-        .add <- .add %+% paste(indent(.lv), '"MA":',round(mean(staff_exp$Is_Masters, na.rm=TRUE),4),',\n', sep="")
-        .add <- .add %+% paste(indent(.lv), '"PhD":',round(mean(staff_exp$Is_PHD, na.rm=TRUE),4),'\n', sep="")
-        
+        .add <- .add %+% paste('"AA":',round(mean(staff_exp$Is_AA, na.rm=TRUE),4),', ', sep="")
+        .add <- .add %+% paste('"BA":',round(mean(staff_exp$Is_Bachelors, na.rm=TRUE),4),', ', sep="")
+        .add <- .add %+% paste('"MA":',round(mean(staff_exp$Is_Masters, na.rm=TRUE),4),', ', sep="")
+        .add <- .add %+% paste('"PhD":',round(mean(staff_exp$Is_PHD, na.rm=TRUE),4),', ', sep="")
+        if(nrow(.prog)>0){
+            .add <- .add %+% paste('"HQT":',.prog$percent_hqt_classes, sep="")
+        }  else{ 
+            .add <- .add %+% paste('"HQT":','null', sep="")
+        }
         down(.lv)
-        .add <- .add %+% paste(indent(.lv), '}\n', sep="")
+        .add <- .add %+% paste('}\n', sep="")
+      
         down(.lv)
   
         .add <- .add %+% paste(indent(.lv), '}', sep="")
-
-        return(.add)
+    return(.add)
     }
 }
 

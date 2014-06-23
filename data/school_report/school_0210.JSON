@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue Jun 10 18:31:02 2014",
+	"timestamp": "Tue Jun 17 18:27:19 2014",
 	"org_type": "school",
 	"org_name": "William E. Doar, Jr. PCS for the Performing Arts",
 	"report_card": {
@@ -734,10 +734,6 @@
 						"val": {"baseline": 0.430379, "target": 0.525315}
 					}
 				]
-			},
-			{
-				"id": "hqt_status",
-				"data":null
 			},
 			{
 				"id": "early_childhood",
@@ -3374,16 +3370,8 @@
 				"id": "staff_degree",
 				"data": [
 					{
-						"key": {
-							"year": "2012"
-						},
-						"val": {
-							"None":0.3793,
-							"AA":0,
-							"BA":0.4828,
-							"MA":0.1379,
-							"PhD":0
-						}
+						"key": {"year": "2012"},
+						"val": {"None":0.3793, "AA":0, "BA":0.4828, "MA":0.1379, "PhD":0, "HQT":null}
 					}
 				]
 			}

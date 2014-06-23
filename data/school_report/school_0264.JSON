@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue Jun 10 18:32:11 2014",
+	"timestamp": "Tue Jun 17 18:28:26 2014",
 	"org_type": "school",
 	"org_name": "LaSalle-Backus Education Campus",
 	"report_card": {
@@ -736,10 +736,6 @@
 						"val": {"baseline": 0.066666, "target": 0.222221}
 					}
 				]
-			},
-			{
-				"id": "hqt_status",
-				"data":0.5
 			},
 			{
 				"id": "early_childhood",
@@ -3615,16 +3611,8 @@
 				"id": "staff_degree",
 				"data": [
 					{
-						"key": {
-							"year": "2012"
-						},
-						"val": {
-							"None":0,
-							"AA":0,
-							"BA":0.6087,
-							"MA":0.3913,
-							"PhD":0
-						}
+						"key": {"year": "2012"},
+						"val": {"None":0, "AA":0, "BA":0.6087, "MA":0.3913, "PhD":0, "HQT":0.5}
 					}
 				]
 			}

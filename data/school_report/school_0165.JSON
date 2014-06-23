@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue Jun 10 18:29:46 2014",
+	"timestamp": "Tue Jun 17 18:26:04 2014",
 	"org_type": "school",
 	"org_name": "Meridian PCS",
 	"report_card": {
@@ -753,10 +753,6 @@
 						"val": {"baseline": 0.172413, "target": 0.310344}
 					}
 				]
-			},
-			{
-				"id": "hqt_status",
-				"data":1
 			},
 			{
 				"id": "early_childhood",
@@ -4057,16 +4053,8 @@
 				"id": "staff_degree",
 				"data": [
 					{
-						"key": {
-							"year": "2012"
-						},
-						"val": {
-							"None":0,
-							"AA":0,
-							"BA":1,
-							"MA":0,
-							"PhD":0
-						}
+						"key": {"year": "2012"},
+						"val": {"None":0, "AA":0, "BA":1, "MA":0, "PhD":0, "HQT":1}
 					}
 				]
 			}

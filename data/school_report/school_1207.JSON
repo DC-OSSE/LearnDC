@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue Jun 10 18:36:59 2014",
+	"timestamp": "Tue Jun 17 18:33:22 2014",
 	"org_type": "school",
 	"org_name": "Capital City PCS – High School",
 	"report_card": {
@@ -264,10 +264,6 @@
 				]
 			},
 			{
-				"id": "hqt_status",
-				"data":null
-			},
-			{
 				"id": "early_childhood",
 				"data": [
 
@@ -367,30 +363,6 @@
 						"val": 48
 					},
 					{
-						"key": {"grade": "11", "subgroup": "All", "year": "2012"},
-						"val": 81
-					},
-					{
-						"key": {"grade": "11", "subgroup": "African American", "year": "2012"},
-						"val": 31
-					},
-					{
-						"key": {"grade": "11", "subgroup": "Hispanic", "year": "2012"},
-						"val": 47
-					},
-					{
-						"key": {"grade": "11", "subgroup": "Economically Disadvantaged", "year": "2012"},
-						"val": 64
-					},
-					{
-						"key": {"grade": "11", "subgroup": "Male", "year": "2012"},
-						"val": 32
-					},
-					{
-						"key": {"grade": "11", "subgroup": "Female", "year": "2012"},
-						"val": 49
-					},
-					{
 						"key": {"grade": "12", "subgroup": "All", "year": "2012"},
 						"val": 52
 					},
@@ -417,6 +389,30 @@
 					{
 						"key": {"grade": "12", "subgroup": "Female", "year": "2012"},
 						"val": 28
+					},
+					{
+						"key": {"grade": "11", "subgroup": "All", "year": "2012"},
+						"val": 81
+					},
+					{
+						"key": {"grade": "11", "subgroup": "African American", "year": "2012"},
+						"val": 31
+					},
+					{
+						"key": {"grade": "11", "subgroup": "Hispanic", "year": "2012"},
+						"val": 47
+					},
+					{
+						"key": {"grade": "11", "subgroup": "Economically Disadvantaged", "year": "2012"},
+						"val": 64
+					},
+					{
+						"key": {"grade": "11", "subgroup": "Male", "year": "2012"},
+						"val": 32
+					},
+					{
+						"key": {"grade": "11", "subgroup": "Female", "year": "2012"},
+						"val": 49
 					},
 					{
 						"key": {"grade": "10", "subgroup": "All", "year": "2012"},
@@ -543,6 +539,34 @@
 						"val": 45
 					},
 					{
+						"key": {"grade": "12", "subgroup": "All", "year": "2013"},
+						"val": 78
+					},
+					{
+						"key": {"grade": "12", "subgroup": "African American", "year": "2013"},
+						"val": 27
+					},
+					{
+						"key": {"grade": "12", "subgroup": "Hispanic", "year": "2013"},
+						"val": 47
+					},
+					{
+						"key": {"grade": "12", "subgroup": "Special Education", "year": "2013"},
+						"val": 10
+					},
+					{
+						"key": {"grade": "12", "subgroup": "Economically Disadvantaged", "year": "2013"},
+						"val": 60
+					},
+					{
+						"key": {"grade": "12", "subgroup": "Male", "year": "2013"},
+						"val": 30
+					},
+					{
+						"key": {"grade": "12", "subgroup": "Female", "year": "2013"},
+						"val": 48
+					},
+					{
 						"key": {"grade": "09", "subgroup": "All", "year": "2013"},
 						"val": 91
 					},
@@ -573,34 +597,6 @@
 					{
 						"key": {"grade": "09", "subgroup": "Female", "year": "2013"},
 						"val": 52
-					},
-					{
-						"key": {"grade": "12", "subgroup": "All", "year": "2013"},
-						"val": 78
-					},
-					{
-						"key": {"grade": "12", "subgroup": "African American", "year": "2013"},
-						"val": 27
-					},
-					{
-						"key": {"grade": "12", "subgroup": "Hispanic", "year": "2013"},
-						"val": 47
-					},
-					{
-						"key": {"grade": "12", "subgroup": "Special Education", "year": "2013"},
-						"val": 10
-					},
-					{
-						"key": {"grade": "12", "subgroup": "Economically Disadvantaged", "year": "2013"},
-						"val": 60
-					},
-					{
-						"key": {"grade": "12", "subgroup": "Male", "year": "2013"},
-						"val": 30
-					},
-					{
-						"key": {"grade": "12", "subgroup": "Female", "year": "2013"},
-						"val": 48
 					}
 				]
 			},
@@ -918,16 +914,8 @@
 				"id": "staff_degree",
 				"data": [
 					{
-						"key": {
-							"year": "2012"
-						},
-						"val": {
-							"None":0,
-							"AA":0,
-							"BA":0.1212,
-							"MA":0.8485,
-							"PhD":0.0303
-						}
+						"key": {"year": "2012"},
+						"val": {"None":0, "AA":0, "BA":0.1212, "MA":0.8485, "PhD":0.0303, "HQT":null}
 					}
 				]
 			}

@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue Jun 10 18:36:56 2014",
+	"timestamp": "Tue Jun 17 18:33:20 2014",
 	"org_type": "school",
 	"org_name": "E.L. Haynes PCS – Kansas Avenue (High School)",
 	"report_card": {
@@ -362,10 +362,6 @@
 				]
 			},
 			{
-				"id": "hqt_status",
-				"data":0.931
-			},
-			{
 				"id": "early_childhood",
 				"data": [
 					{
@@ -595,38 +591,6 @@
 						"val": 157
 					},
 					{
-						"key": {"grade": "10", "subgroup": "All", "year": "2013"},
-						"val": 95
-					},
-					{
-						"key": {"grade": "10", "subgroup": "African American", "year": "2013"},
-						"val": 54
-					},
-					{
-						"key": {"grade": "10", "subgroup": "Hispanic", "year": "2013"},
-						"val": 39
-					},
-					{
-						"key": {"grade": "10", "subgroup": "Special Education", "year": "2013"},
-						"val": 17
-					},
-					{
-						"key": {"grade": "10", "subgroup": "English Learner", "year": "2013"},
-						"val": 12
-					},
-					{
-						"key": {"grade": "10", "subgroup": "Economically Disadvantaged", "year": "2013"},
-						"val": 57
-					},
-					{
-						"key": {"grade": "10", "subgroup": "Male", "year": "2013"},
-						"val": 52
-					},
-					{
-						"key": {"grade": "10", "subgroup": "Female", "year": "2013"},
-						"val": 43
-					},
-					{
 						"key": {"grade": "09", "subgroup": "All", "year": "2013"},
 						"val": 167
 					},
@@ -657,6 +621,38 @@
 					{
 						"key": {"grade": "09", "subgroup": "Female", "year": "2013"},
 						"val": 77
+					},
+					{
+						"key": {"grade": "10", "subgroup": "All", "year": "2013"},
+						"val": 95
+					},
+					{
+						"key": {"grade": "10", "subgroup": "African American", "year": "2013"},
+						"val": 54
+					},
+					{
+						"key": {"grade": "10", "subgroup": "Hispanic", "year": "2013"},
+						"val": 39
+					},
+					{
+						"key": {"grade": "10", "subgroup": "Special Education", "year": "2013"},
+						"val": 17
+					},
+					{
+						"key": {"grade": "10", "subgroup": "English Learner", "year": "2013"},
+						"val": 12
+					},
+					{
+						"key": {"grade": "10", "subgroup": "Economically Disadvantaged", "year": "2013"},
+						"val": 57
+					},
+					{
+						"key": {"grade": "10", "subgroup": "Male", "year": "2013"},
+						"val": 52
+					},
+					{
+						"key": {"grade": "10", "subgroup": "Female", "year": "2013"},
+						"val": 43
 					},
 					{
 						"key": {"grade": "11", "subgroup": "All", "year": "2013"},

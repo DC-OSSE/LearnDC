@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue Jun 10 18:32:43 2014",
+	"timestamp": "Tue Jun 17 18:28:59 2014",
 	"org_type": "school",
 	"org_name": "Noyes Education Campus",
 	"report_card": {
@@ -598,10 +598,6 @@
 						"val": {"baseline": 0.302439, "target": 0.418699}
 					}
 				]
-			},
-			{
-				"id": "hqt_status",
-				"data":0.659
 			},
 			{
 				"id": "early_childhood",
@@ -3173,16 +3169,8 @@
 				"id": "staff_degree",
 				"data": [
 					{
-						"key": {
-							"year": "2012"
-						},
-						"val": {
-							"None":0,
-							"AA":0,
-							"BA":0.6957,
-							"MA":0.3043,
-							"PhD":0
-						}
+						"key": {"year": "2012"},
+						"val": {"None":0, "AA":0, "BA":0.6957, "MA":0.3043, "PhD":0, "HQT":0.659}
 					}
 				]
 			}

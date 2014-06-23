@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue Jun 10 18:34:04 2014",
+	"timestamp": "Tue Jun 17 18:30:19 2014",
 	"org_type": "school",
 	"org_name": "Walker-Jones Education Campus",
 	"report_card": {
@@ -583,10 +583,6 @@
 						"val": {"baseline": 0.034482, "target": 0.195401}
 					}
 				]
-			},
-			{
-				"id": "hqt_status",
-				"data":0.675
 			},
 			{
 				"id": "early_childhood",
@@ -3150,16 +3146,8 @@
 				"id": "staff_degree",
 				"data": [
 					{
-						"key": {
-							"year": "2012"
-						},
-						"val": {
-							"None":0,
-							"AA":0,
-							"BA":0.5294,
-							"MA":0.4706,
-							"PhD":0
-						}
+						"key": {"year": "2012"},
+						"val": {"None":0, "AA":0, "BA":0.5294, "MA":0.4706, "PhD":0, "HQT":0.675}
 					}
 				]
 			}

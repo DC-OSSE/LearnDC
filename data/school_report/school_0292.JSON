@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue Jun 10 18:32:49 2014",
+	"timestamp": "Tue Jun 17 18:29:05 2014",
 	"org_type": "school",
 	"org_name": "Oyster-Adams Bilingual School",
 	"report_card": {
@@ -850,10 +850,6 @@
 						"val": {"baseline": 0.930232, "target": 0.94186}
 					}
 				]
-			},
-			{
-				"id": "hqt_status",
-				"data":0.878
 			},
 			{
 				"id": "early_childhood",
@@ -2414,7 +2410,7 @@
 						"val": 20
 					},
 					{
-						"key": {"grade": "All", "subgroup": "Multi Racial", "year": "2010"},
+						"key": {"grade": "All", "subgroup": "Multiracial", "year": "2010"},
 						"val": 12
 					},
 					{
@@ -2730,7 +2726,7 @@
 						"val": 21
 					},
 					{
-						"key": {"grade": "All", "subgroup": "Multi Racial", "year": "2011"},
+						"key": {"grade": "All", "subgroup": "Multiracial", "year": "2011"},
 						"val": 23
 					},
 					{
@@ -3038,7 +3034,7 @@
 						"val": 15
 					},
 					{
-						"key": {"grade": "All", "subgroup": "Multi Racial", "year": "2012"},
+						"key": {"grade": "All", "subgroup": "Multiracial", "year": "2012"},
 						"val": 29
 					},
 					{
@@ -3334,7 +3330,7 @@
 						"val": 16
 					},
 					{
-						"key": {"grade": "All", "subgroup": "Multi Racial", "year": "2013"},
+						"key": {"grade": "All", "subgroup": "Multiracial", "year": "2013"},
 						"val": 22
 					},
 					{
@@ -4169,16 +4165,8 @@
 				"id": "staff_degree",
 				"data": [
 					{
-						"key": {
-							"year": "2012"
-						},
-						"val": {
-							"None":0,
-							"AA":0,
-							"BA":0.3864,
-							"MA":0.5909,
-							"PhD":0.0227
-						}
+						"key": {"year": "2012"},
+						"val": {"None":0, "AA":0, "BA":0.3864, "MA":0.5909, "PhD":0.0227, "HQT":0.878}
 					}
 				]
 			}

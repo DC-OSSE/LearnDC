@@ -28,47 +28,125 @@ LeaCasChunk <- function(lea_code, level){
         .ret <- ''
     }
     
-    .qry13c <- "SELECT * FROM [dbo].[assm_comp] WHERE [year] = '2013'
-        AND [district_code] = '" %+% lea_code %+% "';" ## what is this?
+    .qry13c <- "SELECT * FROM (
+					SELECT A.[year]
+				      ,A.[ea_year]
+				      ,A.[usi]
+				      ,A.[test_uid]
+				      ,A.[tested_grade]
+				      ,A.[comp_level] 
+					  ,B.[fy14_entity_code] as [lea_code]
+					FROM [dbo].[assm_comp] A
+					LEFT JOIN [dbo].[fy14_mapping] B
+						ON A.[tested_grade] = B.[grade] 
+						AND A.[school_code] = B.[school_code]
+						AND A.[ea_year] = B.[ea_year]) X
+				WHERE [year] = '2013'
+    			AND [lea_code] = '" %+% lea_code %+% "';" 
     .dat13_c <- sqlQuery(dbrepcard, .qry13c)
     if(nrow(.dat13_c)>=10){
         .ret <- c(.ret, WriteComp(.dat13_c, 2013, .lv))
     }
 
-    .qry12c <- "SELECT * FROM [dbo].[assm_comp] WHERE [year] = '2012'
-        AND [district_code]  = '" %+% lea_code %+% "';"
+    .qry12c <- "SELECT * FROM (
+					SELECT A.[year]
+				      ,A.[ea_year]
+				      ,A.[usi]
+				      ,A.[test_uid]
+				      ,A.[tested_grade]
+				      ,A.[comp_level] 
+					  ,B.[fy14_entity_code] as [lea_code]
+					FROM [dbo].[assm_comp] A
+					LEFT JOIN [dbo].[fy14_mapping] B
+						ON A.[tested_grade] = B.[grade] 
+						AND A.[school_code] = B.[school_code]
+						AND A.[ea_year] = B.[ea_year]) X
+				WHERE [year] = '2012'
+    			AND [lea_code] = '" %+% lea_code %+% "';" 
     .dat12_c <- sqlQuery(dbrepcard, .qry12c)
     if(nrow(.dat12_c)>=10){
         .ret <- c(.ret, WriteComp(.dat12_c, 2012, .lv))
     }
 
-    .qry11c <- "SELECT * FROM [dbo].[assm_comp] WHERE [year] = '2011'
-        AND [district_code] = '" %+% lea_code %+% "';"
+    .qry11c <- "SELECT * FROM (
+					SELECT A.[year]
+				      ,A.[ea_year]
+				      ,A.[usi]
+				      ,A.[test_uid]
+				      ,A.[tested_grade]
+				      ,A.[comp_level] 
+					  ,B.[fy14_entity_code] as [lea_code]
+					FROM [dbo].[assm_comp] A
+					LEFT JOIN [dbo].[fy14_mapping] B
+						ON A.[tested_grade] = B.[grade] 
+						AND A.[school_code] = B.[school_code]
+						AND A.[ea_year] = B.[ea_year]) X
+				WHERE [year] = '2011'
+    			AND [lea_code] = '" %+% lea_code %+% "';" 
     .dat11_c <- sqlQuery(dbrepcard, .qry11c)
     if(nrow(.dat11_c)>=10){
         .ret <- c(.ret, WriteComp(.dat11_c, 2011, .lv))
     }
 
     ## 
-    .qry13s <- "SELECT * FROM [dbo].[assm_science]
-        WHERE [district_code] [lea_code] = '" %+% lea_code %+% "'
-            AND science_empty = 0;"
+    .qry13s <- "SELECT * FROM (
+					SELECT A.[year]
+				      ,A.[ea_year]
+				      ,A.[usi]
+				      ,A.[test_uid]
+				      ,A.[tested_grade]
+				      ,A.[science_level] 
+					  ,B.[fy14_entity_code] as [lea_code]
+					FROM [dbo].[assm_science] A
+					LEFT JOIN [dbo].[fy14_mapping] B
+						ON A.[tested_grade] = B.[grade] 
+						AND A.[school_code] = B.[school_code]
+						AND A.[ea_year] = B.[ea_year]
+					WHERE  [science_empty] = 0) X
+				WHERE [year] = '2013'
+    			AND [lea_code] = '" %+% lea_code %+% "';"
     .dat13_s <- sqlQuery(dbrepcard, .qry13s)
     if(nrow(.dat13_s)>=10){
         .ret <- c(.ret, WriteScience(.dat13_s, 2013, .lv))
     }
 
-    .qry12s <- "SELECT * FROM [dbo].[assm_science]
-        WHERE [district_code] = '" %+% lea_code %+% "'
-            AND science_empty = 0;"
+     .qry12s <- "SELECT * FROM (
+					SELECT A.[year]
+				      ,A.[ea_year]
+				      ,A.[usi]
+				      ,A.[test_uid]
+				      ,A.[tested_grade]
+				      ,A.[science_level] 
+					  ,B.[fy14_entity_code] as [lea_code]
+					FROM [dbo].[assm_science] A
+					LEFT JOIN [dbo].[fy14_mapping] B
+						ON A.[tested_grade] = B.[grade] 
+						AND A.[school_code] = B.[school_code]
+						AND A.[ea_year] = B.[ea_year]
+					WHERE  [science_empty] = 0) X
+				WHERE [year] = '2012'
+    			AND [lea_code] = '" %+% lea_code %+% "';"
     .dat12_s <- sqlQuery(dbrepcard, .qry12s)
     if(nrow(.dat12_s)>=10){
         .ret<- c(.ret, WriteScience(.dat12_s, 2012, .lv))
     }
 
-    .qry11s <- "SELECT * FROM [dbo].[assm_science]
-    WHERE [district_code]  = '" %+% lea_code %+% "'
-            AND science_empty = 0;"
+    .qry11s <- "SELECT * FROM (
+					SELECT A.[year]
+				      ,A.[ea_year]
+				      ,A.[usi]
+				      ,A.[test_uid]
+				      ,A.[tested_grade]
+				      ,A.[science_level] 
+					  ,B.[fy14_entity_code] as [lea_code]
+					FROM [dbo].[assm_science] A
+					LEFT JOIN [dbo].[fy14_mapping] B
+						ON A.[tested_grade] = B.[grade] 
+						AND A.[school_code] = B.[school_code]
+						AND A.[ea_year] = B.[ea_year]
+					WHERE  [science_empty] = 0) X
+				WHERE [year] = '2011'
+    			AND [lea_code] = '" %+% lea_code %+% "';"
     .dat11_s <- sqlQuery(dbrepcard, .qry11s)
     if(nrow(.dat11_s)>=10){
         .ret <- c(.ret, WriteScience(.dat11_s, 2011, .lv))
@@ -147,36 +225,36 @@ WriteScience <- function(.casdat_sci, year, level){
 			.add <- indent(.lv) %+% '{\n'
 			
 			up(.lv)
-			.add <- .add %+% paste(indent(.lv), '"key": {\n', sep="")
+			.add <- .add %+% paste(indent(.lv), '"key": {', sep="")
 			up(.lv)
 			
 			.profs <- .tmp$science_level
 			
-			.add <- .add %+% paste(indent(.lv), '"subject": "Science",\n', sep="")
-			
-			.add <- .add %+% paste(indent(.lv), '"grade": "',goutput,'", \n', sep="")
-			.add <- .add %+% paste(indent(.lv), '"enrollment_status": "',.fay,'", \n', sep="")
-			.add <- .add %+% paste(indent(.lv), '"subgroup": "All", \n', sep="")
-			.add <- .add %+% paste(indent(.lv), '"year": "',year,'" \n', sep="")
+			.add <- .add %+% paste('"subject": "Science",', sep="")
+		
+			.add <- .add %+% paste('"grade": "',goutput,'", ', sep="")
+			.add <- .add %+% paste('"enrollment_status": "',.fay,'", ', sep="")
+			.add <- .add %+% paste('"subgroup": "All", ', sep="")
+			.add <- .add %+% paste('"year": "',year,'" ', sep="")
 			
 			down(.lv)
 			
-			.add <- .add %+% paste(indent(.lv), '},\n', sep="")
+			.add <- .add %+% paste('},\n', sep="")
 				
-			.add <- .add %+% paste(indent(.lv), '"val": {\n', sep="")
+			.add <- .add %+% paste(indent(.lv), '"val": {', sep="")
 			up(.lv)
 			
-			.add <- .add %+% paste(indent(.lv), '"n_eligible":',length(.profs),',\n', sep="")
-			.add <- .add %+% paste(indent(.lv), '"n_test_takers":',length(.profs[.profs %in% .plevels]),',\n', sep="")
-			.add <- .add %+% paste(indent(.lv), '"advanced_or_proficient":', length(.profs[.profs %in% c("Proficient", "Advanced", "3", "4")]),',\n', sep="")
+			.add <- .add %+% paste('"n_eligible":',length(.profs),',', sep="")
+			.add <- .add %+% paste('"n_test_takers":',length(.profs[.profs %in% .plevels]),',', sep="")
+			.add <- .add %+% paste('"advanced_or_proficient":', length(.profs[.profs %in% c("Proficient", "Advanced", "3", "4")]),',', sep="")
 			
-			.add <- .add %+% paste(indent(.lv), '"advanced":',length(.profs[.profs %in% c("Advanced", "4")]),',\n', sep="")
-			.add <- .add %+% paste(indent(.lv), '"proficient":',length(.profs[.profs %in% c("Proficient", "3")]),',\n', sep="")
-			.add <- .add %+% paste(indent(.lv), '"basic":',length(.profs[.profs %in% c("Basic","2")]),',\n', sep="")
-			.add <- .add %+% paste(indent(.lv), '"below_basic":',length(.profs[.profs %in% c("Below Basic", "1")]),'\n', sep="")
+			.add <- .add %+% paste('"advanced":',length(.profs[.profs %in% c("Advanced", "4")]),',', sep="")
+			.add <- .add %+% paste('"proficient":',length(.profs[.profs %in% c("Proficient", "3")]),',', sep="")
+			.add <- .add %+% paste('"basic":',length(.profs[.profs %in% c("Basic","2")]),',', sep="")
+			.add <- .add %+% paste('"below_basic":',length(.profs[.profs %in% c("Below Basic", "1")]),'', sep="")
 			
 			down(.lv)
-			.add <- .add %+% paste(indent(.lv), '}\n', sep="")
+			.add <- .add %+% paste('}\n', sep="")
 			down(.lv)
 			.add <- .add %+% paste(indent(.lv), '}', sep="")
 			
@@ -215,35 +293,35 @@ WriteComp <- function(.casdat_comp, year, level){
 			.add <- indent(.lv) %+% '{\n'
 			
 			up(.lv)
-			.add <- .add %+% paste(indent(.lv), '"key": {\n', sep="")
+			.add <- .add %+% paste(indent(.lv), '"key": {', sep="")
 			up(.lv)
 			
 			.profs <- .tmp$comp_level
 			
-			.add <- .add %+% paste(indent(.lv), '"subject": "Composition",\n', sep="")			
-			.add <- .add %+% paste(indent(.lv), '"grade": "',goutput,'", \n', sep="")
-			.add <- .add %+% paste(indent(.lv), '"enrollment_status": "',.fay,'", \n', sep="")
-			.add <- .add %+% paste(indent(.lv), '"subgroup": "All", \n', sep="")
-			.add <- .add %+% paste(indent(.lv), '"year": "',year,'" \n', sep="")
+			.add <- .add %+% paste('"subject": "Composition",', sep="")			
+			.add <- .add %+% paste('"grade": "',goutput,'", ', sep="")
+			.add <- .add %+% paste('"enrollment_status": "',.fay,'", ', sep="")
+			.add <- .add %+% paste('"subgroup": "All", ', sep="")
+			.add <- .add %+% paste('"year": "',year,'" ', sep="")
 			
 			down(.lv)
 			
-			.add <- .add %+% paste(indent(.lv), '},\n', sep="")
+			.add <- .add %+% paste('},\n', sep="")
 				
-			.add <- .add %+% paste(indent(.lv), '"val": {\n', sep="")
+			.add <- .add %+% paste(indent(.lv), '"val": {', sep="")
 			up(.lv)
 			
-			.add <- .add %+% paste(indent(.lv), '"n_eligible":',length(.profs),',\n', sep="")
-			.add <- .add %+% paste(indent(.lv), '"n_test_takers":',length(.profs[.profs %in% .plevels]),',\n', sep="")
-			.add <- .add %+% paste(indent(.lv), '"advanced_or_proficient":', length(.profs[.profs %in% c("Proficient", "Advanced", "3", "4")]),',\n', sep="")
+			.add <- .add %+% paste('"n_eligible":',length(.profs),', ', sep="")
+			.add <- .add %+% paste('"n_test_takers":',length(.profs[.profs %in% .plevels]),', ', sep="")
+			.add <- .add %+% paste('"advanced_or_proficient":', length(.profs[.profs %in% c("Proficient", "Advanced", "3", "4")]),', ', sep="")
 			
-			.add <- .add %+% paste(indent(.lv), '"advanced":',length(.profs[.profs %in% c("Advanced", "4")]),',\n', sep="")
-			.add <- .add %+% paste(indent(.lv), '"proficient":',length(.profs[.profs %in% c("Proficient", "3")]),',\n', sep="")
-			.add <- .add %+% paste(indent(.lv), '"basic":',length(.profs[.profs %in% c("Basic", "2")]),',\n', sep="")
-			.add <- .add %+% paste(indent(.lv), '"below_basic":',length(.profs[.profs %in% c("Below Basic", "1")]),'\n', sep="")
+			.add <- .add %+% paste('"advanced":',length(.profs[.profs %in% c("Advanced", "4")]),', ', sep="")
+			.add <- .add %+% paste('"proficient":',length(.profs[.profs %in% c("Proficient", "3")]),', ', sep="")
+			.add <- .add %+% paste('"basic":',length(.profs[.profs %in% c("Basic", "2")]),', ', sep="")
+			.add <- .add %+% paste('"below_basic":',length(.profs[.profs %in% c("Below Basic", "1")]),'', sep="")
 			
 			down(.lv)
-			.add <- .add %+% paste(indent(.lv), '}\n', sep="")
+			.add <- .add %+% paste('}\n', sep="")
 			down(.lv)
 			.add <- .add %+% paste(indent(.lv), '}', sep="")
 			
@@ -288,8 +366,10 @@ LeaCollegeReadiness <- function(lea_code, level){
     .lv <- level
     
     .qry <- "SELECT * FROM [dbo].[college_readiness]
-                    WHERE [fy13_entity_code] in (
-SELECT DISTINCT [fy13_entity_code] FROM [dbo].[enrollment_sy1213] WHERE [lea_code] = '" %+% lea_code %+% "')"
+                    WHERE [lea_code] in (
+	SELECT DISTINCT [lea_code] FROM [dbo].[enrollment] 
+	WHERE [ea_year] = '2012' 
+	AND [lea_code] = '" %+% lea_code %+% "')"
     .cready <- sqlQuery(dbrepcard, .qry)
                 ##print(.cready)
     
@@ -307,7 +387,7 @@ SELECT DISTINCT [fy13_entity_code] FROM [dbo].[enrollment_sy1213] WHERE [lea_cod
 
 EncodeCReady <- function(.dat, level){
     .lv <- level
-    .subgroups <- c("African American","White","Hispanic","Asian","American Indian", "Pacific Islander", "Multi Racial","Special Education","English Learner","Economically Disadvantaged","Male", "Female")
+    .subgroups <- c("African American","White","Hispanic","Asian","American Indian or Alaskan Native", "Pacific Islander", "Multiracial","Special Education","English Learner","Economically Disadvantaged","Male", "Female")
 
     .ret <- c()
     for(j in 0:12){
@@ -322,23 +402,23 @@ EncodeCReady <- function(.dat, level){
             .add <- indent(.lv) %+% '{\n'
             
             up(.lv)
-            .add <- .add %+% paste(indent(.lv), '"key": {\n', sep="")
+            .add <- .add %+% paste(indent(.lv), '"key": {', sep="")
             up(.lv)                                   
             .profs <- .tmp$comp_level
-            .add <- .add %+% paste(indent(.lv), '"subgroup": "', .slice,'", \n', sep="")
-            .add <- .add %+% paste(indent(.lv), '"year": "',.tmp$year[1],'" \n', sep="")
+            .add <- .add %+% paste('"subgroup": "', .slice,'", ', sep="")
+            .add <- .add %+% paste('"year": "',.tmp$year[1],'" ', sep="")
             down(.lv)
-            .add <- .add %+% paste(indent(.lv), '},\n', sep="")
+            .add <- .add %+% paste('},\n', sep="")
                             
-            .add <- .add %+% paste(indent(.lv), '"val": {\n', sep="")
+            .add <- .add %+% paste(indent(.lv), '"val": {', sep="")
             up(.lv)
-            .add <- .add %+% paste(indent(.lv), '"graduates": ', nrow(.tmp),',\n', sep="")
-            .add <- .add %+% paste(indent(.lv), '"act_taker": ', nrow(subset(.tmp, act_taker=='YES')),',\n', sep="")
-            .add <- .add %+% paste(indent(.lv), '"sat_taker": ', nrow(subset(.tmp, sat_taker=='YES')),',\n', sep="")
-            .add <- .add %+% paste(indent(.lv), '"ap_taker": ', nrow(subset(.tmp, ap_taker=='YES')),',\n', sep="")
-            .add <- .add %+% paste(indent(.lv), '"psat_taker": ', nrow(subset(.tmp, psat_taker=='YES')),'\n', sep="")
+            .add <- .add %+% paste('"graduates": ', nrow(.tmp),', ', sep="")
+            .add <- .add %+% paste('"act_taker": ', nrow(subset(.tmp, act_taker=='YES')),', ', sep="")
+            .add <- .add %+% paste('"sat_taker": ', nrow(subset(.tmp, sat_taker=='YES')),', ', sep="")
+            .add <- .add %+% paste('"ap_taker": ', nrow(subset(.tmp, ap_taker=='YES')),', ', sep="")
+            .add <- .add %+% paste('"psat_taker": ', nrow(subset(.tmp, psat_taker=='YES')), sep="")
             down(.lv)
-            .add <- .add %+% paste(indent(.lv), '}\n', sep="")
+            .add <- .add %+% paste('}\n', sep="")
             down(.lv)
             .add <- .add %+% paste(indent(.lv), '}', sep="")
             
@@ -351,60 +431,34 @@ EncodeCReady <- function(.dat, level){
 LeaSPEDChunk <- function(scode, level){
 	.lv <- level
 	
-	## MATH/READING
-	.qry13 <- "SELECT * FROM [dbo].[assessment_sy1213]
-		WHERE [fy13_entity_code] in (
-SELECT DISTINCT [fy13_entity_code] FROM [dbo].[enrollment_sy1213] WHERE [lea_code] = '" %+% lea_code %+% "')
-		AND [special_ed] = 'YES';"
-	.dat13_mr <- sqlQuery(dbrepcard, .qry13)
-	
-	.qry12 <- "SELECT * FROM [dbo].[assessment_sy1112]
-		WHERE [fy13_entity_code] in (
-SELECT DISTINCT [fy13_entity_code] FROM [dbo].[enrollment_sy1213] WHERE [lea_code] = '" %+% lea_code %+% "')
-		AND [special_ed] = 'YES';"
-	.dat12_mr <- sqlQuery(dbrepcard, .qry12)
-	
-	.qry11 <- "SELECT * FROM [dbo].[assessment_sy1011]
-		WHERE [fy13_entity_code] in (
-SELECT DISTINCT [fy13_entity_code] FROM [dbo].[enrollment_sy1213] WHERE [lea_code] = '" %+% lea_code %+% "')
-		AND [special_ed] = 'YES';"
-	.dat11_mr <- sqlQuery(dbrepcard, .qry11)
-	
-	.qry10 <- "SELECT * FROM [dbo].[assessment_sy0910]
-		WHERE [fy13_entity_code] in (
-SELECT DISTINCT [fy13_entity_code] FROM [dbo].[enrollment_sy1213] WHERE [lea_code] = '" %+% lea_code %+% "')
-		AND [special_ed] = 'YES';"
-	.dat10_mr <- sqlQuery(dbrepcard, .qry10)
-	
-	.qry09 <- "SELECT * FROM [dbo].[assessment_sy0809]
-		WHERE [fy13_entity_code] in (
-SELECT DISTINCT [fy13_entity_code] FROM [dbo].[enrollment_sy1213] WHERE [lea_code] = '" %+% lea_code %+% "')
-		AND [special_ed] = 'YES';"
-	.dat09_mr <- sqlQuery(dbrepcard, .qry09)
-	
+	.qry <- "SELECT X.*,
+	Y.[lea_code] as [lea_code_1314]
+		FROM (
+			SELECT A.* ,
+				B.[fy14_entity_code]
+			FROM [dbo].[assessment] A
+			LEFT JOIN [dbo].[fy14_mapping] B
+				ON A.[school_grade] = B.[grade] 
+				AND A.[school_code] = B.[school_code]
+				AND A.[ea_year] = B.[ea_year]
+			) X
+		LEFT JOIN [dbo].[schooldir_sy1314] Y
+		ON X.[fy14_entity_code]  = Y.[school_code]
+	WHERE Y.[lea_code] = '" %+% lea_code %+% "'"
+	.dat_mr <- sqlQuery(dbrepcard, .qry)
+
 	.ret <- c()
-	
-	if(nrow(.dat13_mr)>=10 & !is.null(.dat13_mr)){
-		.ret <- c(.ret, WriteSPED(.dat13_mr, 2013, .lv))
+
+	for(i in unique(.dat_mr$year)){
+		.tmp_mr <- subset(.dat_mr, year ==i)
+		if(nrow(.tmp_mr)>=10 & !is.null(.tmp_mr)){
+			year <- i
+			.ret <- c(.ret, WriteSPED(.tmp_mr, year, .lv))
+		}
 	}
-	
-	if(nrow(.dat12_mr)>=10 & !is.null(.dat12_mr)){
-		.ret <- c(.ret, WriteSPED(.dat12_mr, 2012, .lv))
-	}
-	
-	if(nrow(.dat11_mr)>=10 & !is.null(.dat11_mr)){
-		.ret <- c(.ret, WriteSPED(.dat11_mr, 2011, .lv))
-	}
-	
-	if(nrow(.dat10_mr)>=10 & !is.null(.dat10_mr)){
-		.ret <- c(.ret, WriteSPED(.dat10_mr, 2010, .lv))
-	}
-	
-	if(nrow(.dat09_mr)>=10 & !is.null(.dat09_mr)){
-		.ret <- c(.ret, WriteSPED(.dat09_mr, 2009, .lv))
-	}
-	
+
 	.ret <- subset(.ret, .ret != '')
+
 	return(paste(.ret, collapse=',\n'))
 }
 
@@ -423,10 +477,10 @@ WriteSPED <- function(.casdat_mr, year, level){
 
 			if(b == 2){
 				.tmp <- subset(.casdat_mr, sped_acc == 'YES')
-				soutput <- "With Accomodations"
+				soutput <- "With Accommodations"
 			} else if(b == 3){
 				.tmp <- subset(.casdat_mr, sped_acc != 'YES')
-				soutput <- "No Accomodations"
+				soutput <- "No Accommodations"
 			} else if(b==4){
 				.tmp <- subset(.casdat_mr, alt_tested=='YES')
 				soutput <- "ALT Test Takers"
@@ -444,31 +498,31 @@ WriteSPED <- function(.casdat_mr, year, level){
 				.add <- indent(.lv) %+% '{\n'
 				
 				up(.lv)
-				.add <- .add %+% paste(indent(.lv), '"key": {\n', sep="")
+				.add <- .add %+% paste(indent(.lv), '"key": {', sep="")
 				up(.lv)				
 
-				.add <- .add %+% paste(indent(.lv), '"subject": "',.subjects[a],'",\n', sep="")
-				.add <- .add %+% paste(indent(.lv), '"subgroup": "',soutput,'", \n', sep="")
-				.add <- .add %+% paste(indent(.lv), '"year": "',year,'" \n', sep="")
+				.add <- .add %+% paste('"subject": "',.subjects[a],'", ', sep="")
+				.add <- .add %+% paste('"subgroup": "',soutput,'",  ', sep="")
+				.add <- .add %+% paste('"year": "',year,'" ', sep="")
 				
 				down(.lv)
 				
-				.add <- .add %+% paste(indent(.lv), '},\n', sep="")
+				.add <- .add %+% paste('},\n', sep="")
 					
-				.add <- .add %+% paste(indent(.lv), '"val": {\n', sep="")
+				.add <- .add %+% paste(indent(.lv), '"val": {', sep="")
 				up(.lv)
 				
-				.add <- .add %+% paste(indent(.lv), '"n_eligible":',length(.profs),',\n', sep="")
-				.add <- .add %+% paste(indent(.lv), '"n_test_takers":',length(.profs[.profs %in% .plevels]),',\n', sep="")
-				.add <- .add %+% paste(indent(.lv), '"advanced_or_proficient":', length(.profs[.profs %in% c("Proficient", "Advanced")]),',\n', sep="")
+				.add <- .add %+% paste('"n_eligible":',length(.profs),', ', sep="")
+				.add <- .add %+% paste('"n_test_takers":',length(.profs[.profs %in% .plevels]),', ', sep="")
+				.add <- .add %+% paste('"advanced_or_proficient":', length(.profs[.profs %in% c("Proficient", "Advanced")]),', ', sep="")
 				
-				.add <- .add %+% paste(indent(.lv), '"advanced":',length(.profs[.profs %in% "Advanced"]),',\n', sep="")
-				.add <- .add %+% paste(indent(.lv), '"proficient":',length(.profs[.profs %in% "Proficient"]),',\n', sep="")
-				.add <- .add %+% paste(indent(.lv), '"basic":',length(.profs[.profs %in% "Basic"]),',\n', sep="")
-				.add <- .add %+% paste(indent(.lv), '"below_basic":',length(.profs[.profs %in% "Below Basic"]),'\n', sep="")
+				.add <- .add %+% paste('"advanced":',length(.profs[.profs %in% "Advanced"]),', ', sep="")
+				.add <- .add %+% paste('"proficient":',length(.profs[.profs %in% "Proficient"]),', ', sep="")
+				.add <- .add %+% paste('"basic":',length(.profs[.profs %in% "Basic"]),', ', sep="")
+				.add <- .add %+% paste('"below_basic":',length(.profs[.profs %in% "Below Basic"]),'', sep="")
 				
 				down(.lv)
-				.add <- .add %+% paste(indent(.lv), '}\n', sep="")
+				.add <- .add %+% paste('}\n', sep="")
 				down(.lv)
 				.add <- .add %+% paste(indent(.lv), '}', sep="")
 				
@@ -482,22 +536,26 @@ WriteSPED <- function(.casdat_mr, year, level){
 
 LeaCollegeEnroll <- function(lea_code, level){
 	.lv <- level
-	
-	.qry <- "SELECT * FROM [dbo].[college_enroll_2010]
-		WHERE [fy13_entity_code] in (
-SELECT DISTINCT [fy13_entity_code] FROM [dbo].[enrollment_sy1213] WHERE [lea_code] = '" %+% lea_code %+% "')
-		AND [Graduates] >= 10;"
-	.cenr10 <- sqlQuery(dbrepcard, .qry)
 	.ret <- c()
+	.qry <- "SELECT * FROM [dbo].[college_enroll_2010]
+				WHERE [fy13_entity_code] in (
+					SELECT DISTINCT [school_code] FROM [dbo].[enrollment] 
+						WHERE [ea_year] = '2012'
+						AND [lea_code] = '" %+% lea_code %+% "')
+				AND [Graduates] >= 10;"
+	.cenr10 <- sqlQuery(dbrepcard, .qry)
+
 
 	if(nrow(.cenr10)> 0){
 		.ret <- c(.ret, WriteCEnroll(.cenr10, .lv, 2010))
 	}
 
 	.qry <- "SELECT * FROM [dbo].[college_enroll_2009]
-		WHERE [fy13_entity_code] in (
-SELECT DISTINCT [fy13_entity_code] FROM [dbo].[enrollment_sy1213] WHERE [lea_code] = '" %+% lea_code %+% "')
-		AND [Graduates] >= 10;"
+				WHERE [fy13_entity_code] in (
+					SELECT DISTINCT [school_code] FROM [dbo].[enrollment] 
+						WHERE [ea_year] = '2012'
+						AND [lea_code] = '" %+% lea_code %+% "')
+				AND [Graduates] >= 10;"
 	.cenr09 <- sqlQuery(dbrepcard, .qry)
 
 	if(nrow(.cenr09)> 0){
@@ -505,9 +563,11 @@ SELECT DISTINCT [fy13_entity_code] FROM [dbo].[enrollment_sy1213] WHERE [lea_cod
 	}		
 	
 	.qry <- "SELECT * FROM [dbo].[college_enroll_2008]
-		WHERE [fy13_entity_code] in (
-SELECT DISTINCT [fy13_entity_code] FROM [dbo].[enrollment_sy1213] WHERE [lea_code] = '" %+% lea_code %+% "')
-		AND [Graduates] >= 10;"
+				WHERE [fy13_entity_code] in (
+					SELECT DISTINCT [school_code] FROM [dbo].[enrollment] 
+						WHERE [ea_year] = '2012'
+						AND [lea_code] = '" %+% lea_code %+% "')
+				AND [Graduates] >= 10;"
 	.cenr08 <- sqlQuery(dbrepcard, .qry)
 
 	if(nrow(.cenr08)> 0){
@@ -515,9 +575,11 @@ SELECT DISTINCT [fy13_entity_code] FROM [dbo].[enrollment_sy1213] WHERE [lea_cod
 	}		
 		
 	.qry <- "SELECT * FROM [dbo].[college_enroll_2007]
-		WHERE [fy13_entity_code] in (
-SELECT DISTINCT [fy13_entity_code] FROM [dbo].[enrollment_sy1213] WHERE [lea_code] = '" %+% lea_code %+% "')
-		AND [Graduates] >= 10;"
+				WHERE [fy13_entity_code] in (
+					SELECT DISTINCT [school_code] FROM [dbo].[enrollment] 
+						WHERE [ea_year] = '2012'
+						AND [lea_code] = '" %+% lea_code %+% "')
+				AND [Graduates] >= 10;"
 	.cenr07 <- sqlQuery(dbrepcard, .qry)
 
 	if(nrow(.cenr07)> 0){
@@ -538,24 +600,24 @@ WriteCEnroll <- function(.cenr, level, year){
 		.add <- indent(.lv) %+% '{\n'
 		
 		up(.lv)
-		.add <- .add %+% paste(indent(.lv), '"key": {\n', sep="")
+		.add <- .add %+% paste(indent(.lv), '"key": {', sep="")
 		up(.lv)
 
-		.add <- .add %+% paste(indent(.lv), '"cohort_year": "',year,'",\n', sep="")
-		.add <- .add %+% paste(indent(.lv), '"subgroup": "', SubCEnroll(.cenr$Group[i]),'"\n', sep="")
+		.add <- .add %+% paste('"cohort_year": "',year,'", ', sep="")
+		.add <- .add %+% paste('"subgroup": "', SubCEnroll(.cenr$Group[i]),'" ', sep="")
 		
 		down(.lv)
-		.add <- .add %+% paste(indent(.lv), '},\n', sep="")
+		.add <- .add %+% paste('},\n', sep="")
 			
-		.add <- .add %+% paste(indent(.lv), '"val": {\n', sep="")
+		.add <- .add %+% paste(indent(.lv), '"val": {', sep="")
 		up(.lv)
-		.add <- .add %+% paste(indent(.lv), '"hs_graduates": ',.cenr$Graduates[i],',\n', sep="")
-		.add <- .add %+% paste(indent(.lv), '"enroll_within_16mo": ',.cenr$Initial_Enroll_16mo[i],',\n', sep="")
-		.add <- .add %+% paste(indent(.lv), '"enroll_within_16mo_instate": ',.cenr$Initial_Enroll_InState_16mo[i],',\n', sep="")
-		.add <- .add %+% paste(indent(.lv), '"complete_1yr_instate": ',.cenr$Complete_1Yr_in_State[i],' \n', sep="")
+		.add <- .add %+% paste('"hs_graduates": ',.cenr$Graduates[i],', ', sep="")
+		.add <- .add %+% paste('"enroll_within_16mo": ',.cenr$Initial_Enroll_16mo[i],', ', sep="")
+		.add <- .add %+% paste('"enroll_within_16mo_instate": ',.cenr$Initial_Enroll_InState_16mo[i],', ', sep="")
+		.add <- .add %+% paste('"complete_1yr_instate": ',.cenr$Complete_1Yr_in_State[i],'', sep="")
 
 		down(.lv)
-		.add <- .add %+% paste(indent(.lv), '}\n', sep="")
+		.add <- .add %+% paste('}\n', sep="")
 
 		down(.lv)
 		.add <- .add %+% paste(indent(.lv), '}', sep="")
@@ -612,9 +674,9 @@ RetMGPGroup <- function(.ingrp){
 	} else if (.ingrp == 'HI7'){
 		return('Hispanic')
 	} else if (.ingrp == 'AM7'){
-		return('American Indian/Alaskan Native')
+		return('American Indian or Alaskan Native')
 	} else if (.ingrp == 'MU7'){
-		return('Multi Racial')
+		return('Multiracial')
 	} else if (.ingrp == 'LEP'){
 		return('English Learner')
 	} else if (.ingrp == 'PI7'){
@@ -627,38 +689,81 @@ LeaMGPResult <- function(lea_code, level){
 	.lv <- level
 	.qry <- "SELECT * FROM [dbo].[mgp_summary]
 		WHERE [fy13_entity_code] in (
-SELECT DISTINCT [fy13_entity_code] FROM [dbo].[enrollment_sy1213] WHERE [lea_code] = '" %+% lea_code %+% "')
+			SELECT DISTINCT [school_code] FROM [dbo].[enrollment] 
+				WHERE [ea_year] = '2012' 
+				AND [lea_code] = '" %+% lea_code %+% "')
 		AND [group] not like 'Grade%'"
 	.mgp <- sqlQuery(dbrepcard, .qry)	
 	.ret <- c()	
-	if(nrow(.mgp)>0){
-		for(i in 1:nrow(.mgp)){
-			if(.mgp$group_fay_size[i] >= 10 ){
-				.add <- indent(.lv) %+% '{\n'
-				up(.lv)
-				.add <- .add %+% paste(indent(.lv), '"key": {\n', sep="")
-				up(.lv)			
-				.profs <- .mgp$comp_level
-				.add <- .add %+% paste(indent(.lv), '"subject": "',.mgp$subject[i] ,'", \n', sep="")
-				.add <- .add %+% paste(indent(.lv), '"subgroup": "',RetMGPGroup(.mgp$group[i]),'", \n', sep="")
-				.add <- .add %+% paste(indent(.lv), '"year": "',.mgp$year[i],'" \n', sep="")
-				down(.lv)
-				.add <- .add %+% paste(indent(.lv), '},\n', sep="")
-			
-				.add <- .add %+% paste(indent(.lv), '"val": {\n', sep="")
-				up(.lv)
-				.add <- .add %+% paste(indent(.lv), '"group_size": ', checkna(.mgp$group_fay_size[i]),',\n', sep="")
-				.add <- .add %+% paste(indent(.lv), '"mgp_1yr": ', checkna(.mgp$mgp_1yr[i]),',\n', sep="")
-				.add <- .add %+% paste(indent(.lv), '"mgp_2yr": ', checkna(.mgp$mgp_2yr[i]),'\n', sep="")
 
-				down(.lv)
-				.add <- .add %+% paste(indent(.lv), '}\n', sep="")
-				down(.lv)
-				.add <- .add %+% paste(indent(.lv), '}', sep="")
-				.ret <- c(.ret, .add)
-			}	
+	if(nrow(.mgp)>0){
+		for(i in unique(.mgp$subject)){
+			.mgp_sub <- subset(.mgp, subject == i)
+
+			for(j in unique(.mgp_sub$group)){
+				.mgp_sub_group <- subset(.mgp_sub, group == j)
+
+				for(k in unique(.mgp_sub_group$year)){
+					.tmp <- subset(.mgp_sub_group, year == k)
+
+					.add <- indent(.lv) %+% '{\n'
+					up(.lv)
+					.add <- .add %+% paste(indent(.lv), '"key": {', sep="")
+					up(.lv)			
+					.add <- .add %+% paste('"subject": "',i ,'", ', sep="")
+					.add <- .add %+% paste('"subgroup": "',RetMGPGroup(j),'", ', sep="")
+					.add <- .add %+% paste('"year": "',k,'" ', sep="")
+					down(.lv)
+					.add <- .add %+% paste('},\n', sep="")
+			
+					.add <- .add %+% paste(indent(.lv), '"val": {', sep="")
+					up(.lv)
+					.add <- .add %+% paste('"group_size": ', checkna(sum(.tmp$group_fay_size)),', ', sep="")
+					.add <- .add %+% paste('"mgp_1yr": ', checkna(round(sum(.tmp$group_fay_size * .tmp$mgp_1yr)/sum(.tmp$group_fay_size),2)),', ', sep="")
+					.add <- .add %+% paste('"mgp_2yr": ', checkna(round(sum(.tmp$group_fay_size * .tmp$mgp_2yr)/sum(.tmp$group_fay_size),2)),'', sep="")
+					down(.lv)
+					.add <- .add %+% paste('}\n', sep="")
+					down(.lv)
+					.add <- .add %+% paste(indent(.lv), '}', sep="")
+					.ret <- c(.ret, .add)
+				}
+			}
 		}
 	}
 	return(paste(.ret, collapse=',\n'))
 }
+
+LeaSpedAprUrl <- function(lea_code, level){
+	.lv <- level
+
+	.sped_url <- sqlQuery(dbrepcard, paste0("SELECT * FROM [dbo].[sped_apr_url] WHERE [lea_code] = '", lea_code,"'"))
+
+	if(nrow(.sped_url)==1){
+		 if(.sped_url$url_exists == 1){
+			.add <- indent(.lv) %+% '{\n'
+
+			up(.lv)
+			.add <- .add %+% paste(indent(.lv), '"key": {', sep="")
+			up(.lv)		
+
+			.add <- .add %+% paste0('"year": "2011"')		
+			down(.lv)
+
+			.add <- .add %+% paste('},\n', sep="")
+					
+			.add <- .add %+% paste(indent(.lv), '"val": {', sep="")
+			up(.lv)
+			.add <- .add %+% paste('"sped_apr_url": "', .sped_url$url_name,'"', sep="")
+
+			down(.lv)
+			.add <- .add %+% paste('}\n', sep="")
+			down(.lv)
+			.add <- .add %+% paste(indent(.lv), '}', sep="")
+
+			return(.add)
+		}
+	}
+}	
+
+
 

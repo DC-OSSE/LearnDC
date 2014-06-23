@@ -1,5 +1,5 @@
 {
-	"timestamp": "Tue Jun 10 18:33:23 2014",
+	"timestamp": "Tue Jun 17 18:29:39 2014",
 	"org_type": "school",
 	"org_name": "Sharpe Health School",
 	"report_card": {
@@ -114,10 +114,6 @@
 				"data": [
 
 				]
-			},
-			{
-				"id": "hqt_status",
-				"data":1
 			},
 			{
 				"id": "early_childhood",
@@ -963,16 +959,8 @@
 				"id": "staff_degree",
 				"data": [
 					{
-						"key": {
-							"year": "2012"
-						},
-						"val": {
-							"None":0,
-							"AA":0,
-							"BA":0.75,
-							"MA":0.25,
-							"PhD":0
-						}
+						"key": {"year": "2012"},
+						"val": {"None":0, "AA":0, "BA":0.75, "MA":0.25, "PhD":0, "HQT":1}
 					}
 				]
 			}
